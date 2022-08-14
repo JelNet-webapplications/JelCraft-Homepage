@@ -15,6 +15,7 @@ body {
 
 .navbar {
     background-color: #53e6d2;
+    font-family: 'Rubik';
     margin:1em;
     display:flex;
 }
