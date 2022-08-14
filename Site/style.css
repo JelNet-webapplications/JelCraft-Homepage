@@ -1,0 +1,17 @@
+
+body {
+    margin: 5em;
+    background-color: white;
+}
+
+.header {
+    display: flex;
+}
+
+.title {
+    background-color: #53e6d2;
+}
+
+.navbar {
+    background-color: #53e6d2;
+}
