@@ -1,5 +1,15 @@
+// setInterval(laathetwerken, 2000)
+// function laathetwerken(){
+//   document.getElementById("worldstatstitle").style.left = window.innerWidth * 0.02;
+//   console.log('worldstatstitle left: '+document.getElementById("worldstatstitle").style.left)
+//   console.log('function laathetwerken has succesfully been executed. ')
+// }
+setInterval(testforMobile, 10)
+
+
 function testforMobile(){
   if(window.innerWidth < 500) {
+    // window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
       document.getElementById("html").style.display = 'none';
       document.getElementById("notifyPhone").style.display = 'block';
       console.log(document.getElementById("notifyPhone").style.display);
@@ -16,10 +26,11 @@ function dosomething(){
 
 document.body.addEventListener('keydown', event => {
     if(event.code == 'KeyD'){
-      setInterval(testforMobile, 10)
-      // event.preventDefault()
-      // alert(`GEEN DEAN`)
-      // window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
+      
+
+      event.preventDefault()
+      alert(`GEEN DEAN`)
+      window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
     }
 })
 
