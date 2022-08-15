@@ -1,12 +1,25 @@
+function testforMobile(){
+  if(window.innerWidth < 500) {
+      document.getElementById("html").style.display = 'none';
+      document.getElementById("notifyPhone").style.display = 'block';
+      console.log(document.getElementById("notifyPhone").style.display);
+  } else {
+      document.getElementById("html").style.display = 'block';
+      document.getElementById("notifyPhone").style.display = 'none';
+      console.log(document.getElementById("notifyPhone").style.display);
+  }
+
+}
 function dosomething(){
     window.open('https://www.youtube.com/watch?v=Lxqc5mSg4vw');
 }
 
 document.body.addEventListener('keydown', event => {
     if(event.code == 'KeyD'){
-      event.preventDefault()
-      alert(`GEEN DEAN`)
-      window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
+      setInterval(testforMobile, 10)
+      // event.preventDefault()
+      // alert(`GEEN DEAN`)
+      // window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
     }
 })
 
