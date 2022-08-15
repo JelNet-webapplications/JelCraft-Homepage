@@ -4,11 +4,11 @@
 //   console.log('worldstatstitle left: '+document.getElementById("worldstatstitle").style.left)
 //   console.log('function laathetwerken has succesfully been executed. ')
 // }
-setInterval(testforMobile, 10)
+setInterval(testforMobile, 1)
 
 
 function testforMobile(){
-  if(window.innerWidth < 500) {
+  if(window.innerWidth < 861) {
     // window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
       document.getElementById("html").style.display = 'none';
       document.getElementById("notifyPhone").style.display = 'block';
