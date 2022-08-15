@@ -1,39 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="./Business.ico">
-    <link rel="stylesheet" href="style.css">
-    <title>JelNet</title>
-</head>
-<body>
-    <div class="header">
-        <div class="title">
-            <p1>JelNet</p1>
-        </div>
-        <div class="navbar">
-            <div class="navcontainer" id="active">
-                <p1>HOME</p1>
+<html lang="en-NL">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="./Business.ico">
+        <link rel="stylesheet" href="style.css">
+        <title>JelNet</title>
+    </head>
+    <body>
+        <div class="header">
+            <div class="title">
+                <a>JELNET</a>
             </div>
-            <div class="navcontainer">
-                <p1>INTERNAL</p1>
+            <div class="navbar">
+                <div class="navcontainer" id="active">
+                    <a href="http://jelcraft.zapto.org">HOME</a>
+                </div>
+                <div class="navcontainer" class="middle">
+                    <a>INTERNAL</a>
+                </div>
+                <div class="navcontainer" class="right">
+                    <a>EXTERNAL</a>
+                </div>
             </div>
-            <div class="navcontainer">
-                <p1>EXTERNAL</p1>
+        </div>
+        <div class="curtains">
+            <div class="container" id="projects">
+                <p1>Projects</p1>
+                <div class="project" id="pinball-converter">
+                    <img src="">
+                    <p1>Pinball Converter</p1>
+                    <a>Exchange rate EUR - Pinballs</a>
+                </div>
+                <div class="project" id="worldstats">
+                    <img>
+                    <p1>WorldStats</p1>
+                    <a>Real time statistics</a>
+                </div>
+                <div class="project" id="sudokusolver">
+                    <img>
+                    <p1>SudokuSolver</p1>
+                    <a>Automatically solves Sudokus</a>
+                </div>
+            </div>
+            <div class="container" id="about me">
             </div>
         </div>
-    </div>
-    <div class="container" id="projects">
-        <div class="project" id="pinball-converter">
+        <div class="footer">
+            <img id='ad' src="https://cdn01.x-plarium.com/browser/content/forum/common/header-arts/raid-header.jpg" onmousedown = "dosomething()">
         </div>
-        <div class="project" id="worldstats">
-        </div>
-        <div class="project" id="sudokusolver">
-        </div>
-    </div>
-    <div class="container" id="about me">
-    </div>
-</body>
+        <script src="script.js"></script>
+    </body>
 </html>

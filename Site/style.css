@@ -1,25 +1,89 @@
-
-body {
-    margin: 5em;
+html {
     background-color: white;
 }
-
+body {
+    /*margin: 0 5%;*/
+    background-color: #F2F2F2;
+    margin: 0 3em;
+} 
 .header {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rubik';
+    font-weight: bold;
 }
-
 .title {
     background-color: #53e6d2;
     margin:1em;
+    padding:1em;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:100px;
+}
+a {
+    color:white;
+    font-size: 1em;
+    text-decoration: none;
 }
 
+/*a .navcontainer {
+    width:100px;
+    padding:3em;
+    color:red;
+}*/
+
+p.curtains {
+    margin:10em;
+}
+
+
+.navcontainer#active {
+    background-color: #40b3a3;
+    width: 100px;
+    text-align: center;
+}
+
+.navcontainer:hover {
+    background-color: #42c4b2;
+    color:red;
+}
 .navbar {
     background-color: #53e6d2;
-    font-family: 'Rubik';
-    margin:1em;
     display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:1em;
+    border-radius: 100px;
+    overflow: hidden;
 }
 
 .navcontainer {
-    margin:1em;
+    padding:1em;
+}
+
+.curtains {
+    display:flex;
+    justify-content: center;
+}
+.container {
+    margin: 1em;
+    margin-top: 3em;
+    width: 40%;
+    height: 600px;
+    border: none;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0px 0px 30px 10px #dfdcdc;
+    /*box-shadow: 0px 0px vervaging grootte kleur*/
+}
+
+.footer {
+    display:flex;
+    justify-content: center;
+}
+img#ad {
+    width:calc(80% + 2em);
+    border-radius:10px;
 }
