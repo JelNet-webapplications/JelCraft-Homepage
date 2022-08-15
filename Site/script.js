@@ -12,11 +12,11 @@ function testforMobile(){
     // window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
       document.getElementById("html").style.display = 'none';
       document.getElementById("notifyPhone").style.display = 'block';
-      console.log(document.getElementById("notifyPhone").style.display);
+      // console.log(document.getElementById("notifyPhone").style.display);
   } else {
       document.getElementById("html").style.display = 'block';
       document.getElementById("notifyPhone").style.display = 'none';
-      console.log(document.getElementById("notifyPhone").style.display);
+      // console.log(document.getElementById("notifyPhone").style.display);
   }
 
 }
