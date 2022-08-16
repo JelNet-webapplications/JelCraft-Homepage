@@ -4,7 +4,7 @@
 //   console.log('worldstatstitle left: '+document.getElementById("worldstatstitle").style.left)
 //   console.log('function laathetwerken has succesfully been executed. ')
 // }
-setInterval(testforMobile, 1)
+//setInterval(testforMobile, 1)
 //konkerbonker konkerbonker
 
 function testforMobile(){
