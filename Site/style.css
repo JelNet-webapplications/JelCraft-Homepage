@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
- 
 body {
     font-family: 'Rubik', sans-serif;
     /*margin: 0 5%;*/
     background-color: #F2F2F2;
     margin: 0 0em;
 } 
-
 p1 {
     font-size: 2em;
 }
@@ -39,22 +37,13 @@ p2 {
     font-size: 1em;
     text-decoration: none;
 }
-
-/*a .navcontainer {
-    width:100px;
-    padding:3em;
-    color:red;
-}*/
-
 .navcontainer#active {
     background-color: #40b3a3;
     width: 100px;
     text-align: center;
 }
-
 .navcontainer:hover {
     background-color: #42c4b2;
-    /*color:red;*/
 }
 .navbar {
     background-color: #53e6d2;
@@ -65,18 +54,14 @@ p2 {
     border-radius: 100px;
     overflow: hidden;
 }
-
 .navcontainer {
     padding:1em;
 }
-
 .curtains {
     display:flex;
     justify-content: center;
     text-align: center;
 }
-
-
 #about-us {
     height: 20em;
     width:100%;
@@ -94,7 +79,6 @@ p2 {
     width:100%;
     height:40em;
 }
-
 #projects {
     height:103em;
 }
@@ -114,21 +98,18 @@ p2 {
 .project {
     text-align: left;
     margin:2em;
-    /*background-color: red;*/
     display:flex;
     transition:  all 0.3s ease 0s;
 }
 .project div {
     margin-left: 1em;
 }
-
 .curtains .container p1 {
     color: #6cc4b8;
     font-weight: bold;
     font-style: italic;
     text-align: center;
 }
-
 .project img {
     background-color:#40b3a3;
     padding:0.3em;
@@ -136,7 +117,6 @@ p2 {
     height: 57.4px;
     width: 57.4px;
 }
-
 .project:hover {
     background-color: #f2f2f2;
     transition:  all 0.3s ease 0s;
@@ -152,27 +132,7 @@ img#ad {
     border-radius:10px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Contact form CSS */
 button:hover {
     transition:  all 0.3s ease 0s;
     background-color: #2affcb;
