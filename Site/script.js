@@ -5,7 +5,7 @@
 //   console.log('function laathetwerken has succesfully been executed. ')
 // }
 setInterval(testforMobile, 1)
-
+//konkerbonker konkerbonker
 
 function testforMobile(){
   if(window.innerWidth < 861) {
