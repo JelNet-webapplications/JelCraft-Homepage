@@ -17,8 +17,8 @@ p2 {
 }
 .header {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     font-family: 'Rubik';
     font-weight: bold;
     box-shadow: 0px 0px 30px 10px #dfdcdc;
@@ -135,17 +135,42 @@ img#ad {
 
 
 /* Languages section */
+.language-selection {
+    top: 100px;
+    display: flex;
+}
+.flagbutton {
+    background-color: #f2f2f2;
+    border: none;
+    margin-right: 0px;
+    height: 30px;
+    width: auto;
+}
+.flagbutton:hover {
+    background-color: none;
+    border: none;
+    cursor: pointer;
+}
+.flag {
+    transition:  all 0.3s ease 0s;
+}
+.flag:hover {
+    height: 40px;
+    transition:  all 0.3s ease 0s;
+    margin-left: -0.5em;
+    margin-top: -0.5em;
+}
 
 
 
 /* Contact form */
-button:hover {
+.contactbutton:hover {
     transition:  all 0.3s ease 0s;
     background-color: #2affcb;
     color:black;
 }
 
-button {
+.contactbutton {
     transition:  all 0.3s ease 0s;
     margin-top: 10px;
     background-color: #2ecca2;
@@ -209,7 +234,7 @@ textarea {
     display:flex;
 }
 
-button[type=Submit] {
+.contactbutton[type=Submit] {
     margin-top: 1em;
     width:5em;
     border-radius: 20px;
