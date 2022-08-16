@@ -1,8 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+:root {
+    --primary-color: #53e6d2;
+    --secondary-color: #40b3a3;
+    --tertiary-color: #42c4b2;
+    --background-color: #f2f2f2;
+    --foreground-color: #f9f9f9;
+    --shadow-color: #dfdcdc;
+}
+
 body {
     font-family: 'Rubik', sans-serif;
     /*margin: 0 5%;*/
-    background-color: #F2F2F2;
+    background-color: var(--background-color);
     margin: 0 0em;
 } 
 p1 {
@@ -21,10 +31,10 @@ p2 {
     justify-content: center;
     font-family: 'Rubik';
     font-weight: bold;
-    box-shadow: 0px 0px 30px 10px #dfdcdc;
+    box-shadow: 0px 0px 30px 10px var(--shadow-color);
 }
 .title {
-    background-color: #53e6d2;
+    background-color: var(--primary-color);
     margin:1em;
     padding:1em;
     display:flex;
@@ -38,15 +48,15 @@ p2 {
     text-decoration: none;
 }
 .navcontainer#active {
-    background-color: #40b3a3;
+    background-color: var(--secondary-color);
     width: 100px;
     text-align: center;
 }
 .navcontainer:hover {
-    background-color: #42c4b2;
+    background-color: var(--tertiary-color);
 }
 .navbar {
-    background-color: #53e6d2;
+    background-color: var(--primary-color);
     display:flex;
     justify-content: center;
     align-items: center;
@@ -91,8 +101,8 @@ p2 {
     width: 40%;
     border: none;
     border-radius: 15px;
-    background-color: white;
-    box-shadow: 0px 0px 30px 10px #dfdcdc;
+    background-color: var(--foreground-color);
+    box-shadow: 0px 0px 30px 10px var(--shadow-color);
     /*box-shadow: 0px 0px vervaging grootte kleur*/
 }
 .project {
@@ -111,14 +121,14 @@ p2 {
     text-align: center;
 }
 .project img {
-    background-color:#40b3a3;
+    background-color:var(--secondary-color);
     padding:0.3em;
     border-radius: 10px;
     height: 57.4px;
     width: 57.4px;
 }
 .project:hover {
-    background-color: #f2f2f2;
+    background-color: var(background-color);
     transition:  all 0.3s ease 0s;
     border-radius: 10px;
     margin-left:2.5em;
@@ -132,21 +142,34 @@ img#ad {
     border-radius:10px;
 }
 
+.theme-selection button {
+    border:none;
+    height:2em;
+}
 
+
+.theme-selection img {
+    transition:  all 0.3s ease 0s;
+    filter:invert(0.6)
+}
+.theme-selection img:hover {
+    height:2.8em;
+    transition:  all 0.3s ease 0s;
+    filter:invert(0)
+}
 
 /* Languages section */
 .language-selection {
     top: 100px;
     display: flex;
 }
-.flagbutton {
-    background-color: #f2f2f2;
+.flagbutton, .themebutton {
     border: none;
     margin-right: 0px;
     height: 30px;
     width: auto;
 }
-.flagbutton:hover {
+.flagbutton:hover, .themebutton {
     background-color: none;
     border: none;
     cursor: pointer;
@@ -154,7 +177,7 @@ img#ad {
 .flag {
     transition:  all 0.3s ease 0s;
 }
-.flag:hover {
+.flag:hover, .themebutton {
     height: 40px;
     transition:  all 0.3s ease 0s;
     margin-left: -0.5em;
@@ -166,14 +189,14 @@ img#ad {
 /* Contact form */
 .contactbutton:hover {
     transition:  all 0.3s ease 0s;
-    background-color: #2affcb;
+    background-color: var(--primary-color);
     color:black;
 }
 
 .contactbutton {
     transition:  all 0.3s ease 0s;
     margin-top: 10px;
-    background-color: #2ecca2;
+    background-color: var(--secondary-color);
     width: 90%;
     border: none;
     padding: 10px;
@@ -199,7 +222,7 @@ form {
 }
 
 input, textarea {
-    background-color: #f2f2f2;
+    background-color: var(--background-color);
     margin:1em;
     padding:10px;
     border-style: none;

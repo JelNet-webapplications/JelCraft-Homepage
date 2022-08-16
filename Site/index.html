@@ -7,46 +7,55 @@
         <link rel="icon" type="image/x-icon" href="./Business.ico">
         <link rel="stylesheet" href="style.css">
         <title>JelNet</title>
+
+        <script src="./script/script.js"></script>
+        <script src="./script/theme.js"></script>
+        <script src="./script/translate.js"></script>
     </head>
     <body>
         <p1 style="display: none;"id="notifyPhone">No phone</p1>
         <div class="header">
             <div class='language-selection'>
-                <button type="button" class="flagbutton">
+                <button name="uk" type="button" class="flagbutton">
                     <img class='flag' height='30px' src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1200px-Flag_of_the_United_Kingdom.svg.png">
                 </button>
-                <button type="button" class="flagbutton">
+                <button name="germany" type="button" class="flagbutton">
                     <img class='flag' height='30px' src="https://upload.wikimedia.org/wikipedia/en/b/ba/Flag_of_Germany.svg">
                 </button>
-                <button type="button" class="flagbutton">
+                <button onclick="doTranslation()" name="netherlands" type="button" class="flagbutton">
                     <img class='flag' height='30px' src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/1200px-Flag_of_the_Netherlands.svg.png">
                 </button>
             </div>
             <div class="title">
-                <a>JELNET</a>
+                <a id="jsonJELNET">JELNET</a>
             </div>
             <div class="navbar">
                 <div class="navcontainer" id="active">
-                    <a class="link"href="http://jelcraft.zapto.org">HOME</a>
+                    <a id="jsonHOME" class="link"href="http://jelcraft.zapto.org">HOME</a>
                 </div>
                 <div class="navcontainer" class="middle">
-                    <a>INTERNAL</a>
+                    <a id="jsonINTERNAL">INTERNAL</a>
                 </div>
                 <div class="navcontainer" class="right">
-                    <a>EXTERNAL</a>
+                    <a id="jsonEXTERNAL">EXTERNAL</a>
                 </div>
+            </div>
+            <div class='theme-selection'>
+                <button type="button" onclick="toggleTheme()">
+                    <img height='30px' id="themesvg" src="./imgs/dark-mode.svg">
+                </button>
             </div>
         </div>
         <div class="curtains" id="projects">
             <div class="container">
                 <p1 style="color: white;"></p1>
-                <p1><br>Projects</br></p1>
+                <p1 id="jsonProjects"><br>Projects</br></p1>
                 <a class='link' href="http://jelcraft.zapto.org/PinballConverter/">
                     <div class="project" id="pinball-converter">
                         <img src="./imgs/Pinball-Converter.svg">
                         <div>
-                            <p2>Pinball Converter</p2>
-                            <p3><br>Exchange rate EUR - Pinballs</br></p3>
+                            <p2 id="jsonPinball_Converter">Pinball Converter</p2>
+                            <p3 id="jsonExchange_rate_EUR_Pinballs"><br>Exchange rate EUR - Pinballs</br></p3>
                         </div>
                     </div>
                 </a>
@@ -236,6 +245,6 @@
             <img id='ad' src="https://cdn01.x-plarium.com/browser/content/forum/common/header-arts/raid-header.jpg" onmousedown = "dosomething()">
         </div>
         -->
-        <script src="script.js"></script>
+
     </body>
 </html>
