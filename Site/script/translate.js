@@ -227,12 +227,15 @@ const translations = {
         "nl": "Versturen",
         "vk": "Terûstoränë"
     },
+    /*
     "Discord_server": {
         "en": "<br>Discord server</br>",
         "de": "",
         "nl": "<br>Discord-server</br>",
         "vk": "<br>Pretkenelevyo Tëskorton</br>"
-    },
+    },*/
+
+    
     // "": {
     //     "en": "",
     //     "de": "",
@@ -256,11 +259,16 @@ function doTranslation(lan){
     let jsonelements = ['JELNET','HOME','INTERNAL','EXTERNAL'];
     for(temp in translations){
         console.log(temp)
+        let id = "json"+temp;
+        if(temp == 'Email_Address' || temp == 'Nickname' || temp == 'Subject' || temp == 'Message'){
+            document.getElementById(id).placeholder = translations[temp][lan];
+        } else {
+            document.getElementById(id).innerHTML = translations[temp][lan];
+        }
     }
     
     
-    // let id = "json"+temp;
-        // document.getElementById(id).innerHTML = translations[temp][lan];
+
     //}
     // document.getElementById("jsonJELNET").innerHTML = translations.JELNET[lan]
     // document.getElementById("jsonHOME").innerHTML = translations.HOME[lan]
