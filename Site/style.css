@@ -1,12 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
 :root {
+    /*Light Mode*/
     --primary-color: #53e6d2;
     --secondary-color: #40b3a3;
     --tertiary-color: #42c4b2;
     --background-color: #f2f2f2;
     --foreground-color: #f9f9f9;
     --shadow-color: #dfdcdc;
+    --text-color: black;
+    --header-text-color: white;
+
+    /*Dark Mode*/
+    /*--primary-color: #53e6d2;
+    --secondary-color: #40b3a3;
+    --tertiary-color: #42c4b2;
+    --background-color: #060606;
+    --foreground-color: #0d0d0d;
+    --shadow-color: #000000;
+    --text-color: #dfdfdf;
+    --header-text-color: black;*/
+}
+
+* {
+    transition:  all 0.3s ease 0s;
 }
 
 body {
@@ -15,6 +32,15 @@ body {
     background-color: var(--background-color);
     margin: 0 0em;
 } 
+
+a, p1, p2, p3 {
+    color: var(--text-color)
+}
+
+.header a {
+    color:var(--header-text-color);
+}
+
 p1 {
     font-size: 2em;
 }
@@ -42,11 +68,7 @@ p2 {
     align-items: center;
     border-radius:100px;
 }
-.header p3 {
-    color:white;
-    font-size: 1em;
-    text-decoration: none;
-}
+
 .navcontainer#active {
     background-color: var(--secondary-color);
     width: 100px;
@@ -54,6 +76,11 @@ p2 {
 }
 .navcontainer:hover {
     background-color: var(--tertiary-color);
+    transition:  all 0.3s ease 0s;
+}
+
+.navcontainer {
+    transition:  all 0.3s ease 0s;
 }
 .navbar {
     background-color: var(--primary-color);
@@ -128,7 +155,7 @@ p2 {
     width: 57.4px;
 }
 .project:hover {
-    background-color: var(background-color);
+    background-color: var(--background-color);
     transition:  all 0.3s ease 0s;
     border-radius: 10px;
     margin-left:2.5em;
@@ -143,14 +170,16 @@ img#ad {
 }
 
 .theme-selection button {
-    border:none;
+    border:
+    none;
     height:2em;
 }
 
 
 .theme-selection img {
     transition:  all 0.3s ease 0s;
-    filter:invert(0.6)
+    filter:
+    invert(0.6);
 }
 .theme-selection img:hover {
     height:2.8em;
@@ -163,28 +192,34 @@ img#ad {
     top: 100px;
     display: flex;
 }
-.flagbutton, .themebutton {
+.header button {
     border: none;
     margin-right: 0px;
     height: 30px;
     width: auto;
+    background-color:rgba(0, 255, 255, 0);
 }
-.flagbutton:hover, .themebutton {
+.header button:hover {
     background-color: none;
     border: none;
     cursor: pointer;
 }
-.flag {
-    transition:  all 0.3s ease 0s;
-}
-.flag:hover, .themebutton {
+.flag:hover, .themebutton:hover {
     height: 40px;
     transition:  all 0.3s ease 0s;
     margin-left: -0.5em;
     margin-top: -0.5em;
 }
-
-
+.flag {
+    transition:  all 0.3s ease 0s;
+    border:2px;
+    border-style:solid;
+    border-color: var(--tertiary-color);
+    border-radius: 3px;
+}
+#flagen {
+    filter: brightness(50%);
+}
 
 /* Contact form */
 .contactbutton:hover {
@@ -244,11 +279,9 @@ input[name="email"], input[name="name"], input[name="subject"] {
 }
 
 textarea {
-    height:10em;
+    height: 6.5em;
     text-align: left;
     resize:vertical;
-    min-height: 2em;
-    max-height: 30em;
     overflow:auto;
     width:95%;
 }

@@ -48,9 +48,9 @@ const translations = {
         "vk": ""
     },
     "Automatically_solves_Sudokus": {
-        "en": "Automatically solves Sudokus",
+        "en": "<br>Automatically solves Sudokus</br>",
         "de": "",
-        "nl": "Lost automatisch Sudoku's op",
+        "nl": "<br>Lost automatisch Sudoku's op</br>",
         "vk": ""
     },
     "WorldStats": {
@@ -59,10 +59,10 @@ const translations = {
         "nl": "Wereldstatistieken",
         "vk": ""
     },
-    "Shows_real_live-time_global_statistics": {
-        "en": "Shows real live-time global statistics",
+    "Shows_real_livetime_global_statistics": {
+        "en": "<br>Shows real live-time global statistics</br>",
         "de": "",
-        "nl": "Toont real-time wereldwijde statistieken",
+        "nl": "<br>Toont real-time wereldwijde statistieken</br>",
         "vk": ""
     },
     "Flight_Calculator": {
@@ -72,9 +72,9 @@ const translations = {
         "vk": ""
     },
     "Calculates_efficient_Minecraft_flight_data": {
-        "en": "Calculates efficient Minecraft flight data",
+        "en": "<br>Calculates efficient Minecraft flight data</br>",
         "de": "",
-        "nl": "Berekent efficiënte Minecraft-vluchtgegevens",
+        "nl": "<br>Berekent efficiënte Minecraft-vluchtgegevens</br>",
         "vk": ""
     },
     "Collatz_Calculator": {
@@ -83,10 +83,10 @@ const translations = {
         "nl": "Collatz-calculator",
         "vk": ""
     },
-    "Calculates everything collatz conjecture": {
-        "en": "Calculates everything collatz conjecture",
+    "Calculates_everything_collatz_conjecture": {
+        "en": "<br>Calculates everything collatz conjecture</br>",
         "de": "",
-        "nl": "Berekent alles over het Collatz-vermoeden",
+        "nl": "<br>Berekent alles over het Collatz-vermoeden</br>",
         "vk": ""
     },
     "Sbubby_Generator": {
@@ -96,9 +96,9 @@ const translations = {
         "vk": ""
     },
     "Create_your_own_sbubby_of_existing_logos": {
-        "en": "Create your own sbubby of existing logos",
+        "en": "<br>Create your own sbubby of existing logos</br>",
         "de": "",
-        "nl": "Maak je eigen sbubby van bestaande logo's",
+        "nl": "<br>Maak je eigen sbubby van bestaande logo's</br>",
         "vk": ""
     },
     "Hangman_Engine": {
@@ -108,9 +108,9 @@ const translations = {
         "vk": ""
     },
     "Calculate_the_perfect_guess_for_hangman": {
-        "en": "Calculate the perfect guess for hangman",
+        "en": "<br>Calculate the perfect guess for hangman</br>",
         "de": "",
-        "nl": "Berekent de perfecte gok voor Galgje",
+        "nl": "<br>Berekent de perfecte gok voor Galgje</br>",
         "vk": ""
     },
     "Wordfeud_Calculator": {
@@ -120,9 +120,9 @@ const translations = {
         "vk": ""
     },
     "Calculate_the_best_words_for_Wordfeud_and_Scrabble": {
-        "en": "Calculate the best words for Wordfeud and Scrabble",
+        "en": "<br>Calculate the best words for Wordfeud and Scrabble</br>",
         "de": "",
-        "nl": "Berekent de beste woorden voor Wordfeud en Scrabble",
+        "nl": "<br>Berekent de beste woorden voor Wordfeud en Scrabble</br>",
         "vk": ""
     },
     "Dirk_Map": {
@@ -132,9 +132,9 @@ const translations = {
         "vk": ""
     },
     "Shows_the_perfect_route_to_find_your_groceries": {
-        "en": "Shows the perfect route to find your groceries",
+        "en": "<br>Shows the perfect route to find your groceries</br>",
         "de": "",
-        "nl": "Toont de beste route om je boodschappen te vinden",
+        "nl": "<br>Toont de beste route om je boodschappen te vinden</br>",
         "vk": ""
     },
     "Starlabs_Delivery": {
@@ -144,9 +144,9 @@ const translations = {
         "vk": ""
     },
     "Order_blocks_online_for_the_Minecraft_H43_Server": {
-        "en": "Order blocks online for the Minecraft H43 Server",
+        "en": "<br>Order blocks online for the Minecraft H43 Server</br>",
         "de": "",
-        "nl": "Bestel digitale blokken voor de Minecraft H43-server",
+        "nl": "<br>Bestel digitale blokken voor de Minecraft H43-server</br>",
         "vk": ""
     },
     "To_be_determined": {
@@ -155,16 +155,16 @@ const translations = {
         "nl": "Nader te bepalen",
         "vk": ""
     },
-    "Non-applicable": {
-        "en": "Non-applicable",
+    "Nonapplicable": {
+        "en": "<br>Non-applicable</br>",
         "de": "",
-        "nl": "Niet van toepassing",
+        "nl": "<br>Niet van toepassing</br>",
         "vk": ""
     },
     "About_us": {
-        "en": "About us",
+        "en": "<br>About us</br>",
         "de": "",
-        "nl": "Over ons",
+        "nl": "<br>Over ons</br>",
         "vk": ""
     },
     "JelCraft": {
@@ -174,9 +174,9 @@ const translations = {
         "vk": ""
     },
     "proud_father_of_two": {
-        "en": "proud father of two",
+        "en": "<br>Proud father of two</br>",
         "de": "",
-        "nl": "Trotse vader van 2 kinderen",
+        "nl": "<br>Trotse vader van 2 kinderen</br>",
         "vk": ""
     },
     "Vivaloz": {
@@ -186,15 +186,15 @@ const translations = {
         "vk": ""
     },
     "Absolutely_lunatic_programmer_who_codes_some_stuff_sometimes_for_fun": {
-        "en": "Absolutely lunatic programmer who codes some stuff sometimes for fun",
+        "en": "<br>Absolutely lunatic programmer who codes some stuff sometimes for fun</br>",
         "de": "",
-        "nl": "Krankzinnige programmeur die af en toe dingen codeert voor de lol",
+        "nl": "<br>Krankzinnige programmeur die af en toe dingen codeert voor de lol</br>",
         "vk": ""
     },
     "Contact": {
-        "en": "Contact",
+        "en": "<br>Contact</br>",
         "de": "",
-        "nl": "Contact",
+        "nl": "<br>Contact</br>",
         "vk": ""
     },
     "Email_Address": {
@@ -228,9 +228,9 @@ const translations = {
         "vk": ""
     },
     "Discord_server": {
-        "en": "Discord server",
+        "en": "<br>Discord server</br>",
         "de": "",
-        "nl": "Discord-server",
+        "nl": "<br>Discord-server</br>",
         "vk": ""
     },
     // "": {
@@ -241,12 +241,65 @@ const translations = {
     // },
 }
 
-function doTranslation(){
-    document.getElementById("jsonJELNET").innerHTML = translations.JELNET.nl
-    document.getElementById("jsonHOME").innerHTML = translations.HOME.nl
-    document.getElementById("jsonINTERNAL").innerHTML = translations.INTERNAL.nl
-    document.getElementById("jsonEXTERNAL").innerHTML = translations.EXTERNAL.nl
-    document.getElementById("jsonProjects").innerHTML = translations.Projects.nl
-    document.getElementById("jsonPinball_Converter").innerHTML = translations.Pinball_Converter.nl
-    document.getElementById("jsonExchange_rate_EUR_Pinballs").innerHTML = translations.Exchange_rate_EUR_Pinballs.nl
+function doTranslation(lan){
+    if(lan == 'en') {
+        document.getElementById('flagnl').style.filter = 'brightness(100%)'
+        document.getElementById('flagen').style.filter = 'brightness(50%)'
+        document.getElementById('flagde').style.filter = 'brightness(100%)'
+    } else if(lan == 'de') {
+        document.getElementById('flagnl').style.filter = 'brightness(100%)'
+        document.getElementById('flagen').style.filter = 'brightness(100%)'
+        document.getElementById('flagde').style.filter = 'brightness(50%)'
+    } else if(lan == 'nl'){
+        document.getElementById('flagnl').style.filter = 'brightness(50%)'
+        document.getElementById('flagen').style.filter = 'brightness(100%)'
+        document.getElementById('flagde').style.filter = 'brightness(100%)'
+    }
+    document.getElementById("jsonJELNET").innerHTML = translations.JELNET[lan]
+    document.getElementById("jsonHOME").innerHTML = translations.HOME[lan]
+    document.getElementById("jsonINTERNAL").innerHTML = translations.INTERNAL[lan]
+    document.getElementById("jsonEXTERNAL").innerHTML = translations.EXTERNAL[lan]
+    document.getElementById("jsonProjects").innerHTML = translations.Projects[lan]
+    document.getElementById("jsonPinball_Converter").innerHTML = translations.Pinball_Converter[lan]
+    document.getElementById("jsonExchange_rate_EUR_Pinballs").innerHTML = translations.Exchange_rate_EUR_Pinballs[lan]
+    document.getElementById("jsonSudoku_Solver").innerHTML = translations.Sudoku_Solver[lan]
+    document.getElementById("jsonAutomatically_solves_Sudokus").innerHTML = translations.Automatically_solves_Sudokus[lan]
+    document.getElementById("jsonWorldStats").innerHTML = translations.WorldStats[lan]
+    document.getElementById("jsonShows_real_livetime_global_statistics").innerHTML = translations.Shows_real_livetime_global_statistics[lan]
+    document.getElementById("jsonFlight_Calculator").innerHTML = translations.Flight_Calculator[lan]
+    document.getElementById("jsonCalculates_efficient_Minecraft_flight_data").innerHTML = translations.Calculates_efficient_Minecraft_flight_data[lan]
+    document.getElementById("jsonCollatz_Calculator").innerHTML = translations.Collatz_Calculator[lan]
+    document.getElementById("jsonCalculates_everything_collatz_conjecture").innerHTML = translations.Calculates_everything_collatz_conjecture[lan]
+    document.getElementById("jsonSbubby_Generator").innerHTML = translations.Sbubby_Generator[lan]
+    document.getElementById("jsonCreate_your_own_sbubby_of_existing_logos").innerHTML = translations.Create_your_own_sbubby_of_existing_logos[lan]
+    document.getElementById("jsonHangman_Engine").innerHTML = translations.Hangman_Engine[lan]
+    document.getElementById("jsonCalculate_the_perfect_guess_for_hangman").innerHTML = translations.Calculate_the_perfect_guess_for_hangman[lan]
+    document.getElementById("jsonWordfeud_Calculator").innerHTML = translations.Wordfeud_Calculator[lan]
+    document.getElementById("jsonCalculate_the_best_words_for_Wordfeud_and_Scrabble").innerHTML = translations.Calculate_the_best_words_for_Wordfeud_and_Scrabble[lan]
+    document.getElementById("jsonDirk_Map").innerHTML = translations.Dirk_Map[lan]
+    document.getElementById("jsonShows_the_perfect_route_to_find_your_groceries").innerHTML = translations.Shows_the_perfect_route_to_find_your_groceries[lan]
+    document.getElementById("jsonStarlabs_Delivery").innerHTML = translations.Starlabs_Delivery[lan]
+    document.getElementById("jsonOrder_blocks_online_for_the_Minecraft_H43_Server").innerHTML = translations.Order_blocks_online_for_the_Minecraft_H43_Server[lan]
+    document.getElementById("jsonTo_be_determined1").innerHTML = translations.To_be_determined[lan]
+    document.getElementById("jsonTo_be_determined2").innerHTML = translations.To_be_determined[lan]
+    document.getElementById("jsonTo_be_determined3").innerHTML = translations.To_be_determined[lan]
+    document.getElementById("jsonTo_be_determined4").innerHTML = translations.To_be_determined[lan]
+    document.getElementById("jsonTo_be_determined5").innerHTML = translations.To_be_determined[lan]
+    document.getElementById("jsonNonapplicable1").innerHTML = translations.Nonapplicable[lan]
+    document.getElementById("jsonNonapplicable2").innerHTML = translations.Nonapplicable[lan]
+    document.getElementById("jsonNonapplicable3").innerHTML = translations.Nonapplicable[lan]
+    document.getElementById("jsonNonapplicable4").innerHTML = translations.Nonapplicable[lan]
+    document.getElementById("jsonNonapplicable5").innerHTML = translations.Nonapplicable[lan]
+    document.getElementById("jsonAbout_us").innerHTML = translations.About_us[lan]
+    document.getElementById("jsonJelCraft").innerHTML = translations.JelCraft[lan]
+    document.getElementById("jsonproud_father_of_two").innerHTML = translations.proud_father_of_two[lan]
+    document.getElementById("jsonVivaloz").innerHTML = translations.Vivaloz[lan]
+    document.getElementById("jsonAbsolutely_lunatic_programmer_who_codes_some_stuff_sometimes_for_fun").innerHTML = translations.Absolutely_lunatic_programmer_who_codes_some_stuff_sometimes_for_fun[lan]
+    document.getElementById("jsonContact").innerHTML = translations.Contact.nl
+    document.getElementById("jsonEmail_Address").placeholder = translations.Email_Address.nl
+    document.getElementById("jsonNickname").placeholder = translations.Nickname.nl
+    document.getElementById("jsonSubject").placeholder = translations.Subject.nl
+    document.getElementById("jsonMessage").placeholder = translations.Message.nl
+    document.getElementById("jsonSend").innerHTML = translations.Send.nl
+    document.getElementById("jsonDiscord_server").innerHTML = translations.Discord_server.nl
 }

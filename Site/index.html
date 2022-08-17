@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" type="image/x-icon" href="./Business.ico">
+        <link rel="icon" type="image/x-icon" href="./imgs/Business.ico">
         <link rel="stylesheet" href="style.css">
         <title>JelNet</title>
 
@@ -16,14 +16,14 @@
         <p1 style="display: none;"id="notifyPhone">No phone</p1>
         <div class="header">
             <div class='language-selection'>
-                <button name="uk" type="button" class="flagbutton">
-                    <img class='flag' height='30px' src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1200px-Flag_of_the_United_Kingdom.svg.png">
+                <button onclick="doTranslation('en')" name="uk" type="button" class="flagbutton">
+                    <img id='flagen' class='flag' height='30px' src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1200px-Flag_of_the_United_Kingdom.svg.png">
                 </button>
-                <button name="germany" type="button" class="flagbutton">
-                    <img class='flag' height='30px' src="https://upload.wikimedia.org/wikipedia/en/b/ba/Flag_of_Germany.svg">
+                <button onclick="doTranslation('de')" name="germany" type="button" class="flagbutton">
+                    <img id='flagde' class='flag' height='30px' src="https://upload.wikimedia.org/wikipedia/en/b/ba/Flag_of_Germany.svg">
                 </button>
-                <button onclick="doTranslation()" name="netherlands" type="button" class="flagbutton">
-                    <img class='flag' height='30px' src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/1200px-Flag_of_the_Netherlands.svg.png">
+                <button onclick="doTranslation('nl')" name="netherlands" type="button" class="flagbutton">
+                    <img id='flagnl' class='flag' height='30px' src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/1200px-Flag_of_the_Netherlands.svg.png">
                 </button>
             </div>
             <div class="title">
@@ -41,7 +41,7 @@
                 </div>
             </div>
             <div class='theme-selection'>
-                <button type="button" onclick="toggleTheme()">
+                <button type="button" onclick="toggleTheme()" onmouseover="themeOnHover()" onmouseleave="themeOffHover()">
                     <img height='30px' id="themesvg" src="./imgs/dark-mode.svg">
                 </button>
             </div>
@@ -63,8 +63,8 @@
                     <div class="project" id="sudokusolver">
                         <img src="./imgs/SudokuSolver.svg">
                         <div>
-                            <p2>Sudoku Solver</p2>
-                            <p3><br>Automatically solves Sudokus</br></p3>
+                            <p2 id="jsonSudoku_Solver">Sudoku Solver</p2>
+                            <p3 id="jsonAutomatically_solves_Sudokus"><br>Automatically solves Sudokus</br></p3>
                         </div>
                     </div>
                 </a>
@@ -72,8 +72,8 @@
                     <div class="project" id="worldstats">
                         <img src="./imgs/WorldStats.svg">
                         <div>                        
-                            <p2 id="worldstatstitle">WorldStats</p2>
-                            <p3 id="worldstatslink"><br>Shows real live-time global statistics</br></p3>
+                            <p2 id="jsonWorldStats">WorldStats</p2>
+                            <p3 id="jsonShows_real_livetime_global_statistics"><br>Shows real live-time global statistics</br></p3>
                         </div>
                     </div>
                 </a>
@@ -81,8 +81,8 @@
                     <div class="project" id="flightcalculator">
                         <img height="57.4px" src="./imgs/FlightCalculator.svg">
                         <div>                        
-                            <p2 id="worldstatstitle">Flight Calculator</p2>
-                            <p3 id="worldstatslink"><br>Calculates efficient Minecraft flight data</br></p3>
+                            <p2 id="jsonFlight_Calculator">Flight Calculator</p2>
+                            <p3 id="jsonCalculates_efficient_Minecraft_flight_data"><br>Calculates efficient Minecraft flight data</br></p3>
                         </div>
                     </div>
                 </a>
@@ -90,8 +90,8 @@
                     <div class="project" id="collatzcalculator">
                         <img height="57.4px" src="./imgs/Collatz-Calculator.svg">
                         <div>                        
-                            <p2 id="worldstatstitle">Collatz Calculator</p2>
-                            <p3 id="worldstatslink"><br>Calculates everything collatz conjecture</br></p3>
+                            <p2 id="jsonCollatz_Calculator">Collatz Calculator</p2>
+                            <p3 id="jsonCalculates_everything_collatz_conjecture"><br>Calculates everything collatz conjecture</br></p3>
                         </div>
                     </div>
                 </a>
@@ -99,8 +99,8 @@
                     <div class="project" id="logomaker">
                         <img height="57.4px" src="./imgs/sbubby.png">
                         <div>                        
-                            <p2>Sbubby Generator</p2>
-                            <p3><br>Create your own sbubby of existing logos</br></p3>
+                            <p2 id="jsonSbubby_Generator">Sbubby Generator</p2>
+                            <p3 id="jsonCreate_your_own_sbubby_of_existing_logos"><br>Create your own sbubby of existing logos</br></p3>
                         </div>
                     </div>
                 </a>
@@ -108,8 +108,8 @@
                     <div class="project" id="hangmanengine">
                         <img height="57.4px" src="./imgs/hangman.svg">
                         <div>                        
-                            <p2>Hangman Engine</p2>
-                            <p3><br>Calculate the perfect guess for hangman</br></p3>
+                            <p2 id="jsonHangman_Engine">Hangman Engine</p2>
+                            <p3 id="jsonCalculate_the_perfect_guess_for_hangman"><br>Calculate the perfect guess for hangman</br></p3>
                         </div>
                     </div>
                 </a>
@@ -117,8 +117,8 @@
                     <div class="project" id="wordfeudcalculator">
                         <img height="57.4px" src="./imgs/wordfeud.png">
                         <div>                        
-                            <p2>Wordfeud Calculator</p2>
-                            <p3><br>Calculate the best words for Wordfeud and Scrabble</br></p3>
+                            <p2 id="jsonWordfeud_Calculator">Wordfeud Calculator</p2>
+                            <p3 id="jsonCalculate_the_best_words_for_Wordfeud_and_Scrabble"><br>Calculate the best words for Wordfeud and Scrabble</br></p3>
                         </div>
                     </div>
                 </a>
@@ -126,17 +126,17 @@
                     <div class="project" id="dirkmap">
                         <img height="57.4px" src="./imgs/dirk.png">
                         <div>                        
-                            <p2>Dirk Map</p2>
-                            <p3><br>Shows the perfect route to find your groceries</br></p3>
+                            <p2 id="jsonDirk_Map">Dirk Map</p2>
+                            <p3 id="jsonShows_the_perfect_route_to_find_your_groceries"><br>Shows the perfect route to find your groceries</br></p3>
                         </div>
                     </div>
                 </a>
-                <a class="link" href="">
+                <a class="link" href="http://jelcraft.zapto.org/StarlabsDelivery/home/home.html">
                     <div class="project" id="starlabsdelivery">
                         <img height="57.4px" src="./imgs/starlabs.svg">
                         <div>                        
-                            <p2>Starlabs Delivery</p2>
-                            <p3><br>Order blocks online for the Minecraft H43 Server</br></p3>
+                            <p2 id="jsonStarlabs_Delivery">Starlabs Delivery</p2>
+                            <p3 id="jsonOrder_blocks_online_for_the_Minecraft_H43_Server"><br>Order blocks online for the Minecraft H43 Server</br></p3>
                         </div>
                     </div>
                 </a>
@@ -144,8 +144,8 @@
                     <div class="project" id="tobedetermined">
                         <img height="57.4px" src="./imgs/unknown.png">
                         <div>                        
-                            <p2>To be determined</p2>
-                            <p3><br>Non-applicable</br></p3>
+                            <p2 id="jsonTo_be_determined1">To be determined</p2>
+                            <p3 id="jsonNonapplicable1"><br>Non-applicable</br></p3>
                         </div>
                     </div>
                 </a>
@@ -153,8 +153,8 @@
                     <div class="project" id="tobedetermined">
                         <img height="57.4px" src="./imgs/unknown.png">
                         <div>                        
-                            <p2>To be determined</p2>
-                            <p3><br>Non-applicable</br></p3>
+                            <p2 id="jsonTo_be_determined2">To be determined</p2>
+                            <p3 id="jsonNonapplicable2"><br>Non-applicable</br></p3>
                         </div>
                     </div>
                 </a>
@@ -162,8 +162,8 @@
                     <div class="project" id="tobedetermined">
                         <img height="57.4px" src="./imgs/unknown.png">
                         <div>                        
-                            <p2>To be determined</p2>
-                            <p3><br>Non-applicable</br></p3>
+                            <p2 id="jsonTo_be_determined3">To be determined</p2>
+                            <p3 id="jsonNonapplicable3"><br>Non-applicable</br></p3>
                         </div>
                     </div>
                 </a>
@@ -171,8 +171,8 @@
                     <div class="project" id="tobedetermined">
                         <img height="57.4px" src="./imgs/unknown.png">
                         <div>                        
-                            <p2>To be determined</p2>
-                            <p3><br>Non-applicable</br></p3>
+                            <p2 id="jsonTo_be_determined4">To be determined</p2>
+                            <p3 id="jsonNonapplicable4"><br>Non-applicable</br></p3>
                         </div>
                     </div>
                 </a>
@@ -180,8 +180,8 @@
                     <div class="project" id="tobedetermined">
                         <img height="57.4px" src="./imgs/unknown.png">
                         <div>                        
-                            <p2>To be determined</p2>
-                            <p3><br>Non-applicable</br></p3>
+                            <p2 id="jsonTo_be_determined5">To be determined</p2>
+                            <p3 id="jsonNonapplicable5"><br>Non-applicable</br></p3>
                         </div>
                     </div>
                 </a>
@@ -190,19 +190,19 @@
             <div id="curtain2">
                 <div class="container" id="about-us">
                     <p1 style="color: white;"></p1>
-                    <p1><br>About us</br></p1>
+                    <p1 id="jsonAbout_us"><br>About us</br></p1>
                     <div class="project" >
                         <img height='75px' width='75px' src="https://cdn.discordapp.com/avatars/513317153425063957/9504e36345ad9f622815996571b5d845.webp?size=100">
                         <div>
-                            <p2>JelCraft</p2>
-                            <p3><br>proud father of two</p3>
+                            <p2 id="jsonJelCraft">JelCraft</p2>
+                            <p3 id="jsonproud_father_of_two"><br>Proud father of two</p3>
                         </div>
                     </div>
                     <div class="project">
                         <img height='75px' width='75px' src="https://cdn.discordapp.com/avatars/654251949776044042/16e81296cd89a4c154dae62fb33c5eed.webp?size=100">
                         <div>
-                            <p2>Vivaloz</p2>
-                            <p3><br>Absolutely lunatic programmer who codes some stuff sometimes for fun</br></p3>
+                            <p2 id="jsonVivaloz">Vivaloz</p2>
+                            <p3 id="jsonAbsolutely_lunatic_programmer_who_codes_some_stuff_sometimes_for_fun"><br>Absolutely lunatic programmer who codes some stuff sometimes for fun</br></p3>
                         </div>
                     </div>
                     <!-- dekippenkoning
@@ -217,27 +217,27 @@
                 </div>
                 <div class="container" id="extra-content">
                     <p1 style="color: white;"></p1>
-                    <p1><br>Contact</br></p1>
+                    <p1 id="jsonContact"><br>Contact</br></p1>
                     <div id="form-container">
                         <form action="https://formsubmit.co/jelcraft@outlook.com" method="POST">
                             <div id="top-row">
-                                <input type="email" name="email" placeholder="Email Address">
-                                <input type="text" name="name" placeholder="Nickname">
+                                <input id='jsonEmail_Address' type="email" name="email" placeholder="Email Address">
+                                <input id='jsonNickname' type="text" name="name" placeholder="Nickname">
                             </div>  
-                            <input type="text" name="subject" placeholder="Subject">
+                            <input id='jsonSubject' type="text" name="subject" placeholder="Subject">
                             <div class="center-container">
-                                <textarea name="message" placeholder="Message"></textarea>
+                                <textarea style="resize: none; font-family: 'Rubik', sans-serif; font-size: large;" id='jsonMessage' name="message" placeholder="Message"></textarea>
                             </div>
                             <div class="center-container">
-                                <button class='contactbutton' type="submit">Send</button>
+                                <button id='jsonSend' class='contactbutton' type="submit">Send</button>
                             </div>
                         </form>
                       </div>
                 </div>
                 <div class="container" id="discord-server">
                     <p1 style="color: white;"></p1>
-                    <p1><br>Discord server</br></p1>
-                    <iframe src="https://discord.com/widget?id=586500162415755275&theme=dark" width="500" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+                    <p1 id="jsonDiscord_server"><br>Discord server</br></p1>
+                    <iframe id='discordWidget' width='80%' src="https://discord.com/widget?id=586500162415755275&theme=light" width="500" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
                 </div>
             </div>
         <!-- ad
