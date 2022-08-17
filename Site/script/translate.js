@@ -254,10 +254,14 @@ function doTranslation(lan){
     //             '\npreferred language: '+preferredLanguage);
     tFB(lan);
     let jsonelements = ['JELNET','HOME','INTERNAL','EXTERNAL'];
-    for(let temp of jsonelements){
-        let id = "json"+temp;
-        document.getElementById(id).innerHTML = translations[temp][lan];
+    for(temp in translations){
+        console.log(temp)
     }
+    
+    
+    // let id = "json"+temp;
+        // document.getElementById(id).innerHTML = translations[temp][lan];
+    //}
     // document.getElementById("jsonJELNET").innerHTML = translations.JELNET[lan]
     // document.getElementById("jsonHOME").innerHTML = translations.HOME[lan]
     // document.getElementById("jsonINTERNAL").innerHTML = translations.INTERNAL[lan]
