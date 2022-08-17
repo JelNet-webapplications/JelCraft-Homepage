@@ -15,8 +15,8 @@
     /*--primary-color: #53e6d2;
     --secondary-color: #40b3a3;
     --tertiary-color: #42c4b2;
-    --background-color: #060606;
-    --foreground-color: #0d0d0d;
+    --background-color: #171718;
+    --foreground-color: #141416;
     --shadow-color: #000000;
     --text-color: #dfdfdf;
     --header-text-color: black;*/
@@ -178,13 +178,10 @@ img#ad {
 
 .theme-selection img {
     transition:  all 0.3s ease 0s;
-    filter:
-    invert(0.6);
 }
 .theme-selection img:hover {
     height:2.8em;
     transition:  all 0.3s ease 0s;
-    filter:invert(0)
 }
 
 /* Languages section */
@@ -217,9 +214,9 @@ img#ad {
     border-color: var(--tertiary-color);
     border-radius: 3px;
 }
-#flagen {
+/*#flagen {
     filter: brightness(50%);
-}
+}*/
 
 /* Contact form */
 .contactbutton:hover {

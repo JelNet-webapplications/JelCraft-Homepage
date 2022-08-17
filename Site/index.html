@@ -7,12 +7,11 @@
         <link rel="icon" type="image/x-icon" href="./imgs/Business.ico">
         <link rel="stylesheet" href="style.css">
         <title>JelNet</title>
-
         <script src="./script/script.js"></script>
         <script src="./script/theme.js"></script>
         <script src="./script/translate.js"></script>
     </head>
-    <body>
+    <body onload="doTranslation('en')">
         <p1 style="display: none;"id="notifyPhone">No phone</p1>
         <div class="header">
             <div class='language-selection'>
@@ -24,6 +23,9 @@
                 </button>
                 <button onclick="doTranslation('nl')" name="netherlands" type="button" class="flagbutton">
                     <img id='flagnl' class='flag' height='30px' src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/1200px-Flag_of_the_Netherlands.svg.png">
+                </button>
+                <button onclick="doTranslation('vk')" name="viviolask" type="button" class="flagbutton">
+                    <img id='flagvk' class='flag' height='30px' src="./imgs/viviolask.png">
                 </button>
             </div>
             <div class="title">
@@ -234,12 +236,14 @@
                         </form>
                       </div>
                 </div>
+<!--
                 <div class="container" id="discord-server">
                     <p1 style="color: white;"></p1>
                     <p1 id="jsonDiscord_server"><br>Discord server</br></p1>
                     <iframe id='discordWidget' width='80%' src="https://discord.com/widget?id=586500162415755275&theme=light" width="500" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
                 </div>
             </div>
+-->
         <!-- ad
         <div class="footer">
             <img id='ad' src="https://cdn01.x-plarium.com/browser/content/forum/common/header-arts/raid-header.jpg" onmousedown = "dosomething()">
