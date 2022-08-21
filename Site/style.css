@@ -39,6 +39,7 @@ a, p1, p2, p3 {
 
 .header a {
     color:var(--header-text-color);
+    
 }
 
 p1 {
