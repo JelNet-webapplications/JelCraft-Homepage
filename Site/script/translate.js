@@ -258,9 +258,9 @@ function doTranslation(lan){
     tFB(lan);
     let jsonelements = ['JELNET','HOME','INTERNAL','EXTERNAL'];
     for(temp in translations){
-        console.log(temp)
+        console.log("translated element: "+temp)
         let id = "json"+temp;
-        if(temp == "To_be_determined"){
+        if(temp == "To_be_determined" || temp="Nonapplicable"){
             for(let i = 1; i < 6; i++){
                 let TBTid = `${id}${i}`;
                 document.getElementById(TBTid).placeholder = translations[temp][lan];
