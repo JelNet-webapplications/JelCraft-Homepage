@@ -9,7 +9,7 @@ const translations = {
         "en": "HOME",
         "de": "",
         "nl": "THUISPAGINA",
-        "vk": "PEGOÊNE ÈTTONOS"
+        "vk": "PEGUÊNE ÈTTONOS"
     },
     "INTERNAL": {
         "en": "INTERNAL",
@@ -39,19 +39,19 @@ const translations = {
         "en": "<br>Exchange rate EUR - Pinballs</br>",
         "de": "",
         "nl": "<br>Wisselkoers van EUR - Pinball-snoepjes</br>",
-        "vk": "<br>Kûirsevyo èvgaûsäl özru rogüt snûipänen Èpënpvëlän"
+        "vk": "<br>Kûirsevyo èvgaûsäl özruârogüt snûipänen Èpënpvëlän"
     },
     "Sudoku_Solver": {
         "en": "Sudoku Solver",
         "de": "",
         "nl": "Sudoku-oplosser",
-        "vk": "Terûlüsärevyo Sütökûs"
+        "vk": "Terûlüsärevyo Sütökuês"
     },
     "Automatically_solves_Sudokus": {
         "en": "<br>Automatically solves Sudokus</br>",
         "de": "",
         "nl": "<br>Lost automatisch Sudoku's op</br>",
-        "vk": "<br>Ylüsevt áoêtunvetoêsgvvgarro Sütökûs terû</br>"
+        "vk": "<br>Ylüsevt áoêtunvetoêsgvvgarro Sütökuês terû</br>"
     },
     "WorldStats": {
         "en": "WorldStats",
@@ -93,7 +93,7 @@ const translations = {
         "en": "Sbubby Generator",
         "de": "",
         "nl": "Sbubby-generator",
-        "vk": ""
+        "vk": "Pletenännvekärâtygo Spupiän"
     },
     "Create_your_own_sbubby_of_existing_logos": {
         "en": "<br>Create your own sbubby of existing logos</br>",
