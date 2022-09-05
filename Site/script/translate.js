@@ -260,6 +260,13 @@ function doTranslation(lan){
     for(temp in translations){
         console.log(temp)
         let id = "json"+temp;
+        if(temp == "To_be_determined"){
+            for(let i = 1; i < 6; i++){
+                let TBTid = `${id}${i}`;
+                document.getElementById(TBTid).placeholder = translations[temp][lan];
+            }
+            continue;
+        }
         if(temp == 'Email_Address' || temp == 'Nickname' || temp == 'Subject' || temp == 'Message'){
             document.getElementById(id).placeholder = translations[temp][lan];
         } else {
