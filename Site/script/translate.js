@@ -69,7 +69,7 @@ const translations = {
         "en": "Flight Calculator",
         "de": "",
         "nl": "Vluchtcalculator",
-        "vk": "Ráikäntvaûnká tygo vloêgärùs èsüzrtvën"
+        "vk": "Ráikäntvaûnká tygo vluêgärùs èsüzrtvën"
     },
     "Calculates_efficient_Minecraft_flight_data": {
         "en": "<br>Calculates efficient Minecraft flight data</br>",
@@ -201,7 +201,7 @@ const translations = {
         "en": "Email Address",
         "de": "",
         "nl": "Email-adres",
-        "vk": "Pletsnenvi èttáipvrôef"
+        "vk": "Pletsnenvi èttáipvruêf"
     },
     "Nickname": {
         "en": "Nickname",
