@@ -263,7 +263,7 @@ function doTranslation(lan){
         if(temp == "To_be_determined" || temp="Nonapplicable"){
             for(let i = 1; i < 6; i++){
                 let TBTid = `${id}${i}`;
-                document.getElementById(TBTid).placeholder = translations[temp][lan];
+                document.getElementById(TBTid).innerHTML = translations[temp][lan];
             }
             continue;
         }
