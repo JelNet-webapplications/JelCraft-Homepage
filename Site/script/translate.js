@@ -329,7 +329,7 @@ function doTranslation(lan){
 }
 
 function tFB(lan){ // tFB = toggleFlagBrightness
-    var flags = ['en', 'de', 'nl', 'vk']
+    var flags = ['en', 'de', 'nl', 'fr', 'vk']
     let lanid = 'flag'+lan;
     document.getElementById(lanid).style.filter = 'brightness(100%)'
     console.log('brightness.flag.'+lan+' has been set to '+document.getElementById(lanid).style.filter)
