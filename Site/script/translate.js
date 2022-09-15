@@ -260,7 +260,7 @@ function doTranslation(lan){
     for(temp in translations){
         console.log("translated element: "+temp)
         let id = "json"+temp;
-        if(temp == "To_be_determined" || temp="Nonapplicable"){
+        if(temp == "To_be_determined" || temp == "Nonapplicable"){
             for(let i = 1; i < 6; i++){
                 let TBTid = `${id}${i}`;
                 document.getElementById(TBTid).innerHTML = translations[temp][lan];
