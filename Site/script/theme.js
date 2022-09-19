@@ -1,8 +1,9 @@
+window.addEventListener('DOMContentLoaded', (event) => {
+    setLight();
+});
+
 let theme = 'light';
 function toggleTheme() {
-    let img = document.getElementById('themesvg');
-    let r = document.querySelector(':root');
-    let button = document.getElementsByClassName('theme-selection')[0].querySelector('img');
 
     let array = document.querySelectorAll('*');
     array.forEach(element => {
@@ -11,9 +12,9 @@ function toggleTheme() {
     });
 
     if(theme == 'light') { //Set dark mode
-        setDark(img, r, button);
+        setDark();
     } else { //Set light mode
-        setLight(img, r, button);
+        setLight();
     }
 }
 
@@ -97,10 +98,13 @@ function setCursify(makeCursed) {
     // })
 }
 
-function setDark(img, r, button) {
-    
+function setDark() {
+    let img = document.getElementById('themesvg');
+    let r = document.querySelector(':root');
+    let button = document.getElementsByClassName('theme-selection')[0].querySelector('img');
+
     theme = 'dark';
-    img.src = './imgs/light-mode.svg';
+    img.src = './imgs/darkmode-lightmode/light-mode.svg';
         
     r.style.setProperty('--primary-color', '#53e6d2');
     r.style.setProperty('--secondary-color', '#40b3a3');
@@ -115,9 +119,13 @@ function setDark(img, r, button) {
     button.style.filter = 'invert(1)';
 }
 
-function setLight(img, r, button) {
+function setLight() {
+    let img = document.getElementById('themesvg');
+    let r = document.querySelector(':root');
+    let button = document.getElementsByClassName('theme-selection')[0].querySelector('img');
+
     theme = 'light';
-    img.src = './imgs/dark-mode.svg';
+    img.src = './imgs/darkmode-lightmode/dark-mode.svg';
 
     r.style.setProperty('--primary-color', '#53e6d2');
     r.style.setProperty('--secondary-color', '#40b3a3');
