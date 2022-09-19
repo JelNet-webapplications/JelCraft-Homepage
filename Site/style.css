@@ -163,7 +163,6 @@ img#ad {
     margin:.4em;
     height: 2em;
     transition:  all 0.3s ease 0s;
-    filter: invert(0.6)
 }
 .theme-selection img:hover {
     margin:0em;
