@@ -1,5 +1,6 @@
 window.addEventListener('DOMContentLoaded', (event) => {
     setLight();
+    themeOffHover();
 });
 
 let theme = 'light';
