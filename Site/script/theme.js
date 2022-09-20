@@ -29,13 +29,9 @@ function themeOnHover() {
 }
 
 function themeOffHover() {
-    let button = document.getElementsByClassName('theme-selection')[0].querySelector('img');
-    if(theme == 'dark') {
-        button.style.filter = 'invert(0.6)'
-    } else {
-        button.style.filter = 'invert(0.6)'
-    }
+    document.getElementsByClassName('theme-selection')[0].querySelector('img').style.filter = 'invert(0.6)';
 }
+
 let testCurse = '';
 document.addEventListener('keydown', event => {
     if(event.code == 'KeyC'){
