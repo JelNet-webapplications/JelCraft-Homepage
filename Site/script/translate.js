@@ -180,7 +180,7 @@ const translations = {
     //     "vk": "<br>Vetvärevyo èpvliä kaûntväränenù ètvgái"
     // },
     // maybe i have to change the object name but oh well
-    "proud_father_of_two": {
+    "aboutus-users-description-jelcraft": {
         "en": "<br>50 percent digital genius, 50 percent total idiot",
         "de": "",
         "nl": "<br>50 procent digitaal genie, 50 percent totale idioot",
@@ -265,7 +265,7 @@ function doTranslation(lan){
         console.log("translated element: "+temp)
         let id = "json"+temp;
         if(temp == "To_be_determined" || temp == "Nonapplicable"){
-            for(let i = 1; i < 6; i++){
+            for(let i = 2; i < 6; i++){
                 let TBTid = `${id}${i}`;
                 document.getElementById(TBTid).innerHTML = translations[temp][lan];
             }
