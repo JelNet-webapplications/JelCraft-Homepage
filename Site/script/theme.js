@@ -77,13 +77,14 @@ function setCursify(par){
     if(par == 'stop'){
         sClp = false;
         array.forEach(element => {
+            element.style.transition = "all 0.3s ease 0s"
             element.style.backgroundColor = "";
             element.style.color = "";
         });
     }
     if(par == 'start' && sClp){ 
         array.forEach(element => {
-            element.style.transition = "all 0.1s ease 0s"
+            element.style.transition = "all 0s ease 0s"
             element.style.backgroundColor = getRandColor();
             element.style.color = getRandColor();
         });
