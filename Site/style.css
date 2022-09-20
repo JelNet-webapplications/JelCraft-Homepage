@@ -160,13 +160,13 @@ img#ad {
 
 
 .theme-selection img {
-    margin:.4em;
+    margin:.3em;
     height: 2em;
     transition:  all 0.3s ease 0s;
 }
 .theme-selection img:hover {
     margin:0em;
-    height:2.8em;
+    height:2.6em;
     transition:  all 0.3s ease 0s;
 }
 
@@ -205,21 +205,21 @@ img#ad {
 .contactbutton:hover {
     transition:  all 0.3s ease 0s;
     background-color: var(--primary-color);
-    color:black;
 }
 
 .contactbutton {
     transition:  all 0.3s ease 0s;
-    margin-top: 10px;
     background-color: var(--secondary-color);
-    width: 90%;
     border: none;
     padding: 10px;
-    border-radius: 10px;
     font-size: 30px;
-    margin-top: auto;
     font-family: 'Rubik';
     font-weight: lighter;
+
+    margin-top: 1em;
+    width: 90%;
+    border-radius: 1em;
+    color: var(--header-text-color);
 }
 
 #form-container {
@@ -268,12 +268,6 @@ textarea {
 
 #top-row {
     display:flex;
-}
-
-.contactbutton[type=Submit] {
-    margin-top: 1em;
-    width:5em;
-    border-radius: 20px;
 }
 
 iframe {

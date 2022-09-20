@@ -1,5 +1,5 @@
 window.addEventListener('DOMContentLoaded', (event) => {
-    setLight();
+    setDark();
     themeOffHover();
 });
 
@@ -104,7 +104,7 @@ function setDark() {
     r.style.setProperty('--secondary-color', '#40b3a3');
     r.style.setProperty('--tetriary-color', ' #42c4b2');
     r.style.setProperty('--background-color', '#171718');
-    r.style.setProperty('--foreground-color', '#141416');
+    r.style.setProperty('--foreground-color', '#1e1e21');
     r.style.setProperty('--shadow-color', '#000000');
     r.style.setProperty('--text-color', '#dfdfdf');
     r.style.setProperty('--header-text-color', 'black');
