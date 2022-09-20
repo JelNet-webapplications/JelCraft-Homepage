@@ -248,22 +248,11 @@ const translations = {
     // },
 }
 
-// var preferredLanguage = '',
-//     hasChoosenPrefLan = false;
 function doTranslation(lan){
-    // if(!hasChoosenPrefLan){
-    //     sessionStorage["prefLanguage"] = lan;
-    //     var preferredLanguage = sessionStorage["prefLanguage"]; 
-    //     hasChoosenPrefLan = true;
-    // }
-    // console.log('has the user choosen a preferred language: '+hasChoosenPrefLan+
-    //             '\nchoosen language: '+lan+
-    //             '\npreferred language: '+preferredLanguage);
     tFB(lan);
-    // let jsonelements = ['JELNET','HOME','INTERNAL','EXTERNAL'];
     for(temp in translations){
         console.log("translated element: "+temp)
-        let id = "json"+temp;
+        let id = "Б"+temp; // Б is the identifier used for html elements which need to be translated
         if(temp == "To_be_determined" || temp == "Nonapplicable"){
             for(let i = 2; i < 6; i++){
                 let TBTid = `${id}${i}`;
@@ -277,59 +266,6 @@ function doTranslation(lan){
             document.getElementById(id).innerHTML = translations[temp][lan];
         }
     }
-    
-    
-
-    //}
-    // document.getElementById("jsonJELNET").innerHTML = translations.JELNET[lan]
-    // document.getElementById("jsonHOME").innerHTML = translations.HOME[lan]
-    // document.getElementById("jsonINTERNAL").innerHTML = translations.INTERNAL[lan]
-    // document.getElementById("jsonEXTERNAL").innerHTML = translations.EXTERNAL[lan]
-    // document.getElementById("jsonProjects").innerHTML = translations.Projects[lan]
-    // document.getElementById("jsonPinball_Converter").innerHTML = translations.Pinball_Converter[lan]
-    // document.getElementById("jsonExchange_rate_EUR_Pinballs").innerHTML = translations.Exchange_rate_EUR_Pinballs[lan]
-    // document.getElementById("jsonSudoku_Solver").innerHTML = translations.Sudoku_Solver[lan]
-    // document.getElementById("jsonAutomatically_solves_Sudokus").innerHTML = translations.Automatically_solves_Sudokus[lan]
-    // document.getElementById("jsonWorldStats").innerHTML = translations.WorldStats[lan]
-    // document.getElementById("jsonShows_real_livetime_global_statistics").innerHTML = translations.Shows_real_livetime_global_statistics[lan]
-    // document.getElementById("jsonFlight_Calculator").innerHTML = translations.Flight_Calculator[lan]
-    // document.getElementById("jsonCalculates_efficient_Minecraft_flight_data").innerHTML = translations.Calculates_efficient_Minecraft_flight_data[lan]
-    // document.getElementById("jsonCollatz_Calculator").innerHTML = translations.Collatz_Calculator[lan]
-    // document.getElementById("jsonCalculates_everything_collatz_conjecture").innerHTML = translations.Calculates_everything_collatz_conjecture[lan]
-    // document.getElementById("jsonSbubby_Generator").innerHTML = translations.Sbubby_Generator[lan]
-    // document.getElementById("jsonCreate_your_own_sbubby_of_existing_logos").innerHTML = translations.Create_your_own_sbubby_of_existing_logos[lan]
-    // document.getElementById("jsonHangman_Engine").innerHTML = translations.Hangman_Engine[lan]
-    // document.getElementById("jsonCalculate_the_perfect_guess_for_hangman").innerHTML = translations.Calculate_the_perfect_guess_for_hangman[lan]
-    // document.getElementById("jsonWordfeud_Calculator").innerHTML = translations.Wordfeud_Calculator[lan]
-    // document.getElementById("jsonCalculate_the_best_words_for_Wordfeud_and_Scrabble").innerHTML = translations.Calculate_the_best_words_for_Wordfeud_and_Scrabble[lan]
-    // document.getElementById("jsonDirk_Map").innerHTML = translations.Dirk_Map[lan]
-    // document.getElementById("jsonShows_the_perfect_route_to_find_your_groceries").innerHTML = translations.Shows_the_perfect_route_to_find_your_groceries[lan]
-    // document.getElementById("jsonStarlabs_Delivery").innerHTML = translations.Starlabs_Delivery[lan]
-    // document.getElementById("jsonOrder_blocks_online_for_the_Minecraft_H43_Server").innerHTML = translations.Order_blocks_online_for_the_Minecraft_H43_Server[lan]
-    // document.getElementById("jsonTo_be_determined1").innerHTML = translations.To_be_determined[lan]
-    // document.getElementById("jsonTo_be_determined2").innerHTML = translations.To_be_determined[lan]
-    // document.getElementById("jsonTo_be_determined3").innerHTML = translations.To_be_determined[lan]
-    // document.getElementById("jsonTo_be_determined4").innerHTML = translations.To_be_determined[lan]
-    // document.getElementById("jsonTo_be_determined5").innerHTML = translations.To_be_determined[lan]
-    // document.getElementById("jsonNonapplicable1").innerHTML = translations.Nonapplicable[lan]
-    // document.getElementById("jsonNonapplicable2").innerHTML = translations.Nonapplicable[lan]
-    // document.getElementById("jsonNonapplicable3").innerHTML = translations.Nonapplicable[lan]
-    // document.getElementById("jsonNonapplicable4").innerHTML = translations.Nonapplicable[lan]
-    // document.getElementById("jsonNonapplicable5").innerHTML = translations.Nonapplicable[lan]
-    // document.getElementById("jsonAbout_us").innerHTML = translations.About_us[lan]
-    // document.getElementById("jsonJelCraft").innerHTML = translations.JelCraft[lan]
-    // document.getElementById("jsonproud_father_of_two").innerHTML = translations.proud_father_of_two[lan]
-    // document.getElementById("jsonVivaloz").innerHTML = translations.Vivaloz[lan]
-    // document.getElementById("jsonAbsolutely_lunatic_programmer_who_codes_some_stuff_sometimes_for_fun").innerHTML = translations.Absolutely_lunatic_programmer_who_codes_some_stuff_sometimes_for_fun[lan]
-    // document.getElementById("jsonContact").innerHTML = translations.Contact[lan]
-    // document.getElementById("jsonEmail_Address").placeholder = translations.Email_Address[lan]
-    // document.getElementById("jsonNickname").placeholder = translations.Nickname[lan]
-    // document.getElementById("jsonSubject").placeholder = translations.Subject[lan]
-    // document.getElementById("jsonMessage").placeholder = translations.Message[lan]
-    // document.getElementById("jsonSend").innerHTML = translations.Send[lan]
-
-
-    //document.getElementById("jsonDiscord_server").innerHTML = translations.Discord_server[lan]
 }
 
 function tFB(lan){ // tFB = toggleFlagBrightness
