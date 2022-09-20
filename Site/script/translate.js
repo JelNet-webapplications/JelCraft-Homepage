@@ -149,25 +149,37 @@ const translations = {
         "nl": "<br>Bestel digitale blokken voor de Minecraft H43-server",
         "vk": "<br>Yost kopvüsänen èttái tygo Náinkraft Ry43 tvûinär pvästalänä"
     },
-    "To_be_determined": {
+    "curtains-projects-viviolasktranslator-title": {
+        "en": "",
+        "de": "",
+        "nl": "",
+        "vk": ""
+    },
+    "curtains-projects-viviolasktranslator-description": {
+        "en": "",
+        "de": "",
+        "nl": "",
+        "vk": ""
+    },
+    "curtains-projects-void-title": {
         "en": "To be determined",
         "de": "",
         "nl": "Nader te bepalen",
         "vk": "Tverne kuêsvänä"
     },
-    "Nonapplicable": {
+    "curtains-projects-void-description": {
         "en": "<br>Non-applicable",
         "de": "",
         "nl": "<br>Niet van toepassing",
         "vk": "<br>Nynyevyo gäpvrûik"
     },
-    "About_us": {
+    "curtains-aboutus-title": {
         "en": "<br>About us",
         "de": "",
         "nl": "<br>Over ons",
         "vk": "<br>Klyeron vgiozok"
     },
-    "JelCraft": {
+    "curtains-aboutus-jelcraft-title": {
         "en": "JelCraft",
         "de": "",
         "nl": "JelCraft",
@@ -179,61 +191,61 @@ const translations = {
     //     "nl": "<br>Trotse vader van 2 kinderen",
     //     "vk": "<br>Vetvärevyo èpvliä kaûntväränenù ètvgái"
     // },
-    "aboutus-users-description-jelcraft": {
+    "curtains-aboutus-jelcraft-description": {
         "en": "<br>50 percent digital genius, 50 percent total idiot",
         "de": "",
         "nl": "<br>50 procent digitaal genie, 50 percent totale idioot",
         "vk": "<br>Tygoâprusvänt èviftäzg svyänúei èttái, tygoâprusvänt èviftäzg kuêrävguêtä èvuláitväzg"
     },
-    "Vivaloz": {
+    "curtains-aboutus-vivaloz-title": {
         "en": "Vivaloz",
         "de": "",
         "nl": "Vivaloz",
         "vk": "Viväloz"
     },
-    "Absolutely_lunatic_programmer_who_codes_some_stuff_sometimes_for_fun": {
+    "curtains-aboutus-vivaloz-description": {
         "en": "<br>Absolutely lunatic programmer who codes some stuff sometimes for fun",
         "de": "",
         "nl": "<br>Krankzinnige programmeur die af en toe dingen codeert voor de lol",
         "vk": "<br>Kvünpyûiztärùnvënnvekär èsvuêktänvekäntvä svinyra sünvsantsvu tvaûnkáyän kvutvaûzrev tygo pläsvuêròio"
     },
-    "Contact": {
+    "curtains-projects-contact-title": {
         "en": "<br>Contact",
         "de": "",
         "nl": "<br>Contact",
         "vk": "<br>Eûtrikänë allün vgiozok"
     },
-    "Email_Address": {
+    "curtains-projects-contact-email": {
         "en": "Email Address",
         "de": "",
         "nl": "Email-adres",
         "vk": "Pletsnenvi èttáipvruêf"
     },
-    "Nickname": {
+    "curtains-projects-contact-nickname": {
         "en": "Nickname",
         "de": "",
         "nl": "Gebruikersnaam",
         "vk": "Nenvi èttaûntärpvine"
     },
-    "Subject": {
+    "curtains-projects-contact-subject": {
         "en": "Subject",
         "de": "",
         "nl": "Onderwerp",
         "vk": "Terûgüzjì"
     },
-    "Message": {
+    "curtains-projects-contact-message": {
         "en": "Message",
         "de": "",
         "nl": "Bericht",
         "vk": "Vgët vgaûlko svagänë"
     },
-    "Send": {
+    "curtains-projects-contact-send": {
         "en": "Send",
         "de": "",
         "nl": "Versturen",
         "vk": "Terûstoränë"
     },
-    "Discord_server": {
+    "curtains-projects-discordserver-title": {
         "en": "<br>Discord server",
         "de": "",
         "nl": "<br>Discord-server",
