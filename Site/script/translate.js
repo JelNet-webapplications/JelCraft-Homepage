@@ -1,53 +1,53 @@
 const translations = {
-    "JELNET": {
+    "navbar-jelnet": {
         "en": "JELNET",
         "de": "",
         "nl": "JELNET",
         "vk": "YELNET"
     },
-    "HOME": {
+    "navbar-home": {
         "en": "HOME",
         "de": "",
         "nl": "THUISPAGINA",
         "vk": "PEGUÊNE ÈTTONOS"
     },
-    "INTERNAL": {
+    "navbar-internal": {
         "en": "INTERNAL",
         "de": "",
         "nl": "INTERN",
         "vk": "INTARANIIR"
     },
-    "EXTERNAL": {
+    "navbar-external": {
         "en": "EXTERNAL",
         "de": "",
         "nl": "EXTERN",
         "vk": "TORRANIIR"
     },
-    "Projects": {
+    "curtains-projects-title": {
         "en": "<br>Projects",
         "de": "",
         "nl": "<br>Projecten",
         "vk": "<br>Nvunvanvgarkän"
     },
-    "Pinball_Converter": {
+    "curtains-projects-pinballconverter-title": {
         "en": "Pinball Converter",
         "de": "",
         "nl": "Pinball-wisselaar",
         "vk": "Vgaûsälerevyo Pënpvëlän"
     },
-    "Exchange_rate_EUR_Pinballs": {
+    "curtains-projects-pinballconverter-description": {
         "en": "<br>Exchange rate EUR - Pinballs",
         "de": "",
         "nl": "<br>Wisselkoers van EUR - Pinball-snoepjes",
         "vk": "<br>Kûirsevyo èvgaûsäl özruârogüt snûipänen Èpënpvëlän"
     },
-    "Sudoku_Solver": {
+    "curtains-projects-sudokusolver-title": {
         "en": "Sudoku Solver",
         "de": "",
         "nl": "Sudoku-oplosser",
         "vk": "Terûlüsärevyo Sütökuês"
     },
-    "Automatically_solves_Sudokus": {
+    "curtains-projects-sudokusolver-description": {
         "en": "<br>Automatically solves Sudokus",
         "de": "",
         "nl": "<br>Lost automatisch Sudoku's op",
@@ -179,7 +179,6 @@ const translations = {
     //     "nl": "<br>Trotse vader van 2 kinderen",
     //     "vk": "<br>Vetvärevyo èpvliä kaûntväränenù ètvgái"
     // },
-    // maybe i have to change the object name but oh well
     "aboutus-users-description-jelcraft": {
         "en": "<br>50 percent digital genius, 50 percent total idiot",
         "de": "",
@@ -249,27 +248,27 @@ const translations = {
 }
 
 function doTranslation(lan){
-    tFB(lan);
+    setFlagBrightness(lan);
     for(temp in translations){
         console.log("translated element: "+temp)
         let id = "Б"+temp; // Б is the identifier used for html elements which need to be translated
+            element = document.getElementById(id);
         if(temp == "To_be_determined" || temp == "Nonapplicable"){
             for(let i = 2; i < 6; i++){
                 let TBTid = `${id}${i}`;
-                document.getElementById(TBTid).innerHTML = translations[temp][lan];
+                element.innerHTML = translations[temp][lan];
             }
-            // continue;
         }
         else if(temp == 'Email_Address' || temp == 'Nickname' || temp == 'Subject' || temp == 'Message'){
-            document.getElementById(id).placeholder = translations[temp][lan];
+            element.placeholder = translations[temp][lan];
         } else {
-            document.getElementById(id).innerHTML = translations[temp][lan];
+            element.innerHTML = translations[temp][lan];
         }
     }
 }
 
-function tFB(lan){ // tFB = toggleFlagBrightness
-    var flags = ['en', 'de', 'nl', 'fr', 'vk']
+var flags = ['en', 'de', 'nl', 'fr', 'vk'];
+function setFlagBrightness(lan){
     let lanid = 'flag'+lan;
     document.getElementById(lanid).style.filter = 'brightness(100%)'
     console.log('brightness.flag.'+lan+' has been set to '+document.getElementById(lanid).style.filter)
