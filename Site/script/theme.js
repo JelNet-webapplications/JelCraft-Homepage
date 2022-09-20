@@ -61,12 +61,9 @@ document.addEventListener('keydown', event => {
     }
     if(event.code == 'KeyE' && testCurse == 'CURS') {
         console.log("event.code 'KeyE' has been detected.");
-        testCurse = 'CURSE';
         console.log('user.progress.curse = '+testCurse);
-    } 
-    if(testCurse == 'CURSE'){
+        sClp = true;
         setCursify('start');
-        // var curseInterval = setInterval(setCursify,100)
     }
 })
 function getRandColor(){
@@ -84,7 +81,7 @@ function setCursify(par){
             element.style.color = "";
         });
     }
-    if(par == 'start' && sClp){
+    if(par == 'start' && sClp){ 
         array.forEach(element => {
             element.style.transition = "all 0.1s ease 0s"
             element.style.backgroundColor = getRandColor();
