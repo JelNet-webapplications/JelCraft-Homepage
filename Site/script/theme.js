@@ -34,6 +34,11 @@ function themeOffHover() {
 
 let testCurse = '';
 document.addEventListener('keydown', event => {
+    if(event.code == 'KeyZ'){
+        console.log("event.code 'KeyZ' has been detected. Shutting off curse mode.")
+        setCursify('stop');
+        testCurse = '';
+    }
     if(event.code == 'KeyC'){
         console.log("event.code 'KeyC' has been detected.");
         testCurse = 'C';
@@ -60,39 +65,33 @@ document.addEventListener('keydown', event => {
         console.log('user.progress.curse = '+testCurse);
     } 
     if(testCurse == 'CURSE'){
-        var curseInterval = setInterval(setCursify,100)
-    }
-    if(event.code == 'KeyZ'){
-        console.log("event.code 'KeyZ' has been detected. Shutting off curse mode.")
-        setCursify(false);
-        testCurse = '';
-        clearInterval(curseInterval)
+        setCursify('start');
+        // var curseInterval = setInterval(setCursify,100)
     }
 })
 function getRandColor(){
     let rand = `rgb(${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)})`
     return rand;
 }
-function setCursify(makeCursed) {
-    if(makeCursed || makeCursed == null) {
-        let array = document.querySelectorAll('*');
-        array.forEach(element => {
-            element.style.transition = "all 0.1s ease 0s"
-            element.style.backgroundColor = getRandColor();
-            element.style.color = getRandColor();
-        });
-    } else {
-        let array = document.querySelectorAll('*');
+
+var sClp = true; // sCwlp = set Cursify loop parameter
+function setCursify(par){
+    let array = document.querySelectorAll('*');
+    if(par == 'stop'){
+        sClp = false;
         array.forEach(element => {
             element.style.backgroundColor = "";
             element.style.color = "";
         });
     }
-    // document.addEventListener('keydown', event => {
-    //     if(event.code == 'KeyZ'){
-    //         return;
-    //     }
-    // })
+    if(par == 'start' && sClp){
+        array.forEach(element => {
+            element.style.transition = "all 0.1s ease 0s"
+            element.style.backgroundColor = getRandColor();
+            element.style.color = getRandColor();
+        });
+        setTimeout(() => setCursify('start'), 100);
+    }
 }
 
 function setDark() {
