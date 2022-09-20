@@ -187,12 +187,12 @@ img#ad {
     border: none;
     cursor: pointer;
 }
-.flag:hover, .themebutton:hover {
+.flag img:hover, .themebutton:hover {
     height: 3em;
     transition:  all 0.3s ease 0s;
-    margin: -0.5em -0.5em;
+    margin: -0.7em -0.5em;
 }
-.flag {
+.flag img {
     height:2.3em;
     transition:  all 0.3s ease 0s;
     border:2px;
@@ -201,11 +201,7 @@ img#ad {
     border-radius: 3px;
     margin: -0.5em 0em;
 }
-/*#flagen {
-    filter: brightness(50%);
-}*/
 
-/* Contact form */
 .contactbutton:hover {
     transition:  all 0.3s ease 0s;
     background-color: var(--primary-color);
