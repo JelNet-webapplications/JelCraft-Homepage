@@ -1,0 +1,103 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Rubik';
+    font-weight: bold;
+    box-shadow: 0px 0px 30px 10px var(--shadow-color);
+}
+
+.title {
+    background-color: var(--primary-color);
+    margin: 1em;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+}
+
+.navcontainer#active {
+    background-color: var(--secondary-color);
+    width: 100px;
+    text-align: center;
+}
+
+.navcontainer:hover {
+    background-color: var(--tertiary-color);
+    transition: all 0.3s ease 0s;
+}
+
+.navcontainer {
+    transition: all 0.3s ease 0s;
+}
+
+.navbar {
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+    border-radius: 100px;
+    overflow: hidden;
+}
+
+.navcontainer {
+    padding: 1em;
+}
+
+.header button {
+    border: none;
+    margin-right: 0px;
+    height: 30px;
+    width: auto;
+    background-color: rgba(0, 255, 255, 0);
+}
+
+.header button:hover {
+    background-color: none;
+    border: none;
+    cursor: pointer;
+}
+
+/*!--- Theme Selection ---*/
+.theme-selection button {
+    border:
+        none;
+    height: 2em;
+}
+
+.theme-selection img {
+    margin: .3em;
+    height: 2em;
+    transition: all 0.3s ease 0s;
+}
+
+.theme-selection img:hover {
+    margin: 0em;
+    height: 2.6em;
+    transition: all 0.3s ease 0s;
+}
+
+/*!--- Languages section ---*/
+.language-selection {
+    top: 100px;
+    display: flex;
+}
+
+.flag img:hover,
+.themebutton:hover {
+    height: 3em;
+    transition: all 0.3s ease 0s;
+    margin: -0.7em -0.5em;
+}
+
+.flag img {
+    height: 2.3em;
+    transition: all 0.3s ease 0s;
+    border: 2px;
+    border-style: solid;
+    border-color: var(--tertiary-color);
+    border-radius: 3px;
+    margin: -0.5em 0em;
+}
