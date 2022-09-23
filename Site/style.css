@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
 * {
-    transition:  all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
 }
 
 body {
@@ -9,15 +9,18 @@ body {
     /* margin: 0 5%; */
     background-color: var(--background-color);
     margin: 0 0em;
-} 
+}
 
-a, p1, p2, p3 {
+a,
+p1,
+p2,
+p3 {
     color: var(--text-color)
 }
 
 .header a {
-    color:var(--header-text-color);
-    
+    color: var(--header-text-color);
+
 }
 
 #notifyPhone {
@@ -27,13 +30,16 @@ a, p1, p2, p3 {
 p1 {
     font-size: 2em;
 }
+
 .link {
     text-decoration: none;
     color: black;
 }
+
 p2 {
     font-size: 1.5em;
 }
+
 .header {
     display: flex;
     align-items: center;
@@ -42,14 +48,15 @@ p2 {
     font-weight: bold;
     box-shadow: 0px 0px 30px 10px var(--shadow-color);
 }
+
 .title {
     background-color: var(--primary-color);
-    margin:1em;
-    padding:1em;
-    display:flex;
+    margin: 1em;
+    padding: 1em;
+    display: flex;
     justify-content: center;
     align-items: center;
-    border-radius:100px;
+    border-radius: 100px;
 }
 
 .navcontainer#active {
@@ -57,54 +64,64 @@ p2 {
     width: 100px;
     text-align: center;
 }
+
 .navcontainer:hover {
     background-color: var(--tertiary-color);
-    transition:  all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
 }
 
 .navcontainer {
-    transition:  all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
 }
+
 .navbar {
     background-color: var(--primary-color);
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
-    margin:1em;
+    margin: 1em;
     border-radius: 100px;
     overflow: hidden;
 }
+
 .navcontainer {
-    padding:1em;
+    padding: 1em;
 }
+
 .curtains {
-    display:flex;
+    display: flex;
     justify-content: center;
     text-align: center;
 }
+
 #about-us {
     height: 20em;
-    width:100%;
+    width: 100%;
     height: 20em;
 }
+
 #extra-content {
     height: max-content;
-    margin-top:2em;
-    width:100%;
-    height:35em;
+    margin-top: 2em;
+    width: 100%;
+    height: 35em;
 }
+
 #discord-server {
     height: max-content;
-    margin-top:2em;
-    width:100%;
-    height:40em;
+    margin-top: 2em;
+    width: 100%;
+    height: 40em;
 }
+
 #projects {
-    height:103em;
+    height: 103em;
 }
+
 #curtain2 {
-    width:40%;
+    width: 40%;
 }
+
 .container {
     margin: 1em;
     margin-top: 3em;
@@ -115,59 +132,73 @@ p2 {
     box-shadow: 0px 0px 30px 10px var(--shadow-color);
     /*box-shadow: 0px 0px vervaging grootte kleur*/
 }
-.project {
-    text-align: left;
-    margin:2em;
-    display:flex;
-    transition:  all 0.3s ease 0s;
-}
-.project div {
-    margin-left: 1em;
-}
+
 .curtains .container p1 {
     color: #6cc4b8;
     font-weight: bold;
     font-style: italic;
     text-align: center;
 }
+
 .project img {
-    background-color:var(--secondary-color);
-    padding:0.3em;
+    background-color: var(--secondary-color);
+    padding: 0.3em;
     border-radius: 10px;
     height: 57.4px;
     width: 57.4px;
 }
+
+.project div {
+    margin-left: 1em;
+    margin-right: 0.5em;
+}
+
+.project:hover div {
+    margin-right: 0;
+}
+
+.project {
+    text-align: left;
+    margin: 2em;
+    display: flex;
+    transition: all 0.3s ease 0s;
+    border-radius: 10px;
+}
+
 .project:hover {
     background-color: var(--background-color);
-    transition:  all 0.3s ease 0s;
-    border-radius: 10px;
-    margin-left:2.5em;
+    transition: all 0.3s ease 0s;
+    margin-left: 2.5em;
+    margin-right: 1.5;
 }
+
 .footer {
-    display:flex;
+    display: flex;
     justify-content: center;
 }
+
 img#ad {
-    width:calc(80% + 2em);
-    border-radius:10px;
+    width: calc(80% + 2em);
+    border-radius: 10px;
 }
 
 .theme-selection button {
     border:
-    none;
-    height:2em;
+        none;
+    height: 2em;
 }
 
 
 .theme-selection img {
-    margin:.3em;
+    margin: .3em;
     height: 2em;
-    transition:  all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
 }
+
 .theme-selection img:hover {
-    margin:0em;
-    height:2.6em;
-    transition:  all 0.3s ease 0s;
+    margin: 0em;
+    height: 2.6em;
+    transition: all 0.3s ease 0s;
 }
 
 /* Languages section */
@@ -175,40 +206,45 @@ img#ad {
     top: 100px;
     display: flex;
 }
+
 .header button {
     border: none;
     margin-right: 0px;
     height: 30px;
     width: auto;
-    background-color:rgba(0, 255, 255, 0);
+    background-color: rgba(0, 255, 255, 0);
 }
+
 .header button:hover {
     background-color: none;
     border: none;
     cursor: pointer;
 }
-.flag img:hover, .themebutton:hover {
+
+.flag img:hover,
+.themebutton:hover {
     height: 3em;
-    transition:  all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
     margin: -0.7em -0.5em;
 }
+
 .flag img {
-    height:2.3em;
-    transition:  all 0.3s ease 0s;
-    border:2px;
-    border-style:solid;
+    height: 2.3em;
+    transition: all 0.3s ease 0s;
+    border: 2px;
+    border-style: solid;
     border-color: var(--tertiary-color);
     border-radius: 3px;
     margin: -0.5em 0em;
 }
 
 .contactbutton:hover {
-    transition:  all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
     background-color: var(--primary-color);
 }
 
 .contactbutton {
-    transition:  all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
     background-color: var(--secondary-color);
     border: none;
     padding: 10px;
@@ -223,37 +259,41 @@ img#ad {
 }
 
 #form-container {
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: center;
 }
 
 form {
-    padding:3em;
+    padding: 3em;
     border-radius: 15px;
-    display:grid;
-    width:100%;
+    display: grid;
+    width: 100%;
     margin-bottom: 3em;
 }
 
-input, textarea {
+input,
+textarea {
     background-color: var(--background-color);
-    margin:1em;
-    padding:10px;
+    margin: 1em;
+    padding: 10px;
     border-style: none;
     border-radius: 10px;
 }
 
-input[name="email"], input[name="name"] {
+input[name="email"],
+input[name="name"] {
     width: 50%;
 }
 
-input[name="email"], input[name="name"], input[name="subject"] {
+input[name="email"],
+input[name="name"],
+input[name="subject"] {
     font-size: large;
 }
 
 .center-container {
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -261,13 +301,13 @@ input[name="email"], input[name="name"], input[name="subject"] {
 textarea {
     height: 6.5em;
     text-align: left;
-    resize:vertical;
-    overflow:auto;
-    width:95%;
+    resize: vertical;
+    overflow: auto;
+    width: 95%;
 }
 
 #top-row {
-    display:flex;
+    display: flex;
 }
 
 iframe {
