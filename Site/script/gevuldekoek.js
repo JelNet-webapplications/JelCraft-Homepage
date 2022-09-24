@@ -48,7 +48,7 @@ function createCookie(type, par){
             setCookie("COOKIEtheme", ctheme, 30);
             console.debug('the cookie is'+getCookie('COOKIEtheme'))
             console.debug('cookie:\t'+document.cookie)
-            createCookie('theme', par)
+            //createCookie('theme', par)
         }
     }
 }
