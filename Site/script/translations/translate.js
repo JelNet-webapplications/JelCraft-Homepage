@@ -1,7 +1,7 @@
 function doTranslation(lan){
     setFlagBrightness(lan);
     for(temp in translations){
-        console.log("translated element: "+temp)
+        console.log("%ctranslated element: %c"+temp,"color:orange;","color: lightgray;")
         let id = "Б"+temp; // Б is the identifier used for html elements which need to be translated
             element = document.getElementById(id);
         if(temp == "To_be_determined" || temp == "Nonapplicable"){
@@ -22,11 +22,11 @@ var flags = ['en', 'de', 'nl', 'fr', 'vk'];
 function setFlagBrightness(lan){
     let lanid = 'flag'+lan;
     document.getElementById(lanid).style.filter = 'brightness(100%)'
-    console.log('brightness.flag.'+lan+' has been set to '+document.getElementById(lanid).style.filter)
+    console.log('%cbrightness.flag.'+lan+' has been set to '+document.getElementById(lanid).style.filter,"color: lightgreen;")
     for(let temp of flags){
         if(temp == lan) continue;
         let id = 'flag'+temp;
         document.getElementById(id).style.filter = 'brightness(50%)';
-        console.log('brightness.flag.'+temp+' has been set to '+document.getElementById(id).style.filter)
+        console.log('%cbrightness.flag.'+temp+' has been set to '+document.getElementById(id).style.filter,"color: green;")
     }
 }
