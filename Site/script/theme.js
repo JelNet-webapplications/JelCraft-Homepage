@@ -13,9 +13,11 @@ function toggleTheme() {
     });
 
     if(theme == 'light') { //Set dark mode
-        setDark();
+        createCookie("theme", "light")
+        //setDark();
     } else { //Set light mode
-        setLight();
+        createCookie("theme", "dark")
+        //setLight();
     }
 }
 
