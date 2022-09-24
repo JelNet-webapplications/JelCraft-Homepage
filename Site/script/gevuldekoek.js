@@ -38,9 +38,12 @@ function createCookie(type, par){
         if(ctheme != ""){
             if(ctheme == 'light') {
                 setLight();
+                console.debug('MODE HAS BEEN SET TO LIGHT')
             } else {
                 setDark();
+                console.debug('MODE HAS BEEN SET TO DARK')
             }
+            return;
         }
         ctheme = par
         console.debug('ctheme was null, now ctheme is "'+ctheme+'"')
