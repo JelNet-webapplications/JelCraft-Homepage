@@ -1,0 +1,21 @@
+.language-selection {
+    top: 100px;
+    display: flex;
+}
+
+.flag img:hover,
+.themebutton:hover {
+    height: 3em;
+    transition: all 0.3s ease 0s;
+    margin: -0.7em -0.5em;
+}
+
+.flag img {
+    height: 2.3em;
+    transition: all 0.3s ease 0s;
+    border: 2px;
+    border-style: solid;
+    border-color: var(--tertiary-color);
+    border-radius: 3px;
+    margin: -0.5em 0em;
+}

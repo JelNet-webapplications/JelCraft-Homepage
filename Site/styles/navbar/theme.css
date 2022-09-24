@@ -1,0 +1,17 @@
+.theme-selection button {
+    border:
+        none;
+    height: 2em;
+}
+
+.theme-selection img {
+    margin: .3em;
+    height: 2em;
+    transition: all 0.3s ease 0s;
+}
+
+.theme-selection img:hover {
+    margin: 0em;
+    height: 2.6em;
+    transition: all 0.3s ease 0s;
+}

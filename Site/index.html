@@ -13,22 +13,30 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
-        <!-- Opengraph embed info -->
+        <!-- Embed -->
         <meta property="og:image" content="https://media.discordapp.net/attachments/664914818523988005/1022989050728173608/Business.png?width=673&height=671">
         <meta property="og:title" content="JelNet Homepage">  
         <meta property="og:description" content="Navigation page for JN Projects">
         <meta property="og:url" content="jelcraft.zapto.org">
         <meta property="og:type" content="website">
-        <!-- Opengraph embed info -->
         
-        <link rel="icon" type="image/x-icon" href="./imgs/webpage-icons/Business.png">
+        <!-- Stylesheets -->
         <link rel="stylesheet" href="./styles/main.css">
-        <link rel="stylesheet" href="./styles/header.css">
         <link rel="stylesheet" href="./styles/form.css">
-        <title>JelNet</title>
+        <link rel="stylesheet" href="./styles/navbar/header.css">
+        <link rel="stylesheet" href="./styles/navbar/flags.css">
+        <link rel="stylesheet" href="./styles/navbar/theme.css">
+        
+        <!-- Code -->
         <script src="./script/script.js"></script>
         <script src="./script/theme.js"></script>
-        <script src="./script/translate.js"></script>
+        <script src="./script/loadprojects.js"></script>
+        <script src="./script/translations/translate.js"></script>
+        <script src="./script/translations/jsontranslations.js"></script>
+        
+        <!-- Misc -->
+        <title>JelNet</title>
+        <link rel="icon" type="image/x-icon" href="./imgs/webpage-icons/Business.png">
     </head>
     <body onload="doTranslation('en');">
         <div class="header">
@@ -168,7 +176,7 @@
                         <img height="57.4px" src="./imgs/project-icons/viviolasktranslator.svg">
                         <div>                        
                             <p2 id="jsonViviolask_Translator">Viviolask Translator</p2>
-                            <p3 id="jsonTranslate_Dutch_in_the_shitlang_we_call_Viviolask"><br>Translate Dutch in the shitlang we call Viviolask</p3>
+                            <p3 id="jsonTranslate_Dutch_in_the_shitlang_we_call_Viviolask"><br>Translate Dutch into the conlang we call Viviolask</p3>
                         </div>
                     </div>
                 </a>
