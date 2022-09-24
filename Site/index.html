@@ -31,6 +31,7 @@
         <script src="./script/script.js"></script>
         <script src="./script/theme.js"></script>
         <script src="./script/loadprojects.js"></script>
+        <script src="./script/gevuldekoek.js"></script>
         <script src="./script/translations/translate.js"></script>
         <script src="./script/translations/jsontranslations.js"></script>
         
@@ -38,7 +39,8 @@
         <title>JelNet</title>
         <link rel="icon" type="image/x-icon" href="./imgs/webpage-icons/Business.png">
     </head>
-    <body onload="doTranslation('en');">
+    <!-- <body onload="doTranslation('en')"> -->
+    <body onload="checkCookie()">
         <div class="header">
             <div class='language-selection'>
                 <button onclick="doTranslation('en')" name="uk" type="button" class="flag">
