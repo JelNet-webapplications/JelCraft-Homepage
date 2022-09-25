@@ -39,9 +39,11 @@ function createCookie(type, par){
             if(ctheme == 'light') {
                 setDark();
                 console.debug('MODE HAS BEEN SET TO Dark')
+setCookie("COOKIEtheme","dark",30)
             } else {
                 setLight();
                 console.debug('MODE HAS BEEN SET TO Light')
+setCookie("COOKIEtheme","light",30)
             }
             return;
         }
