@@ -46,6 +46,10 @@ setCookie("COOKIEtheme","dark",30)
 setCookie("COOKIEtheme","light",30)
             }
             return;
+        } else {
+          console.debug('No cookies found, initiating dark mode.');
+          setTheme('dark'); //Defaulting to dark mode after no cookies found.
+setCookie("COOKIEtheme","dark",30)
         }
         ctheme = par
         console.debug('ctheme was null, now ctheme is "'+ctheme+'"')

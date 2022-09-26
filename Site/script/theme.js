@@ -1,7 +1,14 @@
 let theme;
 
 window.addEventListener('DOMContentLoaded', (event) => {
-    setTheme(getCookie("COOKIEtheme"));
+    theme = 'dark';
+
+    if(!getCookie("COOKIEtheme")) {
+        console.log("No cookies foud, defaulting to dark mode & initiating cookies.")
+        createCookie("theme", "dark");
+    } else {
+        setTheme(getCookie("COOKIEtheme"))
+    }
     themeOffHover();
 });
 
