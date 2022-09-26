@@ -1,9 +1,10 @@
+let theme;
+
 window.addEventListener('DOMContentLoaded', (event) => {
-    setDark();
+    setTheme(getCookie("COOKIEtheme"));
     themeOffHover();
 });
 
-let theme = 'light';
 function toggleTheme() {
 
     let array = document.querySelectorAll('*');
@@ -14,10 +15,10 @@ function toggleTheme() {
 
     if(theme == 'light') { //Set dark mode
         createCookie("theme", "light")
-        //setDark();
+        console.log("createCookie light")
     } else { //Set light mode
         createCookie("theme", "dark")
-        //setLight();
+        console.log("createCookie dark")
     }
 }
 
@@ -94,44 +95,53 @@ function setCursify(par){
     }
 }
 
-function setDark() {
+function setTheme(themeMode) {
+    console.debug(`setTheme has ben called.\n\tthemeMode: ${themeMode}`)
+
+    if(themeMode != 'dark' && themeMode != 'light') return console.log("setTheme only supports 'light' || 'dark' as input") //? If statement moet toch beter kunnen??
+    
     let img = document.getElementById('themesvg');
     let r = document.querySelector(':root');
     let button = document.getElementsByClassName('theme-selection')[0].querySelector('img');
 
-    theme = 'dark';
-    img.src = './imgs/darkmode-lightmode/light-mode.svg';
-        
-    r.style.setProperty('--primary-color', '#53e6d2');
-    r.style.setProperty('--secondary-color', '#40b3a3');
-    r.style.setProperty('--tetriary-color', ' #42c4b2');
-    r.style.setProperty('--background-color', '#171718');
-    r.style.setProperty('--foreground-color', '#1e1e21');
-    r.style.setProperty('--shadow-color', '#000000');
-    r.style.setProperty('--text-color', '#dfdfdf');
-    r.style.setProperty('--header-text-color', 'black');
+    theme = themeMode
+    if(themeMode == 'dark') {
+        img.src = './imgs/darkmode-lightmode/light-mode.svg';
 
-    document.getElementById('discordWidget').src = 'https://discord.com/widget?id=586500162415755275&theme=dark'
-    button.style.filter = 'invert(1)';
+        r.style.setProperty('--primary-color', '#53e6d2');
+        r.style.setProperty('--secondary-color', '#40b3a3');
+        r.style.setProperty('--tetriary-color', ' #42c4b2');
+        r.style.setProperty('--background-color', '#171718');
+        r.style.setProperty('--foreground-color', '#1e1e21');
+        r.style.setProperty('--shadow-color', '#000000');
+        r.style.setProperty('--text-color', '#dfdfdf');
+        r.style.setProperty('--header-text-color', 'black');
+
+        document.getElementById('discordWidget').src = 'https://discord.com/widget?id=586500162415755275&theme=dark'
+        button.style.filter = 'invert(1)';
+    } else {
+        img.src = './imgs/darkmode-lightmode/dark-mode.svg';
+
+        r.style.setProperty('--primary-color', '#53e6d2');
+        r.style.setProperty('--secondary-color', '#40b3a3');
+        r.style.setProperty('--tetriary-color', ' #42c4b2');
+        r.style.setProperty('--background-color', '#f2f2f2');
+        r.style.setProperty('--foreground-color', '#f9f9f9');
+        r.style.setProperty('--shadow-color', '#dfdcdc');
+        r.style.setProperty('--text-color', 'black');
+        r.style.setProperty('--header-text-color', 'white');
+
+        document.getElementById('discordWidget').src = 'https://discord.com/widget?id=586500162415755275&theme=light'
+        button.style.filter = 'invert(0)';
+    }
+
+
+}
+
+function setDark() {
+    console.log("!!!!! setDark() IS DEPRICATED, UPDATE TO setTheme('dark') !!!!!")
 }
 
 function setLight() {
-    let img = document.getElementById('themesvg');
-    let r = document.querySelector(':root');
-    let button = document.getElementsByClassName('theme-selection')[0].querySelector('img');
-
-    theme = 'light';
-    img.src = './imgs/darkmode-lightmode/dark-mode.svg';
-
-    r.style.setProperty('--primary-color', '#53e6d2');
-    r.style.setProperty('--secondary-color', '#40b3a3');
-    r.style.setProperty('--tetriary-color', ' #42c4b2');
-    r.style.setProperty('--background-color', '#f2f2f2');
-    r.style.setProperty('--foreground-color', '#f9f9f9');
-    r.style.setProperty('--shadow-color', '#dfdcdc');
-    r.style.setProperty('--text-color', 'black');
-    r.style.setProperty('--header-text-color', 'white');
-    
-    document.getElementById('discordWidget').src = 'https://discord.com/widget?id=586500162415755275&theme=light'
-    button.style.filter = 'invert(0)';
+    console.log("!!!!! setLight() IS OUTDATED, UPDATE TO setTheme('light') !!!!!")
 }

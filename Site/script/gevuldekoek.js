@@ -37,11 +37,11 @@ function createCookie(type, par){
         console.debug('the cookie for "'+type+'" is '+ctheme)
         if(ctheme != ""){
             if(ctheme == 'light') {
-                setDark();
+                setTheme('dark');
                 console.debug('MODE HAS BEEN SET TO Dark')
 setCookie("COOKIEtheme","dark",30)
             } else {
-                setLight();
+                setTheme('light');
                 console.debug('MODE HAS BEEN SET TO Light')
 setCookie("COOKIEtheme","light",30)
             }
