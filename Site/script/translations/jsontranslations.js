@@ -209,43 +209,43 @@ const translations = {
         "nl": "<br>Krankzinnige programmeur die af en toe dingen codeert voor de lol",
         "vk": "<br>Kvünpyûiztärùnvënnvekär èsvuêktänvekäntvä svinyra sünvsantsvu tvaûnkáyän kvutvaûzrev tygo pläsvuêròio"
     },
-    "curtains-projects-contact-title": {
+    "curtains-contact-title": {
         "en": "<br>Contact",
         "de": "",
         "nl": "<br>Contact",
         "vk": "<br>Eûtrikänë allün vgiozok"
     },
-    "curtains-projects-contact-email": {
+    "curtains-contact-email": {
         "en": "Email Address",
         "de": "",
         "nl": "Email-adres",
         "vk": "Pletsnenvi èttáipvruêf"
     },
-    "curtains-projects-contact-nickname": {
+    "curtains-contact-nickname": {
         "en": "Nickname",
         "de": "",
         "nl": "Gebruikersnaam",
         "vk": "Nenvi èttaûntärpvine"
     },
-    "curtains-projects-contact-subject": {
+    "curtains-contact-subject": {
         "en": "Subject",
         "de": "",
         "nl": "Onderwerp",
         "vk": "Terûgüzjì"
     },
-    "curtains-projects-contact-message": {
+    "curtains-contact-message": {
         "en": "Message",
         "de": "",
         "nl": "Bericht",
         "vk": "Vgët vgaûlko svagänë"
     },
-    "curtains-projects-contact-send": {
+    "curtains-contact-send": {
         "en": "Send",
         "de": "",
         "nl": "Versturen",
         "vk": "Terûstoränë"
     },
-    "curtains-projects-discordserver-title": {
+    "curtains-discordserver-title": {
         "en": "<br>Discord server",
         "de": "",
         "nl": "<br>Discord-server",
