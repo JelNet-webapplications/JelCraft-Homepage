@@ -19,7 +19,6 @@ form {
     padding: 10px;
     border-style: none;
     border-radius: 10px;
-    
 }
 
 #form-container input[name="email"],
@@ -65,9 +64,14 @@ form {
     font-size: 30px;
     font-family: 'Rubik';
     font-weight: lighter;
-
     margin-top: 1em;
     width: 90%;
     border-radius: 1em;
     color: var(--header-text-color);
+}
+
+.textarea {
+    resize: none;
+    font-family: 'Rubik', sans-serif;
+    font-size: large;
 }
