@@ -1,9 +1,9 @@
 function doTranslation(lan){
     let navbarHomeSquare = document.getElementById('active').style;
     if(lan == 'vk'){
-        navbarHomeSquare.width = '150px'
+        navbarHomeSquare.width = '150px';
     } else {
-        navbarHomeSquare.width = '100px'
+        navbarHomeSquare.width = '100px';
     }
     setFlagBrightness(lan);
     for(temp in translations){

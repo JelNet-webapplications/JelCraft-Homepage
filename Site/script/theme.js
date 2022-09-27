@@ -3,7 +3,7 @@ let theme;
 window.addEventListener('DOMContentLoaded', (event) => {
     theme = 'dark';
     if(!getCookie("COOKIEtheme")) {
-        console.warn("No cookies found, defaulting to dark mode & initiating cookies.")
+        console.warn("No cookies found for theme, defaulting to dark mode & initiating cookies.")
         createCookie("theme", "dark");
     } else {
         setTheme(getCookie("COOKIEtheme"))

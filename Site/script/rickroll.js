@@ -1,13 +1,3 @@
-function responsify(){
-	let wwidth = window.innerWidth;
-	if(wwidth < 1200){
-		// complete teringbende naar beneden onder elkaar
-	} 
-	else if(wwidth < 1400) {
-		//curtains ietsje langer
-	}
-}
-
 let canTypeD = false;
 document.addEventListener('keydown', event => {
 	if(!canTypeD && event.code == 'KeyD'){
@@ -16,7 +6,6 @@ document.addEventListener('keydown', event => {
 		rickroll();
 	}
 })
-
 
 var ctrlActive = false,
 	uActive = false;
