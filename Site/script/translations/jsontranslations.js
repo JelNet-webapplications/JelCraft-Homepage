@@ -3,7 +3,7 @@ const translations = {
         "en": "JELNET",
         "de": "",
         "nl": "JELNET",
-        "vk": "YELNET"
+        "vk": "JELNET"
     },
     "navbar-home": {
         "en": "HOME",
@@ -53,97 +53,97 @@ const translations = {
         "nl": "<br>Lost automatisch Sudoku's op",
         "vk": "<br>Ylüsevt áuêtunvetuêsgvvgarro Sütökuês terû"
     },
-    "WorldStats": {
+    "curtains-projects-worldstats-title": {
         "en": "WorldStats",
         "de": "",
         "nl": "Wereldstatistieken",
         "vk": "Vsifärenänevyo pvüläkòio"
     },
-    "Shows_real_livetime_global_statistics": {
+    "curtains-projects-worldstats-description": {
         "en": "<br>Shows real live-time global statistics",
         "de": "",
         "nl": "<br>Toont real-time wereldwijde statistieken",
         "vk": "<br>Ygáifëvvgärstëstaûstuêkän èttagvtä èvgaûzrältvvgitvä"
     },
-    "Flight_Calculator": {
+    "curtains-projects-flightcalculator-title": {
         "en": "Flight Calculator",
         "de": "",
         "nl": "Vluchtcalculator",
         "vk": "Ráikäntvaûnká tygo vluêgärùs èsüzrtvën"
     },
-    "Calculates_efficient_Minecraft_flight_data": {
+    "curtains-projects-flightcalculator-description": {
         "en": "<br>Calculates efficient Minecraft flight data",
         "de": "",
         "nl": "<br>Berekent efficiënte Minecraft-vluchtgegevens",
         "vk": "<br>Ypväráikänuvgärgáigävänsevyo èsnalä Náinkreft"
     },
-    "Collatz_Calculator": {
+    "curtains-projects-collatzcalculator-title": {
         "en": "Collatz Calculator",
         "de": "",
         "nl": "Collatz-calculator",
         "vk": "Ráikäntvaûnká tygo värnvûitvänòioevyo Kolats"
     },
-    "Calculates_everything_collatz_conjecture": {
+    "curtains-projects-collatzcalculator-description": {
         "en": "<br>Calculates everything collatz conjecture",
         "de": "",
         "nl": "<br>Berekent alles over het Collatz-vermoeden",
         "vk": "<br>Ypväráikänuvgärsëknä klyeron värnûitvänevyo Kolats"
     },
-    "Sbubby_Generator": {
+    "curtains-projects-sbubbygenerator": {
         "en": "Sbubby Generator",
         "de": "",
         "nl": "Sbubby-generator",
         "vk": "Pletenännvekärâtygo Spupiän"
     },
-    "Create_your_own_sbubby_of_existing_logos": {
+    "curtains-projects-sbubbygenerator-description": {
         "en": "<br>Create your own sbubby of existing logos",
         "de": "",
         "nl": "<br>Maak je eigen sbubby van bestaande logo's",
         "vk": "<br>Kënkonydünryuêrvgärro Spupiänievyo èttigän nvërktpleten èpvästentvä"
     },
-    "Hangman_Engine": {
+    "curtains-projects-hangmanengine-title": {
         "en": "Hangman Engine",
         "de": "",
         "nl": "Calculator voor Galgje",
         "vk": "Ráikäntvaûnkáevyo Gëlgen"
     },
-    "Calculate_the_perfect_guess_for_hangman": {
+    "curtains-projects-hangmanengine-description": {
         "en": "<br>Calculate the perfect guess for hangman",
         "de": "",
         "nl": "<br>Berekent de perfecte gok voor Galgje",
         "vk": "<br>Ypväráikänevvgärgükòio èparfactä tygo Gëlgen"
     },
-    "Wordfeud_Calculator": {
+    "curtains-projects-wordfeudcalculator-title": {
         "en": "Wordfeud Calculator",
         "de": "",
         "nl": "Wordfeud-calculator",
         "vk": "Ráikäntvaûnkáevyo Vgüzrtvspalen"
     },
-    "Calculate_the_best_words_for_Wordfeud_and_Scrabble": {
+    "curtains-projects-wordfeudcalculator-description": {
         "en": "<br>Calculate the best words for Wordfeud and Scrabble",
         "de": "",
         "nl": "<br>Berekent de beste woorden voor Wordfeud en Scrabble",
-        "vk": ""
+        "vk": "<br>Ypväráikänevvgärvgürztvänòio èpvastä tygo Vgüzrtvspalen ant Skrepûl"
     },
-    "Dirk_Map": {
+    "curtains-projects-dirkmap-title": {
         "en": "Dirk Map",
         "de": "",
         "nl": "Dirk-plattegrond",
         "vk": "Grüntvevyo ènyspikäzg Tërk"
     },
-    "Shows_the_perfect_route_to_find_your_groceries": {
+    "curtains-projects-dirkmap-description": {
         "en": "<br>Shows the perfect route to find your groceries",
         "de": "",
         "nl": "<br>Toont de beste route om je boodschappen te vinden",
         "vk": "<br>Ygáifevvgärrûitäòio èpvastä yost pvutsgvëpäni vaûntvänä"
     },
-    "Starlabs_Delivery": {
+    "curtains-projects-starlabsdelivery-title": {
         "en": "Starlabs Delivery",
         "de": "",
         "nl": "Starlabs-bezorging",
         "vk": "Pvösgáinvaûnkáevyo Starleps"
     },
-    "Order_blocks_online_for_the_Minecraft_H43_Server": {
+    "curtains-projects-starlabsdelivery-description": {
         "en": "<br>Order blocks online for the Minecraft H43 Server",
         "de": "",
         "nl": "<br>Bestel digitale blokken voor de Minecraft H43-server",
@@ -183,14 +183,14 @@ const translations = {
         "en": "JelCraft",
         "de": "",
         "nl": "JelCraft",
-        "vk": "Yelkraft"
+        "vk": "Jelkraft"
     },
-    // "proud_father_of_two": {
-    //     "en": "<br>Proud father of two",
-    //     "de": "",
-    //     "nl": "<br>Trotse vader van 2 kinderen",
-    //     "vk": "<br>Vetvärevyo èpvliä kaûntväränenù ètvgái"
-    // },
+    /*"curtains-aboutus-jelcraft-description-old": {
+        "en": "<br>Proud father of two",
+        "de": "",
+        "nl": "<br>Trotse vader van 2 kinderen",
+        "vk": "<br>Vetvärevyo èpvliä kaûntväränenù ètvgái"
+    },*/
     "curtains-aboutus-jelcraft-description": {
         "en": "<br>50 percent digital genius, 50 percent total idiot",
         "de": "",
