@@ -3,6 +3,8 @@ function loadPref(){
         processPref();
     } else {
         console.warn("No cookies found for preference, defaulting to preference form & initiating cookies.")
+        document.getElementById('fadescreen').style.display = 'block';
+        document.getElementById('cookiepref').style.display = 'block';
     }
 }
 

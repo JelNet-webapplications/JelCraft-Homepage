@@ -1,3 +1,7 @@
+#cookiepref,
+#fadescreen {
+    display: none;
+}
 .cookiepref {
     position: absolute;
     width: 800px;
