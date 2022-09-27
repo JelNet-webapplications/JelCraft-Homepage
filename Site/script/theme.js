@@ -2,9 +2,8 @@ let theme;
 
 window.addEventListener('DOMContentLoaded', (event) => {
     theme = 'dark';
-
     if(!getCookie("COOKIEtheme")) {
-        console.log("No cookies foud, defaulting to dark mode & initiating cookies.")
+        console.warn("No cookies found, defaulting to dark mode & initiating cookies.")
         createCookie("theme", "dark");
     } else {
         setTheme(getCookie("COOKIEtheme"))
@@ -13,13 +12,11 @@ window.addEventListener('DOMContentLoaded', (event) => {
 });
 
 function toggleTheme() {
-
     let array = document.querySelectorAll('*');
     array.forEach(element => {
         element.style.backgroundColor = "";
         element.style.color = "";
     });
-
     if(theme == 'light') { //Set dark mode
         createCookie("theme", "light")
         console.log("createCookie light")
