@@ -18,18 +18,15 @@ function testforMobile(){
       document.getElementById("notifyPhone").style.display = 'none';
       // console.log(document.getElementById("notifyPhone").style.display);
   }
-
-}
-function dosomething(){
-    window.open('https://www.youtube.com/watch?v=Lxqc5mSg4vw');
 }
 
+let canTypeD = false;
 document.addEventListener('keydown', event => {
-    if(event.code == 'KeyD'){
-      event.preventDefault()
-      alert(`GEEN DEAN`)
-      window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
-    }
+  if(!canTypeD && event.code == 'KeyD'){
+    event.preventDefault()
+    alert(`nee.`)
+    window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
+  }
 })
 
 
