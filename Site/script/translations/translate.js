@@ -2,8 +2,28 @@ function doTranslation(lan){
     setFlagBrightness(lan);
     for(temp in translations){
         console.log("%ctranslated element: %c"+temp,"color:orange;","color: lightgray;")
-        let id = "Б"+temp; // Б is the identifier used for html elements which need to be translated
+        let id = "Б"+temp, // Б is the identifier used for html elements which need to be translated
             element = document.getElementById(id);
+        if(element.innerHTML == null) continue;
+        
+        /*
+        switch(temp){
+            case "curtains-projects-void-title":
+            case "curtains-projects-void-description":
+                for(let i = 1; i < 5; i++){
+                    let TBTid = `${id}${i}`;
+                    document.getElementById(TBTid).innerHTML = translations[temp][lan];
+                }
+            case "curtains-contact-emailadress":
+            case "curtains-contact-nickname":
+            case "curtains-contact-subject":
+            case "curtains-contact-message":
+                element.placeholder = translations[temp][lan];
+            default:
+                element.innerHTML = translations[temp][lan];
+        }
+        */
+ 
         if(temp == "To_be_determined" || temp == "Nonapplicable"){
             for(let i = 2; i < 6; i++){
                 let TBTid = `${id}${i}`;
