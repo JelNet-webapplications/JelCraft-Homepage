@@ -52,12 +52,10 @@ form {
 }
 
 .contactbutton:hover {
-    transition: all 0.3s ease 0s;
     background-color: var(--primary-color);
 }
 
 .contactbutton {
-    transition: all 0.3s ease 0s;
     background-color: var(--secondary-color);
     border: none;
     padding: 10px;

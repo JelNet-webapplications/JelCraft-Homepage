@@ -26,11 +26,6 @@
 
 .navcontainer:hover {
     background-color: var(--tertiary-color);
-    transition: all 0.3s ease 0s;
-}
-
-.navcontainer {
-    transition: all 0.3s ease 0s;
 }
 
 .navbar {

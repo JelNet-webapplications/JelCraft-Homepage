@@ -112,13 +112,11 @@ p2 {
     text-align: left;
     margin: 2em;
     display: flex;
-    transition: all 0.3s ease 0s;
     border-radius: 10px;
 }
 
 .project:hover {
     background-color: var(--background-color);
-    transition: all 0.3s ease 0s;
     margin-left: 2.5em;
     margin-right: 1.5;
 }
