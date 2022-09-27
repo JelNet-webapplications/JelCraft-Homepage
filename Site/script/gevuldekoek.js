@@ -1,6 +1,8 @@
 function dTsC(){
     // checkCookie();
     doTranslation('en');
+    setInterval(responsify, 1000);
+    console.log('%cthe following launch functions have been called succesfully:%c\n\t"doTranslation(\'en\')"\n\t"setInterval(responsify, 1000)"',"color: darkcyan; font-family: \"Comic Sans MS\", \"Comic Sans\", cursive;","color: lightgrey; font-family:\"Comic Sans MS\", \"Comic Sans\", cursive;")
 }
 
 function setCookie(cname,cvalue,exdays) {
@@ -12,7 +14,7 @@ function setCookie(cname,cvalue,exdays) {
     console.debug('let expires = '+expires)
     console.debug('a cookie will be created with\n\t'+cname + "=" + cvalue + ";" + expires + ";path=/")
     document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
-  }
+}
   
 function getCookie(cname) {
     let name = cname + "=";

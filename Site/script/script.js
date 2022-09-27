@@ -1,53 +1,44 @@
-// setInterval(laathetwerken, 2000)
-// function laathetwerken(){
-//   document.getElementById("worldstatstitle").style.left = window.innerWidth * 0.02;
-//   console.log('worldstatstitle left: '+document.getElementById("worldstatstitle").style.left)
-//   console.log('function laathetwerken has succesfully been executed. ')
-// }
-// setInterval(testforMobile, 1)
-//konkerbonker konkerbonker
-
-function testforMobile(){
-  if(window.innerWidth < 861) {
-    // window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
-      document.getElementById("html").style.display = 'none';
-      document.getElementById("notifyPhone").style.display = 'block';
-      // console.log(document.getElementById("notifyPhone").style.display);
-  } else {
-      document.getElementById("html").style.display = 'block';
-      document.getElementById("notifyPhone").style.display = 'none';
-      // console.log(document.getElementById("notifyPhone").style.display);
-  }
+function responsify(){
+	let wwidth = window.innerWidth;
+	if(wwidth < 1200){
+		// complete teringbende naar beneden onder elkaar
+	} 
+	else if(wwidth < 1400) {
+		//curtains ietsje langer
+	}
 }
 
 let canTypeD = false;
 document.addEventListener('keydown', event => {
-  if(!canTypeD && event.code == 'KeyD'){
-    event.preventDefault()
-    alert(`nee.`)
-    window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
-  }
+	if(!canTypeD && event.code == 'KeyD'){
+		event.preventDefault()
+		alert(`nee.`)
+		rickroll();
+	}
 })
 
 
 var ctrlActive = false,
-    uActive = false;
-
-document.addEventListener('keyup', event => {
-  if(event.key == 'Control') ctrlActive = false;
-  if(event.code == 'KeyU') uActive = false;
-})
+	uActive = false;
 
 document.addEventListener('keydown', event => {
-  if(event.key == 'Control') ctrlActive = true;
-  if(ctrlActive == true && event.code == 'KeyU') {
-    event.preventDefault()
-    window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
-  }
+	if(event.key == 'Control') ctrlActive = true;
+	if(ctrlActive == true && event.code == 'KeyU') {
+		event.preventDefault()
+		rickroll();
+	}
+})
+
+document.addEventListener('keyup', event => {
+	if(event.key == 'Control') ctrlActive = false;
+	if(event.code == 'KeyU') uActive = false;
 })
 
 document.addEventListener('contextmenu', event => {
-    event.preventDefault()
-    //console.log(translations.HOME.nl)
-    // window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
+	event.preventDefault()
+	rickroll();
 });
+
+function rickroll(){
+	window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
+}

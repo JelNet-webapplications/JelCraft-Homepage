@@ -27,6 +27,7 @@
         <!-- Stylesheets -->
         <link rel="stylesheet" href="./styles/main.css">
         <link rel="stylesheet" href="./styles/form.css">
+        <link rel="stylesheet" href="./styles/cookiepref.css">
         <link rel="stylesheet" href="./styles/navbar/header.css">
         <link rel="stylesheet" href="./styles/navbar/flags.css">
         <link rel="stylesheet" href="./styles/navbar/theme.css">
@@ -36,6 +37,7 @@
         <script src="./script/theme.js"></script>
         <script src="./script/loadprojects.js"></script>
         <script src="./script/gevuldekoek.js"></script>
+        <script src="./script/cookiepref.js"></script>
         <script src="./script/translations/translate.js"></script>
         <script src="./script/translations/jsontranslations.js"></script>
         
@@ -44,7 +46,41 @@
         <link rel="icon" type="image/x-icon" href="./imgs/webpage-icons/Business.png">
     </head>
     <!-- <body onload="doTranslation('en')"> -->
-    <body onload="dTsC()">
+    <body onload="dTsC()"><!--
+        <div class="fadescreen" id="fadescreen"></div>
+        <div class="cookiepref" id="cookiepref">
+            <p>Our use of cookies and other technologies</p>
+            <div class="cookietext">
+                <h>
+                    We, our Affiliates and Vendors use cookies and other technologies<br>
+                    to process personal data (including device identifiers and IP<br>
+                    addresses) for the following purposes: Store and/or access <br>
+                    information on a device, Select personalised ads, Create a <br>
+                    personalised ads profile, Create a personalised content profile,<br>
+                    Select personalised content, Measure content performance, <br>
+                    Apply market research to generate audience insights, Develop <br>
+                    and improve products, Select basic ads and Measure ad <br>
+                    performance. Privacy Policy
+                </h>
+            </div>
+            <div class="cookietext">
+                <h>
+                    By clicking “Accept All” you agree to these purposes. For more <br>
+                    information, to provide or withdraw consents for processing <br>
+                    your personal data, click “Manage Cookies+.” Additionally, <br>
+                    you may exercise your preferences for consent at a vendor level <br>
+                    in the “Vendors” link. These settings are accessible on a site<br>
+                     or app specific basis, at any time through the ‘Manage Cookies+’ <br>
+                     link located at the footer of webpages or in application settings.<br> 
+                     We work in coordination with an industry framework which will <br>
+                     signal your preferences to our participating vendors.
+                </h>
+            </div>
+            <div class="cookiebutton">
+                <button class='indiviCookiebutton' type="button" id="acceptbutton">Accept</button>
+                <button onmouseleave="swapButtons(false)" onmouseenter="swapButtons(true)" class='indiviCookiebutton' type="button" id="denybutton">Deny</button>
+            </div>
+        </div>-->
         <div class="header">
             <div class='language-selection'>
                 <button onclick="doTranslation('en')" name="uk" type="button" class="flag">
