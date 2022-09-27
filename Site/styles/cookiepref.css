@@ -1,10 +1,14 @@
+* {
+    overflow: hidden;
+}
+
 .cookiepref {
     position: absolute;
     width: 800px;
     height: 420px;
     left: calc(50% - 400px);
     top: calc(50% - 210px);
-    background-color: #e2dede;
+    background-color: var(--foreground-color);
     box-shadow: 0px 0px 30px 1px var(--shadow-color);
     border-radius: 20px;
 }
@@ -12,9 +16,11 @@
     margin: 10px;
     font-weight: bold;
     font-size: 25px;
+    color: var(--text-color)
 }
 .cookietext {
     margin: 10px;
+    color: var(--text-color)
 }
 .cookiebutton {
     position: absolute;
@@ -22,7 +28,6 @@
     top: 150px;
 }
 .indiviCookiebutton {
-    background-color: #f2f2f2;
     width: 250px;
     height: 50px;
     color: white;
@@ -37,12 +42,14 @@
 #acceptbutton {
     margin-bottom: 10px;
     background-color: rgb(33, 147, 33);
+    border-radius: 50px;
 }
 #acceptbutton:hover {
     background-color: rgb(63, 177, 63);
 }
 #denybutton {
     background-color: rgb(214, 7, 7);
+    border-radius: 50px;
 }
 #denybutton:hover {
     background-color: rgb(63, 177, 63);
@@ -52,5 +59,5 @@
     width: 100%;
     height: 100vh;
     background-color: black;
-    opacity: 0.5;
+    opacity: 0.8;
 }

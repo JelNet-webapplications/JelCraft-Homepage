@@ -21,6 +21,7 @@ function swapButtons(boolean){
 }
 
 function processPref(){
+    console.log("processPref called");
     if(!getCookie('COOKIEpref')) {
         console.warn("No cookies found for preference, defaulting to preference form & initiating cookies.")
         setCookie('COOKIEpref',true,365);
@@ -29,4 +30,5 @@ function processPref(){
     for(let temp of elemarr){
         document.getElementById(temp).style.display = 'none';
     }
+    document.getElementsByTagName("*")[0].style.overflow = 'visible';
 }
