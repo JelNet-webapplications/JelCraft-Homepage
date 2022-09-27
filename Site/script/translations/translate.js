@@ -1,4 +1,10 @@
 function doTranslation(lan){
+    let navbarHomeSquare = document.getElementById('active').style;
+    if(lan == 'vk'){
+        navbarHomeSquare.width = '150px'
+    } else {
+        navbarHomeSquare.width = '100px'
+    }
     setFlagBrightness(lan);
     for(temp in translations){
         let id = "Б"+temp, // Б is the identifier used for html elements which need to be translated

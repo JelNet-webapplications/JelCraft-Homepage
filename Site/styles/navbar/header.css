@@ -21,6 +21,7 @@
     background-color: var(--secondary-color);
     width: 100px;
     text-align: center;
+    transition: all 0s ease 0s;
 }
 
 .navcontainer:hover {
