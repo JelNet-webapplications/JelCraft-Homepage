@@ -38,5 +38,4 @@ function processPref(){
     for(let temp of elemarr){
         document.getElementById(temp).style.display = 'none';
     }
-    document.getElementsByTagName("*")[0].style.overflow = 'visible';
 }
