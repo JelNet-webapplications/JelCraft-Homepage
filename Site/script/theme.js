@@ -120,6 +120,7 @@ function setTheme(themeMode) {
         r.style.setProperty('--shadow-color', '#000000');
         r.style.setProperty('--text-color', '#dfdfdf');
         r.style.setProperty('--header-text-color', 'black');
+        r.style.setProperty('--fadescreen-opacity', '0.8');
 
         document.getElementById('discordWidget').src = 'https://discord.com/widget?id=586500162415755275&theme=dark'
         button.style.filter = 'invert(1)';
@@ -134,18 +135,9 @@ function setTheme(themeMode) {
         r.style.setProperty('--shadow-color', '#dfdcdc');
         r.style.setProperty('--text-color', 'black');
         r.style.setProperty('--header-text-color', 'white');
+        r.style.setProperty('--fadescreen-opacity', '0.5');
 
         document.getElementById('discordWidget').src = 'https://discord.com/widget?id=586500162415755275&theme=light'
         button.style.filter = 'invert(0)';
     }
-
-
-}
-
-function setDark() {
-    console.log("!!!!! setDark() IS DEPRICATED, UPDATE TO setTheme('dark') !!!!!")
-}
-
-function setLight() {
-    console.log("!!!!! setLight() IS OUTDATED, UPDATE TO setTheme('light') !!!!!")
 }
