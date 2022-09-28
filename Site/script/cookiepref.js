@@ -25,7 +25,7 @@ function swapButtons(boolean){
 let mobHasPressed = false; // mob = 'mobile'
 function processPref(){
     console.log("processPref() has been called for\n\tCOOKIEpref:\t"+getCookie("COOKIEpref")+'\n\tmobHasPressed:\t'+mobHasPressed);
-    if(window.innerWidth < 1400 && !mobHasPressed){
+    if(window.innerWidth < 700 && !mobHasPressed){
         document.getElementById('denybutton').style.display = 'none';
         mobHasPressed = true;
         return;
