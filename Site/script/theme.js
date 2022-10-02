@@ -17,13 +17,14 @@ function toggleTheme() {
         element.style.backgroundColor = "";
         element.style.color = "";
     });
+    createCookie('theme', theme);
+    console.log('createCookie '+theme)
+    /*
     if(theme == 'light') { //Set dark mode
         createCookie("theme", "light")
-        console.log("createCookie light")
     } else { //Set light mode
         createCookie("theme", "dark")
-        console.log("createCookie dark")
-    }
+    } */
 }
 
 function themeOnHover() {
@@ -36,55 +37,72 @@ function themeOnHover() {
 }
 
 function themeOffHover() {
-    document.getElementsByClassName('theme-selection')[0].querySelector('img').style.filter = 'invert(0.6)';
+    // lol omdat jelle zo zeurt dat oneliners stom zijn ga ik het zo verschrikkelijk mogelijk maken
+    if('jelle' == 'aan het zeuren'){
+        let element = document.getElementsByClassName('theme-selection');
+        let first = element[0];
+        let image = first.querySelector('img');
+        let imgstyle = image.style;
+        let imgfilter = imgstyle.filter;
+        imgfilter = 'invert(0.6)';
+    } else {
+        document.getElementsByClassName('theme-selection')[0].querySelector('img').style.filter = 'invert(0.6)';
+    }
 }
 
-let testCurse = '';
+let testCurse = 'void';
+function curseProgress(char, progress){
+    if(char == 'Z'){
+        console.log("event.code 'Key"+char+"' has been detected. Shutting off curse mode.");
+    } else {
+        console.log("event.code 'Key"+char+"' has been detected");
+    }
+    console.log('user.progress.curse = '+progress)
+    testCurse = progress;
+}
 document.addEventListener('keydown', event => {
-    if(event.code == 'KeyZ'){
-        console.log("event.code 'KeyZ' has been detected. Shutting off curse mode.")
-        setCursify('stop');
-        testCurse = '';
-    }
-    if(event.code == 'KeyC'){
-        console.log("event.code 'KeyC' has been detected.");
-        testCurse = 'C';
-        console.log('user.progress.curse = '+testCurse);
-    }
-    if(event.code == 'KeyU' && testCurse == 'C') {
-        console.log("event.code 'KeyU' has been detected.");
-        testCurse = 'CU';
-        console.log('user.progress.curse = '+testCurse);
-    }
-    if(event.code == 'KeyR' && testCurse == 'CU') {
-        console.log("event.code 'KeyR' has been detected.");
-        testCurse = 'CUR';
-        console.log('user.progress.curse = '+testCurse);
-    }
-    if(event.code == 'KeyS' && testCurse == 'CUR') {
-        console.log("event.code 'KeyS' has been detected.");
-        testCurse = 'CURS';
-        console.log('user.progress.curse = '+testCurse);
-    }
-    if(event.code == 'KeyE' && testCurse == 'CURS') {
-        console.log("event.code 'KeyE' has been detected.");
-        console.log('user.progress.curse = '+testCurse);
-        sClp = true;
-        setCursify('start');
+    if(canTypeD) return;
+    let pressedKey = event.code;
+    switch(pressedKey){
+        case 'KeyZ':
+            curseProgress('Z', 'void');
+            setCursify("stop"); break;
+        case 'KeyC':
+            if(testCurse != 'void') return;
+            curseProgress('C', 'C'); break;
+        case 'KeyU':
+            if(testCurse != 'C') return;
+            curseProgress('U', 'CU'); break;
+        case 'KeyR':
+            if(testCurse != 'CU') return;
+            curseProgress('R', 'CUR'); break;
+        case 'KeyS':
+            if(testCurse != 'CUR') return;
+            curseProgress('S', 'CURS'); break;
+        case 'KeyE':
+            if(testCurse != 'CURS') return;
+            curseProgress('E', 'CURSE'); 
+            sClp = true;
+            setCursify('start'); break;
+        case 'KeyF':
+            if(testCurse != 'CURSE') return;
+            console.log('KeyF detected; speeding up curse mode.')
+            setCursify('start'); break;
     }
 })
+
 function getRandColor(){
     let rand = `rgb(${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)})`
     return rand;
 }
 
-var sClp = true; // sCwlp = set Cursify loop parameter
+var sClp = true; // sClp = set Cursify loop parameter
 function setCursify(par){
     let array = document.querySelectorAll('*');
     if(par == 'stop'){
         sClp = false;
         array.forEach(element => {
-            element.style.transition = "all 0.3s ease 0s"
+            element.style.transition = "all 0.3s ease 0s";
             element.style.backgroundColor = "";
             element.style.color = "";
         });
@@ -100,7 +118,7 @@ function setCursify(par){
 }
 
 function setTheme(themeMode) {
-    console.debug(`setTheme has ben called.\n\tthemeMode: ${themeMode}`)
+    console.debug(`setTheme has been called.\n\tthemeMode: ${themeMode}`)
 
     if(themeMode != 'dark' && themeMode != 'light') return console.log("setTheme only supports 'light' || 'dark' as input") //? If statement moet toch beter kunnen??
     
