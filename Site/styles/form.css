@@ -5,7 +5,7 @@
 }
 
 form {
-    padding: 3em;
+    padding: 1em 3em 3em;
     border-radius: 15px;
     display: grid;
     width: 100%;
@@ -29,8 +29,9 @@ form {
 
 #form-container input[name="email"],
 #form-container input[name="name"],
-#form-container input[name="subject"] {
-    font-size: medium;
+#form-container input[name="subject"],
+#form-container textarea {
+    font-size: 14px;
 }
 
 #top-row {
@@ -39,9 +40,10 @@ form {
 
 
 #form-container textarea {
-    height: 6.5em;
+    font-family: 'Rubik', sans-serif;
+    height:12.5em;
     text-align: left;
-    resize: vertical;
+    resize: none;
     overflow: auto;
     width: 95%;
 }
@@ -67,10 +69,4 @@ form {
     width: 90%;
     border-radius: 1em;
     color: var(--header-text-color);
-}
-
-.textarea {
-    resize: none;
-    font-family: 'Rubik', sans-serif;
-    font-size: large;
 }
