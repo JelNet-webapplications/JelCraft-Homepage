@@ -101,24 +101,22 @@ p2 {
 
 .project div {
     margin-left: 1em;
-    margin-right: 0.5em;
-}
-
-.project:hover div {
-    margin-right: 0;
 }
 
 .project {
+    display:flex;
     text-align: left;
     margin: 2em;
     display: flex;
     border-radius: 10px;
+
+    position: relative;
+    left: 0px;
 }
 
 .project:hover {
     background-color: var(--background-color);
-    margin-left: 2.5em;
-    margin-right: 1.5;
+    left: 10px;
 }
 
 iframe {
