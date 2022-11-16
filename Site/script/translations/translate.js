@@ -12,7 +12,7 @@ function doTranslation(lan){
         switch(temp){
             case "curtains-projects-void-title":
             case "curtains-projects-void-description":
-                for(let i = 1; i < 5; i++){
+                for(let i = 1; i < 4; i++){
                     let TBTid = `${id}${i}`;
                     document.getElementById(TBTid).innerHTML = translations[temp][lan];
                 }

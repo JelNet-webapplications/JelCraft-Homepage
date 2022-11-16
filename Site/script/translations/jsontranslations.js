@@ -161,6 +161,18 @@ const translations = {
         "nl": "<br>Vertaal Nederlands in de contaal die we Viviolask noemen",
         "vk": "<br>Kënivgarnáitvärlëntvsâno värtelänë raniir kvüntelòio svinyra nûinvonvgëdälryatkürviviöläzk"
     },
+    "curtains-projects-foosballscoreboard-title": {
+        "en": "Foosball scoreboard",
+        //"de": "",
+        "nl": "Tafelvoetbal-scorebord",
+        "vk": "Pvürtv èskvürä èvûitpvëlevyo tëfäl"
+    },
+    "curtains-projects-foosballscoreboard-description": {
+        "en": "<br>Scoreboard with lots of buttons",
+        //"de": "",
+        "nl": "<br>Een scorebord, maar dan met veel knoppen",
+        "vk": "<br>Gägvun pvürtväàia èskvürä, nesäp raväranta knüpän èvaûzl"
+    },
     "curtains-projects-void-title": {
         "en": "To be determined",
         //"de": "",
