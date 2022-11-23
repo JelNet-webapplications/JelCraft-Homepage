@@ -23,10 +23,14 @@ document.addEventListener('keyup', event => {
 	if(event.code == 'KeyU') uActive = false;
 })
 
-document.addEventListener('contextmenu', event => {
-	event.preventDefault()
-	rickroll();
-});
+const rClickActive = false;
+
+if(rClickActive) {	
+	document.addEventListener('contextmenu', event => {
+		event.preventDefault()
+		rickroll();
+	});
+}
 
 function rickroll(){
 	window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
