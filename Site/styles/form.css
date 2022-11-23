@@ -6,20 +6,20 @@
 
 form {
     padding: 1em 3em 3em;
-    border-radius: 15px;
     display: grid;
     width: 100%;
-    margin-bottom: 3em;
 }
 
 #form-container input,
 #form-container textarea {
+    font-family: 'Rubik', sans-serif;
     background-color: var(--background-color);
-    margin: 1em;
     padding: 10px;
     border-style: none;
     border-radius: 10px;
-    color: var(--text-color)
+    color: var(--text-color);
+    font-size: 14px;
+    margin: 1em;
 }
 
 #form-container input[name="email"],
@@ -27,31 +27,24 @@ form {
     width: 50%;
 }
 
-#form-container input[name="email"],
-#form-container input[name="name"],
-#form-container input[name="subject"],
-#form-container textarea {
-    font-size: 14px;
+#form-container input {
+    border-radius: 100px;
 }
 
 #top-row {
     display: flex;
 }
 
-
 #form-container textarea {
-    font-family: 'Rubik', sans-serif;
-    height:12.5em;
+    height: 12.5em;
     text-align: left;
     resize: none;
-    overflow: auto;
-    width: 95%;
+    width: 100%;
 }
 
 #form-container .center-container {
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .contactbutton:hover {
@@ -65,8 +58,8 @@ form {
     font-size: 30px;
     font-family: 'Rubik';
     font-weight: lighter;
-    margin-top: 1em;
-    width: 90%;
+    margin: calc(1em - 10px);
     border-radius: 1em;
+    width:100%;
     color: var(--header-text-color);
 }
