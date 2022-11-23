@@ -1,0 +1,328 @@
+<!--
+    <== Page information ==>
+    Page name:          JelNet Homepage
+    Creator:            JelCraft, Vivaloz
+    Publisher:          JelCraft
+    Date of creation:   idk
+-->
+
+<!DOCTYPE html>
+<html lang="en-NL" id="html">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible"  content="IE=edge">
+        <meta name="viewport"               content="width=device-width, initial-scale=1.0">
+        
+        <!-- Page information -->
+        <meta name='keywords'               content='JelCraft,JelNet,Pinballs'>
+        <meta name="description"            content="Navigation page for JN Projects">
+
+        <!-- Embed -->
+        <meta property="og:image"           content="https://media.discordapp.net/attachments/664914818523988005/1022989050728173608/Business.png?width=673&height=671">
+        <meta property="og:title"           content="JelNet Homepage">  
+        <meta property="og:description"     content="Navigation page for JN Projects">
+        <meta property="og:url"             content="jelcraft.zapto.org">
+        <meta property="og:type"            content="website">
+        
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="./styles/main.css">
+        <link rel="stylesheet" href="./styles/form.css">
+        <link rel="stylesheet" href="./styles/cookiepref.css">
+        <link rel="stylesheet" href="./styles/navbar/header.css">
+        <link rel="stylesheet" href="./styles/navbar/flags.css">
+        <link rel="stylesheet" href="./styles/navbar/theme.css">
+        <link rel="stylesheet" href="./styles/footer.css">
+
+        <!-- Code -->
+        <script src="./script/index.js"></script>
+        <script src="./script/rickroll.js"></script>
+        <script src="./script/theme.js"></script>
+        <script src="./script/responsify.js"></script>
+        <script src="./script/loadprojects.js"></script>
+        <script src="./script/gevuldekoek.js"></script>
+        <script src="./script/cookiepref.js"></script>
+        <script src="./script/translations/translate.js"></script>
+        <script src="./script/translations/jsontranslations.js"></script>
+        
+        <!-- Misc -->
+        <title>JelNet</title>
+        <link rel="icon" type="image/x-icon" href="./imgs/webpage-icons/Business.png">
+    </head>
+    <!-- <body onload="doTranslation('en')"> -->
+    <body onload="dTsC()">
+        <div class="fadescreen" id="fadescreen"></div>
+        <div class="cookiepref" id="cookiepref">
+            <p>Our use of cookies and other technologies</p>
+            <div class="cookietext">
+                <h>
+                    We, our Affiliates and Vendors use cookies and other technologies<br>
+                    to process personal data (including device identifiers and IP<br>
+                    addresses) for the following purposes: Store and/or access <br>
+                    information on a device, Select personalised ads, Create a <br>
+                    personalised ads profile, Create a personalised content profile,<br>
+                    Select personalised content, Measure content performance, <br>
+                    Apply market research to generate audience insights, Develop <br>
+                    and improve products, Select basic ads and Measure ad <br>
+                    performance. Privacy Policy
+                </h>
+            </div>
+            <div class="cookietext">
+                <h>
+                    By clicking “Accept All” you agree to these purposes. For more <br>
+                    information, to provide or withdraw consents for processing <br>
+                    your personal data, click “Manage Cookies+.” Additionally, <br>
+                    you may exercise your preferences for consent at a vendor level <br>
+                    in the “Vendors” link. These settings are accessible on a site<br>
+                     or app specific basis, at any time through the ‘Manage Cookies+’ <br>
+                     link located at the footer of webpages or in application settings.<br> 
+                     We work in coordination with an industry framework which will <br>
+                     signal your preferences to our participating vendors.
+                </h>
+            </div>
+            <div class="cookiebutton">
+                <button onmousedown="processPref()" class='indiviCookiebutton' type="button" id="acceptbutton">Accept</button>
+                <button onmousedown="processPref()" onmouseleave="swapButtons(false)" onmouseenter="swapButtons(true)" class='indiviCookiebutton' type="button" id="denybutton">Deny</button>
+            </div>
+        </div>
+        <div class="header">
+            <div class='language-selection'>
+                <button onclick="doTranslation('en')" name="uk" type="button" class="flag">
+                    <img id='flagen' height='30px' src="./imgs/flags/flagen.png">
+                </button>
+                <button onclick="doTranslation('de')" name="germany" type="button" class="flag">
+                    <img id='flagde' height='30px' src="./imgs/flags/flagde.png">
+                </button>
+                <button onclick="doTranslation('nl')" name="netherlands" type="button" class="flag">
+                    <img id='flagnl' height='30px' src="./imgs/flags/flagnl.png">
+                </button>
+                <button onclick="doTranslation('fr')" name="fr" type="button" class="flag">
+                    <img id="flagfr" height="30px" src="./imgs/flags/flagfr.png">
+                </button>
+                <button onclick="doTranslation('vk')" name="viviolask" type="button" class="flag">
+                    <img id='flagvk' height='30px' src="./imgs/flags/flagvk.png">
+                </button>
+            </div>
+            <div class="title">
+                <a id="Бnavbar-jelnet"></a>
+            </div>
+            <div class="navbar">
+                <div class="navcontainer" id="active">
+                    <a id="Бnavbar-home" class="link"></a>
+                </div>
+                <div class="navcontainer" class="middle">
+                    <a id="Бnavbar-internal"></a>
+                </div>
+                <div class="navcontainer" class="right">
+                    <a id="Бnavbar-external"></a>
+                </div>
+            </div>
+            <div class='theme-selection'>
+                <button type="button" onclick="toggleTheme()" onmouseover="themeOnHover()" onmouseleave="themeOffHover()">
+                    <img height='30px' id="themesvg" src="./imgs/darkmode-lightmode/dark-mode.svg">
+                </button>
+            </div>
+        </div>
+        <div class="curtains">
+            <div class="container" id="projects">
+                <p1 id="Бcurtains-projects-title"></p1>
+                <a class='link' href="http://jelcraft.zapto.org/PinballConverter/">
+                    <div class="project" id="pinball-converter">
+                        <img src="./imgs/project-icons/Pinball-Converter.svg">
+                        <div>
+                            <p2 id="Бcurtains-projects-pinballconverter-title"></p2>
+                            <p3 id="Бcurtains-projects-pinballconverter-description"></p3>
+                        </div>
+                    </div>
+                </a>
+                <a class='link' href="http://jelcraft.zapto.org/SudokuSolver/">
+                    <div class="project" id="sudokusolver">
+                        <img src="./imgs/project-icons/SudokuSolver.svg">
+                        <div>
+                            <p2 id="Бcurtains-projects-sudokusolver-title"></p2>
+                            <p3 id="Бcurtains-projects-sudokusolver-description"></p3>
+                        </div>
+                    </div>
+                </a>
+                <a class="link" href="http://jelcraft.zapto.org/WorldStats/">
+                    <div class="project" id="worldstats">
+                        <img src="./imgs/project-icons/WorldStats.svg">
+                        <div>                        
+                            <p2 id="Бcurtains-projects-worldstats-title"></p2>
+                            <p3 id="Бcurtains-projects-worldstats-description"></p3>
+                        </div>
+                    </div>
+                </a>
+                <a class='link' href="http://jelcraft.zapto.org/FlightCalculator/">
+                    <div class="project" id="flightcalculator">
+                        <img height="57.4px" src="./imgs/project-icons/FlightCalculator.svg">
+                        <div>                        
+                            <p2 id="Бcurtains-projects-flightcalculator-title"></p2>
+                            <p3 id="Бcurtains-projects-flightcalculator-description"></p3>
+                        </div>
+                    </div>
+                </a>
+                <a class="link" href="http://jelcraft.zapto.org/Collatz/collatz-conjecture-calculator.html">
+                    <div class="project" id="collatzcalculator">
+                        <img height="57.4px" src="./imgs/project-icons/Collatz-Calculator.svg">
+                        <div>                        
+                            <p2 id="Бcurtains-projects-collatzcalculator-title"></p2>
+                            <p3 id="Бcurtains-projects-collatzcalculator-description"></p3>
+                        </div>
+                    </div>
+                </a>
+                <a class="link" href="http://jelcraft.zapto.org/SbubbyGenerator/">
+                    <div class="project" id="logomaker">
+                        <img height="57.4px" src="./imgs/project-icons/sbubby.png">
+                        <div>                        
+                            <p2 id="Бcurtains-projects-sbubbygenerator-title"></p2>
+                            <p3 id="Бcurtains-projects-sbubbygenerator-description"></p3>
+                        </div>
+                    </div>
+                </a>
+                <a class="link link-wip">
+                    <div class="project" id="hangmanengine">
+                        <img height="57.4px" src="./imgs/project-icons/hangman.svg">
+                        <div>                        
+                            <p2 id="Бcurtains-projects-hangmanengine-title"></p2>
+                            <p3 id="Бcurtains-projects-hangmanengine-description"></p3>
+                        </div>
+                    </div>
+                </a>
+                <a class="link link-wip">
+                    <div class="project" id="wordfeudcalculator">
+                        <img height="57.4px" src="./imgs/project-icons/wordfeud.png">
+                        <div>                        
+                            <p2 id="Бcurtains-projects-wordfeudcalculator-title"></p2>
+                            <p3 id="Бcurtains-projects-wordfeudcalculator-description"></p3>
+                        </div>
+                    </div>
+                </a>
+                <a class="link link-wip">
+                    <div class="project" id="dirkmap">
+                        <img height="57.4px" src="./imgs/project-icons/dirk.png">
+                        <div>                        
+                            <p2 id="Бcurtains-projects-dirkmap-title"></p2>
+                            <p3 id="Бcurtains-projects-dirkmap-description"></p3>
+                        </div>
+                    </div>
+                </a>
+                <a class="link" href="http://jelcraft.zapto.org/StarlabsDelivery/home/home.html">
+                    <div class="project" id="starlabsdelivery">
+                        <img height="57.4px" src="./imgs/project-icons/starlabs.svg">
+                        <div>                        
+                            <p2 id="Бcurtains-projects-starlabsdelivery-title"></p2>
+                            <p3 id="Бcurtains-projects-starlabsdelivery-description"></p3>
+                        </div>
+                    </div>
+                </a>
+                <a class="link link-wip">
+                    <div class="project" id="viviolasktranslator">
+                        <img height="57.4px" src="./imgs/project-icons/viviolasktranslator.svg">
+                        <div>                        
+                            <p2 id="Бcurtains-projects-viviolasktranslator-title"></p2>
+                            <p3 id="Бcurtains-projects-viviolasktranslator-description"></p3>
+                        </div>
+                    </div>
+                </a>
+                <a class="link" href="http://jelcraft.zapto.org/tafelvoetbal-scorebord/">
+                    <div class="project" id="foosballscoreboard">
+                        <img height="57.4px" src="https://cdn-icons-png.flaticon.com/512/2153/2153241.png"> <!-- not a local file, just fine for now i guess -->
+                        <div>                        
+                            <p2 id="Бcurtains-projects-foosballscoreboard-title"></p2>
+                            <p3 id="Бcurtains-projects-foosballscoreboard-description"></p3>
+                        </div>
+                    </div>
+                </a>
+                <a class="link" href="">
+                    <div class="project" id="tobedetermined">
+                        <img height="57.4px" src="./imgs/project-icons/emptysquare.png">
+                        <div>                        
+                            <p2 id="Бcurtains-projects-void-title1"></p2>
+                            <p3 id="Бcurtains-projects-void-description1"></p3>
+                        </div>
+                    </div>
+                </a>
+                <a class="link" href="">
+                    <div class="project" id="tobedetermined">
+                        <img height="57.4px" src="./imgs/project-icons/emptysquare.png">
+                        <div>                        
+                            <p2 id="Бcurtains-projects-void-title2"></p2>
+                            <p3 id="Бcurtains-projects-void-description2"></p3>
+                        </div>
+                    </div>
+                </a>
+                <a class="link" href="">
+                    <div class="project" id="tobedetermined">
+                        <img height="57.4px" src="./imgs/project-icons/emptysquare.png">
+                        <div>                        
+                            <p2 id="Бcurtains-projects-void-title3"></p2>
+                            <p3 id="Бcurtains-projects-void-description3"></p3>
+                        </div>
+                    </div>
+                </a>
+        </div>
+
+
+
+
+        
+            <div id="curtain2">
+                <div class="container" id="about-us">
+                    <p1 id="Бcurtains-aboutus-title"></p1>
+                    <a class="link" href="https://www.youtube.com/channel/UCPMxvfpYkJoDlFjdV1HELJg">
+                        <div class="project" >
+                            <img height='75px' width='75px' src="./imgs/profile-pictures/pf-jelcraft.png">
+                            <div>
+                                <p2 id="Бcurtains-aboutus-jelcraft-title"></p2>
+                                <p3 id="Бcurtains-aboutus-jelcraft-description"></p3>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="link" href="https://www.youtube.com/channel/UCT5sZ8EUJUpOYvMEJIbrZfQ">
+                        <div class="project">
+                            <img height='75px' width='75px' src="./imgs/profile-pictures/pf-vivaloz.png">
+                            <div>
+                                <p2 id="Бcurtains-aboutus-vivaloz-title"></p2>
+                                <p3 id="Бcurtains-aboutus-vivaloz-description"></p3>
+                            </div>
+                        </div> 
+                    </a>
+                </div>
+                <div class="container" id="extra-content" onmouseenter="canTypeD = true" onmouseleave="canTypeD = false">
+                    <p1 id="Бcurtains-contact-title"></p1>
+                    <div id="form-container">
+                        <form action="https://formsubmit.co/jelcraft@outlook.com" method="POST">
+                            <div id="top-row">
+                                <input id='Бcurtains-contact-emailaddress' type="email" name="email" placeholder="Email Address">
+                                <input id='Бcurtains-contact-nickname' type="text" name="name" placeholder="Nickname">
+                            </div>  
+                            <input id='Бcurtains-contact-subject' type="text" name="subject" placeholder="Subject">
+                            <div class="center-container">
+                                <textarea id='Бcurtains-contact-message' name="message" placeholder="Message"></textarea>
+                            </div>
+                            <div class="center-container">
+                                <button id='Бcurtains-contact-send' class='contactbutton' type="submit">Send</button>
+                            </div>
+                        </form>
+                      </div>
+                </div>
+                <div class="container" id="discord-server">
+                    <p1 id="Бcurtains-discordserver-title"></p1>
+                    <iframe id='discordWidget' src="https://discord.com/widget?id=586500162415755275&theme=light" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="footer_container" id="footer_credit">
+                <h2>Special thanks</h2>
+                <p><a href="">Vivaloz</a> | translations, cookies</p>
+                <p><a href="">Vivaloz</a> | This is just a test lmao</p>
+            </div>
+            <div class="footer_container" id="footer_legal">
+                <h2>Legal Info</h2>
+            </div>
+        </div>
+            
+    </body>
+</html>

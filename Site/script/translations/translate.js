@@ -24,7 +24,7 @@ function doTranslation(lan){
                 element.placeholder = translations[temp][lan];
                 break;
             default:
-                element.innerHTML = translations[temp][lan];
+                    element.innerHTML = translations[temp][lan]
         }
         console.log("%ctranslated element in language %c\""+lan+"\"%c: %c"+temp,"color:orange;","color: orangered","color:orange;","color: lightgray;")
     }
