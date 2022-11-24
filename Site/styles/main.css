@@ -40,6 +40,10 @@ p2 {
     color: black;
 }
 
+.header {
+    background-color: var(--foreground-color);
+}
+
 /* NEW ------------------------ */
 
 h1 {
