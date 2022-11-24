@@ -41,6 +41,18 @@ const translations = {
         "nl": "Wisselkoers van EUR - Pinball-snoepjes",
         "vk": "Kûirsevyo èvgaûsäl özruârogüt snûipänen Èpënpvëlän"
     },
+    "curtains-projects-pinballphysics-title": {
+        "en": "Pinball Physics [WIP]",
+        //"de": "",
+        "nl": "Pinball-fysica [WIP]",
+        "vk": "" //HELP
+    },
+    "curtains-projects-pinballphysics-description": {
+        "en": "Play with pinballs",
+        //"de": "",
+        "nl": "Speel met pinball-snoepjes",
+        "vk": ""
+    },
     "curtains-projects-sudokusolver-title": {
         "en": "Sudoku Solver",
         //"de": "",
