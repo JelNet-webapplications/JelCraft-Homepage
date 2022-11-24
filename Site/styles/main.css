@@ -82,7 +82,7 @@ h1 {
 
 .paragraph {
     margin: 1em 2em;
-    padding: 0em 0em;
+    padding-right: .5em;
     display: flex;
     align-items: center;
     border-radius: 1em;
@@ -108,13 +108,12 @@ h1 {
 
 #discord-server {
     display: flex;
-    justify-content: center;
     align-items: center;
     grid-row: 3 / 30;
 }
 
 iframe {
     width:80%;
+    height: 90%;
     margin: 1em;
-    height: 500px;
 }
