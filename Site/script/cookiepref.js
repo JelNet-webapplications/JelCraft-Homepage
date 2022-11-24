@@ -5,6 +5,8 @@ function loadPref(){
         console.warn("No cookies found for preference, defaulting to preference form & initiating cookies.")
         document.getElementById('fadescreen').style.display = 'block';
         document.getElementById('cookiepref').style.display = 'block';
+        //disable scrolling
+        document.body.style.overflow = "hidden";
     }
 }
 
@@ -16,7 +18,7 @@ function swapButtons(boolean){
         accept.innerHTML = 'Deny';
         deny.innerHTML = 'Accept';
     } else {
-        accept.style.backgroundColor = 'rgb(33, 147, 33)';
+        accept.style.backgroundColor = ''
         accept.innerHTML = 'Accept';
         deny.innerHTML = 'Deny';
     }
@@ -38,4 +40,7 @@ function processPref(){
     for(let temp of elemarr){
         document.getElementById(temp).style.display = 'none';
     }
+
+    //enable scrolling
+    document.body.style.overflow = "visible";
 }
