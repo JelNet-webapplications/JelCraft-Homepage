@@ -24,10 +24,10 @@ const translations = {
         "vk": "TORRANIIR"
     },
     "curtains-projects-title": {
-        "en": "<br>Projects",
+        "en": "Projects",
         //"de": "",
-        "nl": "<br>Projecten",
-        "vk": "<br>Nvunvanvgarkän"
+        "nl": "Projecten",
+        "vk": "Nvunvanvgarkän"
     },
     "curtains-projects-pinballconverter-title": {
         "en": "Pinball Converter",
@@ -36,10 +36,10 @@ const translations = {
         "vk": "Vgaûsälerevyo Pënpvëlän"
     },
     "curtains-projects-pinballconverter-description": {
-        "en": "<br>Exchange rate EUR - Pinballs",
+        "en": "Exchange rate EUR - Pinballs",
         //"de": "",
-        "nl": "<br>Wisselkoers van EUR - Pinball-snoepjes",
-        "vk": "<br>Kûirsevyo èvgaûsäl özruârogüt snûipänen Èpënpvëlän"
+        "nl": "Wisselkoers van EUR - Pinball-snoepjes",
+        "vk": "Kûirsevyo èvgaûsäl özruârogüt snûipänen Èpënpvëlän"
     },
     "curtains-projects-sudokusolver-title": {
         "en": "Sudoku Solver",
@@ -48,10 +48,10 @@ const translations = {
         "vk": "Terûlüsärevyo Sütökuês"
     },
     "curtains-projects-sudokusolver-description": {
-        "en": "<br>Automatically solves Sudokus",
+        "en": "Automatically solves Sudokus",
         //"de": "",
-        "nl": "<br>Lost automatisch Sudoku's op",
-        "vk": "<br>Ylüsevt áuêtunvetuêsgvvgarro Sütökuês terû"
+        "nl": "Lost automatisch Sudoku's op",
+        "vk": "Ylüsevt áuêtunvetuêsgvvgarro Sütökuês terû"
     },
     "curtains-projects-worldstats-title": {
         "en": "WorldStats",
@@ -60,10 +60,10 @@ const translations = {
         "vk": "Vsifärenänevyo pvüläkòio"
     },
     "curtains-projects-worldstats-description": {
-        "en": "<br>Shows real live-time global statistics",
+        "en": "Shows real live-time global statistics",
         //"de": "",
-        "nl": "<br>Toont real-time wereldwijde statistieken",
-        "vk": "<br>Ygáifëvvgärstëstaûstuêkän èttagvtä èvgaûzrältvvgitvä"
+        "nl": "Toont real-time wereldwijde statistieken",
+        "vk": "Ygáifëvvgärstëstaûstuêkän èttagvtä èvgaûzrältvvgitvä"
     },
     "curtains-projects-flightcalculator-title": {
         "en": "Flight Calculator",
@@ -72,10 +72,10 @@ const translations = {
         "vk": "Ráikäntvaûnká tygo vluêgärùs èsüzrtvën"
     },
     "curtains-projects-flightcalculator-description": {
-        "en": "<br>Calculates efficient Minecraft flight data",
+        "en": "Calculates efficient Minecraft flight data",
         //"de": "",
-        "nl": "<br>Berekent efficiënte Minecraft-vluchtgegevens",
-        "vk": "<br>Ypväráikänuvgärgáigävänsevyo èsnalä Náinkreft"
+        "nl": "Berekent efficiënte Minecraft-vluchtgegevens",
+        "vk": "Ypväráikänuvgärgáigävänsevyo èsnalä Náinkreft"
     },
     "curtains-projects-collatzcalculator-title": {
         "en": "Collatz Calculator",
@@ -84,10 +84,10 @@ const translations = {
         "vk": "Ráikäntvaûnká tygo värnvûitvänòioevyo Kolats"
     },
     "curtains-projects-collatzcalculator-description": {
-        "en": "<br>Calculates everything collatz conjecture",
+        "en": "Calculates everything collatz conjecture",
         //"de": "",
-        "nl": "<br>Berekent alles over het Collatz-vermoeden",
-        "vk": "<br>Ypväráikänuvgärsëknä klyeron värnûitvänevyo Kolats"
+        "nl": "Berekent alles over het Collatz-vermoeden",
+        "vk": "Ypväráikänuvgärsëknä klyeron värnûitvänevyo Kolats"
     },
     "curtains-projects-sbubbygenerator-title": {
         "en": "Sbubby Generator",
@@ -96,10 +96,10 @@ const translations = {
         "vk": "Pletenännvekärâtygo Spupiän"
     },
     "curtains-projects-sbubbygenerator-description": {
-        "en": "<br>Create your own sbubby of existing logos",
+        "en": "Create your own sbubby of existing logos",
         //"de": "",
-        "nl": "<br>Maak je eigen sbubby van bestaande logo's",
-        "vk": "<br>Kënkonydünryuêrvgärro Spupiänievyo èttigän nvërktpleten èpvästentvä"
+        "nl": "Maak je eigen sbubby van bestaande logo's",
+        "vk": "Kënkonydünryuêrvgärro Spupiänievyo èttigän nvërktpleten èpvästentvä"
     },
     "curtains-projects-hangmanengine-title": {
         "en": "Hangman Engine",
@@ -108,10 +108,10 @@ const translations = {
         "vk": "Ráikäntvaûnkáevyo Gëlgen"
     },
     "curtains-projects-hangmanengine-description": {
-        "en": "<br>Calculate the perfect guess for hangman",
+        "en": "Calculate the perfect guess for hangman",
         //"de": "",
-        "nl": "<br>Berekent de perfecte gok voor Galgje",
-        "vk": "<br>Ypväráikänevvgärgükòio èparfactä tygo Gëlgen"
+        "nl": "Berekent de perfecte gok voor Galgje",
+        "vk": "Ypväráikänevvgärgükòio èparfactä tygo Gëlgen"
     },
     "curtains-projects-wordfeudcalculator-title": {
         "en": "Wordfeud Calculator",
@@ -120,10 +120,10 @@ const translations = {
         "vk": "Ráikäntvaûnkáevyo Vgüzrtvspalen"
     },
     "curtains-projects-wordfeudcalculator-description": {
-        "en": "<br>Calculate the best words for Wordfeud and Scrabble",
+        "en": "Calculate the best words for Wordfeud and Scrabble",
         //"de": "",
-        "nl": "<br>Berekent de beste woorden voor Wordfeud en Scrabble",
-        "vk": "<br>Ypväráikänevvgärvgürztvänòio èpvastä tygo Vgüzrtvspalen ant Skrepûl"
+        "nl": "Berekent de beste woorden voor Wordfeud en Scrabble",
+        "vk": "Ypväráikänevvgärvgürztvänòio èpvastä tygo Vgüzrtvspalen ant Skrepûl"
     },
     "curtains-projects-dirkmap-title": {
         "en": "Dirk Map",
@@ -132,10 +132,10 @@ const translations = {
         "vk": "Grüntvevyo ènyspikäzg Tërk"
     },
     "curtains-projects-dirkmap-description": {
-        "en": "<br>Shows the perfect route to find your groceries",
+        "en": "Shows the perfect route to find your groceries",
         //"de": "",
-        "nl": "<br>Toont de beste route om je boodschappen te vinden",
-        "vk": "<br>Ygáifevvgärrûitäòio èpvastä yost pvutsgvëpäni vaûntvänä"
+        "nl": "Toont de beste route om je boodschappen te vinden",
+        "vk": "Ygáifevvgärrûitäòio èpvastä yost pvutsgvëpäni vaûntvänä"
     },
     "curtains-projects-starlabsdelivery-title": {
         "en": "Starlabs Delivery",
@@ -144,10 +144,10 @@ const translations = {
         "vk": "Pvösgáinvaûnkáevyo Starleps"
     },
     "curtains-projects-starlabsdelivery-description": {
-        "en": "<br>Order blocks online for the Minecraft H43 Server",
+        "en": "Order blocks online for the Minecraft H43 Server",
         //"de": "",
-        "nl": "<br>Bestel digitale blokken voor de Minecraft H43-server",
-        "vk": "<br>Yost kopvüsänen èttái tygo Náinkraft Ry43 tvûinär pvästalänä"
+        "nl": "Bestel digitale blokken voor de Minecraft H43-server",
+        "vk": "Yost kopvüsänen èttái tygo Náinkraft Ry43 tvûinär pvästalänä"
     },
     "curtains-projects-viviolasktranslator-title": {
         "en": "Viviolask Translator",
@@ -156,10 +156,10 @@ const translations = {
         "vk": "Telyostsvatäruyo Viviöläzk"
     },
     "curtains-projects-viviolasktranslator-description": {
-        "en": "<br>Translate Dutch into the conlang we call Viviolask",
+        "en": "Translate Dutch into the conlang we call Viviolask",
         //"de": "",
-        "nl": "<br>Vertaal Nederlands in de contaal die we Viviolask noemen",
-        "vk": "<br>Kënivgarnáitvärlëntvsâno värtelänë raniir kvüntelòio svinyra nûinvonvgëdälryatkürviviöläzk"
+        "nl": "Vertaal Nederlands in de contaal die we Viviolask noemen",
+        "vk": "Kënivgarnáitvärlëntvsâno värtelänë raniir kvüntelòio svinyra nûinvonvgëdälryatkürviviöläzk"
     },
     "curtains-projects-foosballscoreboard-title": {
         "en": "Foosball scoreboard",
@@ -168,10 +168,10 @@ const translations = {
         "vk": "Pvürtv èskvürä èvûitpvëlevyo tëfäl"
     },
     "curtains-projects-foosballscoreboard-description": {
-        "en": "<br>Scoreboard with lots of buttons",
+        "en": "Scoreboard with lots of buttons",
         //"de": "",
-        "nl": "<br>Een scorebord, maar dan met veel knoppen",
-        "vk": "<br>Gägvun pvürtväàia èskvürä, nesäp raväranta knüpän èvaûzl"
+        "nl": "Een scorebord, maar dan met veel knoppen",
+        "vk": "Gägvun pvürtväàia èskvürä, nesäp raväranta knüpän èvaûzl"
     },
     "curtains-projects-void-title": {
         "en": "To be determined",
@@ -180,16 +180,16 @@ const translations = {
         "vk": "Tveravyt kuêsvänä"
     },
     "curtains-projects-void-description": {
-        "en": "<br>Non-applicable",
+        "en": "Non-applicable",
         //"de": "",
-        "nl": "<br>Niet van toepassing",
-        "vk": "<br>Nynyevyo gäpvrûik"
+        "nl": "Niet van toepassing",
+        "vk": "Nynyevyo gäpvrûik"
     },
     "curtains-aboutus-title": {
-        "en": "<br>About us",
+        "en": "About us",
         //"de": "",
-        "nl": "<br>Over ons",
-        "vk": "<br>Klyeron vgiozok"
+        "nl": "Over ons",
+        "vk": "Klyeron vgiozok"
     },
     "curtains-aboutus-jelcraft-title": {
         "en": "JelCraft",
@@ -198,16 +198,16 @@ const translations = {
         "vk": "Jelkraft"
     },
     /*"curtains-aboutus-jelcraft-description-old": {
-        "en": "<br>Proud father of two",
+        "en": "Proud father of two",
         //"de": "",
-        "nl": "<br>Trotse vader van 2 kinderen",
-        "vk": "<br>Vetvärevyo èpvliä kaûntväränenù ètvgái"
+        "nl": "Trotse vader van 2 kinderen",
+        "vk": "Vetvärevyo èpvliä kaûntväränenù ètvgái"
     },*/
     "curtains-aboutus-jelcraft-description": {
-        "en": "<br>50 percent digital genius, 50 percent total idiot",
+        "en": "50 percent digital genius, 50 percent total idiot",
         //"de": "",
-        "nl": "<br>50 procent digitaal genie, 50 percent totale idioot",
-        "vk": "<br>Tygoâprusvänt èviftäzg svyänúei èttái, tygoâprusvänt èviftäzg kuêrävguêtä èvuláitväzg"
+        "nl": "50 procent digitaal genie, 50 percent totale idioot",
+        "vk": "Tygoâprusvänt èviftäzg svyänúei èttái, tygoâprusvänt èviftäzg kuêrävguêtä èvuláitväzg"
     },
     "curtains-aboutus-vivaloz-title": {
         "en": "Vivaloz",
@@ -216,16 +216,16 @@ const translations = {
         "vk": "Viväloz"
     },
     "curtains-aboutus-vivaloz-description": {
-        "en": "<br>Absolutely lunatic programmer who codes some stuff sometimes for fun",
+        "en": "Absolutely lunatic programmer who codes some stuff sometimes for fun",
         //"de": "",
-        "nl": "<br>Krankzinnige programmeur die af en toe dingen codeert voor de lol",
-        "vk": "<br>Kvünpyûiztärùnvënnvekär èsvuêktänvekäntvä svinyra sünvsantsvu tvaûnkáyän kvutvaûzrev tygo pläsvuêròio"
+        "nl": "Krankzinnige programmeur die af en toe dingen codeert voor de lol",
+        "vk": "Kvünpyûiztärùnvënnvekär èsvuêktänvekäntvä svinyra sünvsantsvu tvaûnkáyän kvutvaûzrev tygo pläsvuêròio"
     },
     "curtains-contact-title": {
-        "en": "<br>Contact",
+        "en": "Contact",
         //"de": "",
-        "nl": "<br>Contact",
-        "vk": "<br>Eûtrikänë allün vgiozok"
+        "nl": "Contact",
+        "vk": "Eûtrikänë allün vgiozok"
     },
     "curtains-contact-emailaddress": {
         "en": "Email Address",
@@ -258,10 +258,10 @@ const translations = {
         "vk": "Terûstoränë"
     },
     "curtains-discordserver-title": {
-        "en": "<br>Discord server",
+        "en": "Discord server",
         //"de": "",
-        "nl": "<br>Discord-server",
-        "vk": "<br>Pretkenelevyo Tëskorton"
+        "nl": "Discord-server",
+        "vk": "Pretkenelevyo Tëskorton"
     },
     // "": {
     //     "en": "",
