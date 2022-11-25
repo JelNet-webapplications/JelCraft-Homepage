@@ -45,13 +45,13 @@ const translations = {
         "en": "Pinball Physics [WIP]",
         //"de": "",
         "nl": "Pinball-fysica [WIP]",
-        "vk": "" //HELP
+        "vk": "Pvävgáignvutürevyo snûipänen Èpënpvëlän [WIP]"
     },
     "curtains-projects-pinballphysics-description": {
         "en": "Play with pinballs",
         //"de": "",
         "nl": "Speel met pinball-snoepjes",
-        "vk": ""
+        "vk": "Yspaûzlikono anta snûipänen Èpënpvëlän"
     },
     "curtains-projects-sudokusolver-title": {
         "en": "Sudoku Solver",
@@ -90,10 +90,10 @@ const translations = {
         "vk": "Ypväráikänuvgärgáigävänsevyo èsnalä Náinkreft"
     },
     "curtains-projects-collatzcalculator-title": {
-        "en": "Collatz Calculator",
+        "en": "Collatz Calculator [WIP]",
         //"de": "",
-        "nl": "Collatz-calculator",
-        "vk": "Ráikäntvaûnká tygo värnvûitvänòioevyo Kolats"
+        "nl": "Collatz-calculator [WIP]",
+        "vk": "Ráikäntvaûnká tygo värnvûitvänòioevyo Kolats [WIP]"
     },
     "curtains-projects-collatzcalculator-description": {
         "en": "Calculates everything collatz conjecture",
@@ -102,10 +102,10 @@ const translations = {
         "vk": "Ypväráikänuvgärsëknä klyeron värnûitvänevyo Kolats"
     },
     "curtains-projects-sbubbygenerator-title": {
-        "en": "Sbubby Generator",
+        "en": "Sbubby Generator [WIP]",
         //"de": "",
-        "nl": "Sbubby-generator",
-        "vk": "Pletenännvekärâtygo Spupiän"
+        "nl": "Sbubby-generator [WIP]",
+        "vk": "Pletenännvekärâtygo Spupiän [WIP]"
     },
     "curtains-projects-sbubbygenerator-description": {
         "en": "Create your own sbubby of existing logos",
@@ -114,10 +114,10 @@ const translations = {
         "vk": "Kënkonydünryuêrvgärro Spupiänievyo èttigän nvërktpleten èpvästentvä"
     },
     "curtains-projects-hangmanengine-title": {
-        "en": "Hangman Engine",
+        "en": "Hangman Engine [WIP]",
         //"de": "",
-        "nl": "Calculator voor Galgje",
-        "vk": "Ráikäntvaûnkáevyo Gëlgen"
+        "nl": "Calculator voor Galgje [WIP]",
+        "vk": "Ráikäntvaûnkáevyo Gëlgen [WIP]"
     },
     "curtains-projects-hangmanengine-description": {
         "en": "Calculate the perfect guess for hangman",
@@ -126,10 +126,10 @@ const translations = {
         "vk": "Ypväráikänevvgärgükòio èparfactä tygo Gëlgen"
     },
     "curtains-projects-wordfeudcalculator-title": {
-        "en": "Wordfeud Calculator",
+        "en": "Wordfeud Calculator [WIP]",
         //"de": "",
-        "nl": "Wordfeud-calculator",
-        "vk": "Ráikäntvaûnkáevyo Vgüzrtvspalen"
+        "nl": "Wordfeud-calculator [WIP]",
+        "vk": "Ráikäntvaûnkáevyo Vgüzrtvspalen [WIP]"
     },
     "curtains-projects-wordfeudcalculator-description": {
         "en": "Calculate the best words for Wordfeud and Scrabble",
@@ -138,10 +138,10 @@ const translations = {
         "vk": "Ypväráikänevvgärvgürztvänòio èpvastä tygo Vgüzrtvspalen ant Skrepûl"
     },
     "curtains-projects-dirkmap-title": {
-        "en": "Dirk Map",
+        "en": "Dirk Map [WIP]",
         //"de": "",
-        "nl": "Dirk-plattegrond",
-        "vk": "Grüntvevyo ènyspikäzg Tërk"
+        "nl": "Dirk-plattegrond [WIP]",
+        "vk": "Grüntvevyo ènyspikäzg Tërk [WIP]"
     },
     "curtains-projects-dirkmap-description": {
         "en": "Shows the perfect route to find your groceries",
@@ -150,10 +150,10 @@ const translations = {
         "vk": "Ygáifevvgärrûitäòio èpvastä yost pvutsgvëpäni vaûntvänä"
     },
     "curtains-projects-starlabsdelivery-title": {
-        "en": "Starlabs Delivery",
+        "en": "Starlabs Delivery [WIP]",
         //"de": "",
-        "nl": "Starlabs-bezorging",
-        "vk": "Pvösgáinvaûnkáevyo Starleps"
+        "nl": "Starlabs-bezorging [WIP]",
+        "vk": "Pvösgáinvaûnkáevyo Starleps [WIP]"
     },
     "curtains-projects-starlabsdelivery-description": {
         "en": "Order blocks online for the Minecraft H43 Server",
@@ -162,10 +162,10 @@ const translations = {
         "vk": "Yost kopvüsänen èttái tygo Náinkraft Ry43 tvûinär pvästalänä"
     },
     "curtains-projects-viviolasktranslator-title": {
-        "en": "Viviolask Translator",
+        "en": "Viviolask Translator [WIP]",
         //"de": "",
-        "nl": "Viviolask-vertaler",
-        "vk": "Telyostsvatäruyo Viviöläzk"
+        "nl": "Viviolask-vertaler [WIP]",
+        "vk": "Telyostsvatäruyo Viviöläzk [WIP]"
     },
     "curtains-projects-viviolasktranslator-description": {
         "en": "Translate Dutch into the conlang we call Viviolask",
