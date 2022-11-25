@@ -186,10 +186,10 @@ const translations = {
         "vk": "Gägvun pvürtväàia èskvürä, nesäp raväranta knüpän èvaûzl"
     },
     "curtains-projects-chessengine-title": {
-        "en": "Chess bot",
+        "en": "Chess bot [WIP]",
         //"de": "",
-        "nl": "Schaakrobot",
-        "vk": "Áuêtunvutär èsgvekspalù"
+        "nl": "Schaakrobot [WIP]",
+        "vk": "Áuêtunvutär èsgvekspalù [WIP]"
     },
     "curtains-projects-chessengine-description": {
         "en": "Working chess simulator, including an AI",
