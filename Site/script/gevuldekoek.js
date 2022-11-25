@@ -1,6 +1,8 @@
 function dTsC(){
     // checkCookie();
-    setInterval(responsify, 1000);
+
+    responsify()
+    setInterval(responsify, 250);
     loadPref();
     doTranslation('en');
     document.getElementsByClassName('navbar').style.transition = 'all 0s ease 0s';
