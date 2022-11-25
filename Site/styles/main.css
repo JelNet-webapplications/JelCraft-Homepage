@@ -63,7 +63,7 @@ h1 {
     padding-bottom:1em;
 }
 
-.grid-container {
+#layout-container {
     display: grid;
     justify-content: center;
     gap: 2em;
@@ -75,6 +75,18 @@ h1 {
     height:auto;
     grid-column: 1;
     grid-row: 1/20;
+}
+
+#discord-server {
+    display: flex;
+    align-items: center;
+    grid-row: 3 / 20;
+}
+
+iframe {
+    width:80%;
+    height: 90%;
+    margin: 1em;
 }
 
 .paragraph h2, .paragraph p3 {
@@ -106,16 +118,4 @@ h1 {
     border-radius: 10px;
     height: 3em;
     width: 3em;
-}
-
-#discord-server {
-    display: flex;
-    align-items: center;
-    grid-row: 3 / 20;
-}
-
-iframe {
-    width:80%;
-    height: 90%;
-    margin: 1em;
 }
