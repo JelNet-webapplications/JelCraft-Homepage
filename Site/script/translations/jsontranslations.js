@@ -254,7 +254,7 @@ const translations = {
     "curtains-contact-emailaddress": {
         "en": "Email Address",
         //"de": "",
-        "nl": "Email-adres",
+        "nl": "Emailadres",
         "vk": "Pletsnenvi èttáipvruêf"
     },
     "curtains-contact-nickname": {
