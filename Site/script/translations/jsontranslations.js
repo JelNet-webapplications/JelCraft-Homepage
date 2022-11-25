@@ -287,6 +287,36 @@ const translations = {
         "nl": "Discord-server",
         "vk": "Pretkenelevyo Tëskorton"
     },
+    "footer-credit-title": {
+        "en": "Special thanks",
+        //"de": "",
+        "nl": "Met dank aan",
+        "vk": "Anta tvënkvgëdizok"
+    },
+    "footer-credit-larsitas": {
+        "en": "<a href='https://m.youtube.com/channel/UCkT4DXGomZczwtrkK7hlj4w'>Larsitas</a> | constant \"reviewing\"",
+        //"de": "",
+        "nl": "<a href='https://m.youtube.com/channel/UCkT4DXGomZczwtrkK7hlj4w'>Larsitas</a> | constant \"beoordelen\"",
+        "vk": "<a href='https://m.youtube.com/channel/UCkT4DXGomZczwtrkK7hlj4w'>Larsitas</a> | titv èsëknä \"gáivänevyo ëtvuês\""
+    },
+    "footer-credit-volt": {
+        "en": "<a href=\"https://www.youtube.com/@Volt64bolt\">Volt64Bolt</a> | Pinball Physics",
+        //"de": "",
+        "nl": "<a href=\"https://www.youtube.com/@Volt64bolt\">Volt64Bolt</a> | Pinball Physics",
+        "vk": "<a href=\"https://www.youtube.com/@Volt64bolt\">Volt64polt</a> | Pvävgáignvutürevyo snûipänen Èpënpvëlän"
+    },
+    "footer-legalinfo-title": {
+        "en": "Legal info",
+        //"de": "",
+        "nl": "Legale informatie",
+        "vk": "Raniirfürnvetsúei èklyeronritv"
+    },
+    "footer-legalinfo-link": {
+        "en": "<a href=\"cookies.html\">Privay Policy</a>",
+        //"de": "",
+        "nl": "<a href=\"cookies.html\">Privacybeleid</a>",
+        "vk": "<a href=\"cookies.html\">Nvenvuêron yostanta izokyost genonä</a>"
+    },
     // "": {
     //     "en": "",
     //     //"de": "",
