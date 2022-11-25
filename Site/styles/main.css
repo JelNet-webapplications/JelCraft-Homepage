@@ -74,7 +74,7 @@ h1 {
 #projects {
     height:auto;
     grid-column: 1;
-    grid-row: 1/30;
+    grid-row: 1/20;
 }
 
 .paragraph h2, .paragraph p3 {
@@ -111,7 +111,7 @@ h1 {
 #discord-server {
     display: flex;
     align-items: center;
-    grid-row: 3 / 30;
+    grid-row: 3 / 20;
 }
 
 iframe {
