@@ -12,6 +12,7 @@ body {
 }
 
 a,
+h2,
 p1,
 p2,
 p3 {
@@ -35,9 +36,9 @@ p2 {
     font-size: 1.5em;
 }
 
-.link {
+a {
     text-decoration: none;
-    color: black;
+    color: var(--text-color);
 }
 
 .header {
@@ -89,9 +90,8 @@ iframe {
     margin: 1em;
 }
 
-.paragraph h2, .paragraph p3 {
+.paragraph h2 {
     margin: 0;
-    color:var(--text-color);
 }
 
 .paragraph {

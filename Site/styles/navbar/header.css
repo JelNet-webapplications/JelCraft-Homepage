@@ -25,7 +25,7 @@
 }
 
 .navcontainer:hover {
-    background-color: var(--tertiary-color);
+    background-color: var(--secondary-color);
 }
 
 .navbar {
