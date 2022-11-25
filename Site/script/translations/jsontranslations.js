@@ -185,6 +185,18 @@ const translations = {
         "nl": "Een scorebord, maar dan met veel knoppen",
         "vk": "Gägvun pvürtväàia èskvürä, nesäp raväranta knüpän èvaûzl"
     },
+    "curtains-projects-chessengine-title": {
+        "en": "Chess bot",
+        //"de": "",
+        "nl": "Schaakrobot",
+        "vk": "Áuêtunvutär èsgvekspalù"
+    },
+    "curtains-projects-chessengine-description": {
+        "en": "Working chess simulator, including an AI",
+        //"de": "",
+        "nl": "Werkend digitaal schaakbord, inclusief een AI",
+        "vk": "Pvürtv èsgvekspal èvgärkäntv èttái antuk rupvutàia"
+    },
     "curtains-projects-void-title": {
         "en": "To be determined",
         //"de": "",
