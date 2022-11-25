@@ -33,12 +33,12 @@ function doTranslation(lan){
 var flags = ['en', 'de', 'nl', 'fr', 'vk'];
 function setFlagBrightness(lan){
     let lanid = 'flag'+lan;
-    document.getElementById(lanid).style.filter = 'brightness(100%)'
+    document.getElementById(lanid).style.filter = 'opacity(100%)'
     console.log('%cbrightness.flag.'+lan+' has been set to '+document.getElementById(lanid).style.filter,"color: lightgreen;")
     for(let temp of flags){
         if(temp == lan) continue;
         let id = 'flag'+temp;
-        document.getElementById(id).style.filter = 'brightness(50%)';
+        document.getElementById(id).style.filter = 'opacity(30%)'
         console.log('%cbrightness.flag.'+temp+' has been set to '+document.getElementById(id).style.filter,"color: green;")
     }
 }
