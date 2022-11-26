@@ -17,16 +17,7 @@
     border-radius: 100px;
 }
 
-.navcontainer#active {
-    background-color: var(--secondary-color);
-    width: 100px;
-    text-align: center;
-    transition: all 0s ease 0s;
-}
-
-.navcontainer:hover {
-    background-color: var(--secondary-color);
-}
+/* ----- Navbar Elements ----- */
 
 .navbar {
     background-color: var(--primary-color);
@@ -38,21 +29,55 @@
     overflow: hidden;
 }
 
-.navcontainer {
-    padding: 1em;
+
+.navelem {
+    text-align: center;
+    /* width: 100px; */
     transition: all 0s ease 0;
 }
+
+.navelem:hover {
+    background-color: var(--secondary-color);
+}
+
+.navelem#active {
+    background-color: var(--secondary-color);
+    transition: all 0s ease 0s;
+}
+
+/* ----- Lang & Theme buttons ----- */
 
 .header button {
     border: none;
     margin-right: 0px;
-    height: 30px;
+    height: 2em;
     width: auto;
     background-color: rgba(0, 255, 255, 0);
 }
 
 .header button:hover {
     background-color: none;
-    border: none;
-    cursor: pointer;
+    filter: invert(hover);
+}
+
+.header img {
+    margin: 0.3em;
+    height: 2em;
+    filter: invert(0.6)
+}
+
+.header img:hover {
+    margin: 0em;
+    height: 2.6em;
+    filter: invert(var(--button-hover-invert))
+}
+
+
+/* Implement dropdown menu for lang selection */
+/* https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_navbar2 */
+
+/* ----- Other ------ */
+.theme-selection {
+    margin-left: auto;
+    margin-right: 2em;
 }

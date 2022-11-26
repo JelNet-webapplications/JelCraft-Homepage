@@ -19,35 +19,19 @@ function toggleTheme() {
     });
     createCookie('theme', theme);
     console.log('createCookie '+theme)
-    /*
-    if(theme == 'light') { //Set dark mode
-        createCookie("theme", "light")
-    } else { //Set light mode
-        createCookie("theme", "dark")
-    } */
 }
 
-function themeOnHover() {
-    let button = document.getElementsByClassName('theme-selection')[0].querySelector('img');
-    if(theme == 'dark') {
-        button.style.filter = 'invert(1)';
-    } else {
-        button.style.filter = 'invert(0)';
-    }
+function buttonOnHover() {
+    // let button = document.getElementsByClassName('theme-selection')[0].querySelector('img');
+    // if(theme == 'dark') {
+    //     button.style.filter = 'invert(1)';
+    // } else {
+    //     button.style.filter = 'invert(0)';
+    // }
 }
 
-function themeOffHover() {
-    // lol omdat jelle zo zeurt dat oneliners stom zijn ga ik het zo verschrikkelijk mogelijk maken
-    if('jelle' == 'aan het zeuren'){
-        let element = document.getElementsByClassName('theme-selection');
-        let first = element[0];
-        let image = first.querySelector('img');
-        let imgstyle = image.style;
-        let imgfilter = imgstyle.filter;
-        imgfilter = 'invert(0.6)';
-    } else {
-        document.getElementsByClassName('theme-selection')[0].querySelector('img').style.filter = 'invert(0.6)';
-    }
+function buttonOffHover() {
+    //document.getElementsByClassName('theme-selection')[0].querySelector('img').style.filter = 'invert(0.6)';
 }
 
 let testCurse = 'void';
@@ -141,7 +125,9 @@ function setTheme(themeMode) {
         r.style.setProperty('--fadescreen-opacity', '0.8');
 
         document.getElementById('discordWidget').src = 'https://discord.com/widget?id=586500162415755275&theme=dark'
-        button.style.filter = 'invert(1)';
+        
+        r.style.setProperty('--button-hover-invert', '1');
+        //button.style.filter = 'invert(1)';
     } else {
         img.src = './imgs/darkmode-lightmode/dark-mode.svg';
 
@@ -156,6 +142,9 @@ function setTheme(themeMode) {
         r.style.setProperty('--fadescreen-opacity', '0.5');
 
         document.getElementById('discordWidget').src = 'https://discord.com/widget?id=586500162415755275&theme=light'
-        button.style.filter = 'invert(0)';
+        
+        r.style.setProperty('--button-hover-invert', '0');
+
+        //button.style.filter = 'invert(0)';
     }
 }

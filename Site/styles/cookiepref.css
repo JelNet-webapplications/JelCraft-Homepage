@@ -35,7 +35,6 @@
     color: white;
     font-family: Rubik;
     font-size: 17px;
-    transition:  all 0.3s ease 0s;
 }
 .indiviCookiebutton:hover {
     width: 260px;

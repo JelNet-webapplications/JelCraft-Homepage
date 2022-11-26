@@ -19,11 +19,6 @@ p3 {
     color: var(--text-color);
 }
 
-.header a {
-    color: var(--header-text-color);
-
-}
-
 #notifyPhone {
     display: none;
 }

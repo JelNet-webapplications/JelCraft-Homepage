@@ -86,38 +86,40 @@
         </div>
         <div class="header">
             <div class='language-selection'>
-                <button onclick="doTranslation('en')" name="uk" type="button" class="flag">
-                    <img id='flagen' height='30px' src="./imgs/flags/flagen.png">
-                </button>
-                <button onclick="doTranslation('de')" name="germany" type="button" class="flag">
-                    <img id='flagde' height='30px' src="./imgs/flags/flagde.png">
-                </button>
-                <button onclick="doTranslation('nl')" name="netherlands" type="button" class="flag">
-                    <img id='flagnl' height='30px' src="./imgs/flags/flagnl.png">
-                </button>
-                <button onclick="doTranslation('fr')" name="fr" type="button" class="flag">
-                    <img id="flagfr" height="30px" src="./imgs/flags/flagfr.png">
-                </button>
-                <button onclick="doTranslation('vk')" name="viviolask" type="button" class="flag">
-                    <img id='flagvk' height='30px' src="./imgs/flags/flagvk.png">
-                </button>
+                <button type="button" onclick=""></button>
+                <img src="./imgs/flags/lang-selector.svg">
             </div>
+
+
+            <!-- Implement dropdown menu for lang selection -->
+            <!-- https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_navbar2 -->
+            <div name="languages" id="lang-selector" class="dropdown-content">
+                <a value="uk">English</a>
+                <a value="germany">German</a>
+                <a value="netherlands">Dutch</a>
+                <a value="france">French</a>
+                <a value="viviolask">Viviolask</a>
+                <a value="germany">German</a>
+            </div>
+
+
+
             <div class="title">
                 <a id="Бnavbar-jelnet"></a>
             </div>
             <div class="navbar">
-                <div class="navcontainer" id="active">
-                    <a href="http://jelcraft.zapto.org/" id="Бnavbar-home"></a>
-                </div>
-                <div class="navcontainer" class="middle">
-                    <a href="http://jelcraft.zapto.org/" id="Бnavbar-internal"></a>
-                </div>
-                <div class="navcontainer" class="right">
-                    <a href="http://jelcraft.zapto.org/" id="Бnavbar-external"></a>
-                </div>
+                <a href="http://jelcraft.zapto.org/" class="navelem" id="active">
+                    <p href="http://jelcraft.zapto.org/" id="Бnavbar-home"></p>
+                </a>
+                <a href="http://jelcraft.zapto.org/" class="navelem" class="middle">
+                    <p href="http://jelcraft.zapto.org/" id="Бnavbar-internal"></p>
+                </a>
+                <a href="http://jelcraft.zapto.org/" class="navelem" class="right">
+                    <p href="http://jelcraft.zapto.org/" id="Бnavbar-external"></p>
+                </a>
             </div>
             <div class='theme-selection'>
-                <button type="button" onclick="toggleTheme()" onmouseover="themeOnHover()" onmouseleave="themeOffHover()">
+                <button type="button" onclick="toggleTheme()">
                     <img height='30px' id="themesvg" src="./imgs/darkmode-lightmode/dark-mode.svg">
                 </button>
             </div>
@@ -320,6 +322,36 @@
                 <p><a href="cookies.html">Privacy Policy</a></p>
             </div>
         </div>
+
+
+
+
+
+
+
+
+        <!-- ARCHIVE -->
+
+        <div class='language-selection'>
+            <button onclick="doTranslation('en')" name="uk" type="button" class="flag">
+                <img id='flagen' height='30px' src="./imgs/flags/flagen.png">
+            </button>
+            <button onclick="doTranslation('de')" name="germany" type="button" class="flag">
+                <img id='flagde' height='30px' src="./imgs/flags/flagde.png">
+            </button>
+            <button onclick="doTranslation('nl')" name="netherlands" type="button" class="flag">
+                <img id='flagnl' height='30px' src="./imgs/flags/flagnl.png">
+            </button>
+            <button onclick="doTranslation('fr')" name="fr" type="button" class="flag">
+                <img id="flagfr" height="30px" src="./imgs/flags/flagfr.png">
+            </button>
+            <button onclick="doTranslation('vk')" name="viviolask" type="button" class="flag">
+                <img id='flagvk' height='30px' src="./imgs/flags/flagvk.png">
+            </button>
+        </div>
+
+
+
 
 
     </body>
