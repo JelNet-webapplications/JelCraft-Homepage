@@ -13,7 +13,7 @@ function doTranslation(lan){
         switch(temp){
             case "curtains-projects-void-title":
             case "curtains-projects-void-description":
-                for(let i = 1; i < 3; i++){
+                for(let i = 1; i < 2; i++){
                     let TBTid = `${id}${i}`;
                     document.getElementById(TBTid).innerHTML = translations[temp][lan];
                 }
@@ -25,7 +25,7 @@ function doTranslation(lan){
                 element.placeholder = translations[temp][lan];
                 break;
             default:
-                    element.innerHTML = translations[temp][lan]
+                element.innerHTML = translations[temp][lan];
         }
         console.log("%ctranslated element in language %c\""+lan+"\"%c: %c"+temp,"color:orange;","color: orangered","color:orange;","color: lightgray;")
     }

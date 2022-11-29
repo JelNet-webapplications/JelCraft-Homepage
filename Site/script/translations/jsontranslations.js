@@ -185,6 +185,18 @@ const translations = {
         "nl": "Een scorebord, maar dan met veel knoppen",
         "vk": "Gägvun pvürtväàia èskvürä, nesäp raväranta knüpän èvaûzl"
     },
+    "curtains-projects-chessengine-title": {
+        "en": "Chess bot [WIP]",
+        //"de": "",
+        "nl": "Schaakrobot [WIP]",
+        "vk": "Áuêtunvutär èsgvekspalù [WIP]"
+    },
+    "curtains-projects-chessengine-description": {
+        "en": "Working chess simulator, including an AI",
+        //"de": "",
+        "nl": "Werkend digitaal schaakbord, inclusief een AI",
+        "vk": "Pvürtv èsgvekspal èvgärkäntv èttái antuk rupvutàia"
+    },
     "curtains-projects-void-title": {
         "en": "To be determined",
         //"de": "",
@@ -242,7 +254,7 @@ const translations = {
     "curtains-contact-emailaddress": {
         "en": "Email Address",
         //"de": "",
-        "nl": "Email-adres",
+        "nl": "Emailadres",
         "vk": "Pletsnenvi èttáipvruêf"
     },
     "curtains-contact-nickname": {
@@ -274,6 +286,36 @@ const translations = {
         //"de": "",
         "nl": "Discord-server",
         "vk": "Pretkenelevyo Tëskorton"
+    },
+    "footer-credit-title": {
+        "en": "Special thanks",
+        //"de": "",
+        "nl": "Met dank aan",
+        "vk": "Anta tvënkvgëdizok"
+    },
+    "footer-credit-larsitas": {
+        "en": "<a href='https://m.youtube.com/channel/UCkT4DXGomZczwtrkK7hlj4w'>Larsitas</a> | constant \"reviewing\"",
+        //"de": "",
+        "nl": "<a href='https://m.youtube.com/channel/UCkT4DXGomZczwtrkK7hlj4w'>Larsitas</a> | constant \"beoordelen\"",
+        "vk": "<a href='https://m.youtube.com/channel/UCkT4DXGomZczwtrkK7hlj4w'>Larsitas</a> | titv èsëknä \"gáivänevyo ëtvuês\""
+    },
+    "footer-credit-volt": {
+        "en": "<a href=\"https://www.youtube.com/@Volt64bolt\">Volt64Bolt</a> | Pinball Physics",
+        //"de": "",
+        "nl": "<a href=\"https://www.youtube.com/@Volt64bolt\">Volt64Bolt</a> | Pinball Physics",
+        "vk": "<a href=\"https://www.youtube.com/@Volt64bolt\">Volt64polt</a> | Pvävgáignvutürevyo snûipänen Èpënpvëlän"
+    },
+    "footer-legalinfo-title": {
+        "en": "Legal info",
+        //"de": "",
+        "nl": "Legale informatie",
+        "vk": "Raniirfürnvetsúei èklyeronritv"
+    },
+    "footer-legalinfo-link": {
+        "en": "<a href=\"cookies.html\">Privay Policy</a>",
+        //"de": "",
+        "nl": "<a href=\"cookies.html\">Privacybeleid</a>",
+        "vk": "<a href=\"cookies.html\">Nvenvuêron yostanta izokyost genonä</a>"
     },
     // "": {
     //     "en": "",
