@@ -47,7 +47,7 @@
 
 /* ----- Lang & Theme buttons ----- */
 
-.header button {
+.headerbtn {
     border: none;
     margin-right: 0px;
     height: 2em;
@@ -60,24 +60,20 @@
     filter: invert(hover);
 }
 
-.header img {
+.headerbtn img {
     margin: 0.3em;
     height: 2em;
     filter: invert(0.6)
 }
 
-.header img:hover {
+.headerbtn:hover img {
     margin: 0em;
     height: 2.6em;
     filter: invert(var(--button-hover-invert))
 }
 
-
-/* Implement dropdown menu for lang selection */
-/* https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_navbar2 */
-
-/* ----- Other ------ */
-.theme-selection {
+/* Align theme selection right */
+/* .theme-selection {
     margin-left: auto;
     margin-right: 2em;
-}
+} */

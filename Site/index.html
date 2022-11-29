@@ -85,22 +85,33 @@
             </div>
         </div>
         <div class="header">
-            <div class='language-selection'>
+            <!-- <div class='language-selection'>
                 <button type="button" onclick=""></button>
                 <img src="./imgs/flags/lang-selector.svg">
-            </div>
+            </div> -->
 
 
-            <!-- Implement dropdown menu for lang selection -->
-            <!-- https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_navbar2 -->
-            <div name="languages" id="lang-selector" class="dropdown-content">
-                <a value="uk">English</a>
-                <a value="germany">German</a>
-                <a value="netherlands">Dutch</a>
-                <a value="france">French</a>
-                <a value="viviolask">Viviolask</a>
-                <a value="germany">German</a>
-            </div>
+            <div class="dropdown">
+                <button class="headerbtn"><img src="./imgs/flags/lang-selector.svg"></button>
+                <div class="dropdown-content">
+              
+                  <button onclick="doTranslation('en')" name="uk" type="button" class="flag">
+                      <img id='flagen' height='30px' src="./imgs/flags/flagen.png">
+                  </button>
+                  <button onclick="doTranslation('de')" name="germany" type="button" class="flag">
+                      <img id='flagde' height='30px' src="./imgs/flags/flagde.png">
+                  </button>
+                  <button onclick="doTranslation('nl')" name="netherlands" type="button" class="flag">
+                      <img id='flagnl' height='30px' src="./imgs/flags/flagnl.png">
+                  </button>
+                  <button onclick="doTranslation('fr')" name="fr" type="button" class="flag">
+                      <img id="flagfr" height="30px" src="./imgs/flags/flagfr.png">
+                  </button>
+                  <button onclick="doTranslation('vk')" name="viviolask" type="button" class="flag">
+                      <img id='flagvk' height='30px' src="./imgs/flags/flagvk.png">
+                  </button>
+                </div>
+              </div>
 
 
 
@@ -119,7 +130,7 @@
                 </a>
             </div>
             <div class='theme-selection'>
-                <button type="button" onclick="toggleTheme()">
+                <button class="headerbtn" type="button" onclick="toggleTheme()">
                     <img height='30px' id="themesvg" src="./imgs/darkmode-lightmode/dark-mode.svg">
                 </button>
             </div>
