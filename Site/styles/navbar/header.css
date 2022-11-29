@@ -31,17 +31,18 @@
 }
 
 
-.navelem {
+.navbar a {
     text-align: center;
+    padding: 1em;
     /* width: 100px; */
     /* transition: all 0s ease 0; */
 }
 
-.navelem:hover {
+.navbar a:hover {
     background-color: var(--secondary-color);
 }
 
-.navelem.active {
+.navbar .active {
     background-color: var(--secondary-color);
     /* transition: all 0s ease 0s; */
 }

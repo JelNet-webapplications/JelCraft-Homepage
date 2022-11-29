@@ -20,19 +20,6 @@ function toggleTheme() {
     console.log('createCookie '+theme)
 }
 
-function buttonOnHover() {
-    // let button = document.getElementsByClassName('theme-selection')[0].querySelector('img');
-    // if(theme == 'dark') {
-    //     button.style.filter = 'invert(1)';
-    // } else {
-    //     button.style.filter = 'invert(0)';
-    // }
-}
-
-function buttonOffHover() {
-    //document.getElementsByClassName('theme-selection')[0].querySelector('img').style.filter = 'invert(0.6)';
-}
-
 let testCurse = 'void';
 function curseProgress(char, progress){
     if(char == 'Z'){
@@ -107,7 +94,6 @@ function setTheme(themeMode) {
     
     let img = document.getElementById('themesvg');
     let r = document.querySelector(':root');
-    let button = document.getElementsByClassName('theme-selection')[0].querySelector('img');
 
     theme = themeMode
     if(themeMode == 'dark') {
