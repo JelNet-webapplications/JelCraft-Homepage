@@ -1,6 +1,5 @@
 function dTsC(){
     // checkCookie();
-
     responsify()
     setInterval(responsify, 250);
     loadPref();

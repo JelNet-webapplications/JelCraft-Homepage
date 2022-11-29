@@ -1,5 +1,4 @@
 .language-selection {
-    /* top: 100px; */
     display: flex;
 }
 
@@ -28,18 +27,11 @@
     margin: -.3em;
 }
 
-/* .flag:nth-child(2) img {
-  height:3em;
-} */
-
-
 /* ----- NEW DROPDOWN ----- */
   
   .dropdown {
     position: relative;
     display: inline-block;
-
-    /* background-color: red; */
     padding-bottom: 2em;
     margin-bottom: -2em;
   }
@@ -64,15 +56,6 @@
 
     z-index: 1;
   }
-
-
-  /* .flag {
-    border: none;
-    margin-right: 0px;
-    height: 2em;
-    width: auto;
-    background-color: rgba(0, 255, 255, 0);
-  } */
   
   .dropdown:hover .dropdown-content {
       display: flex;

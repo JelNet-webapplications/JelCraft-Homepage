@@ -108,11 +108,10 @@ function setTheme(themeMode) {
         r.style.setProperty('--text-color', '#dfdfdf');
         r.style.setProperty('--header-text-color', 'black');
         r.style.setProperty('--fadescreen-opacity', '0.8');
+        r.style.setProperty('--button-hover-invert', '1');
 
         document.getElementById('discordWidget').src = 'https://discord.com/widget?id=586500162415755275&theme=dark'
         
-        r.style.setProperty('--button-hover-invert', '1');
-        //button.style.filter = 'invert(1)';
     } else {
         img.src = './imgs/darkmode-lightmode/dark-mode.svg';
 
@@ -125,11 +124,9 @@ function setTheme(themeMode) {
         r.style.setProperty('--text-color', 'black');
         r.style.setProperty('--header-text-color', 'white');
         r.style.setProperty('--fadescreen-opacity', '0.5');
+        r.style.setProperty('--button-hover-invert', '0');
 
         document.getElementById('discordWidget').src = 'https://discord.com/widget?id=586500162415755275&theme=light'
         
-        r.style.setProperty('--button-hover-invert', '0');
-
-        //button.style.filter = 'invert(0)';
     }
 }

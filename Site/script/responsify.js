@@ -9,8 +9,4 @@ function responsify(){
 		document.getElementById('projects').style.gridRow = '1 / 20'
 		document.getElementById('discord-server').style.gridRow = '3 / 20'
 	}
-
-	// else if(wwidth < 1400) {
-	// 	//curtains ietsje langer
-	// }
 }

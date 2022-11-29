@@ -2,9 +2,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    box-shadow: 0px 0px 30px 10px var(--shadow-color);
+}
+
+.header a {
+    color: var(--header-text-color);
     font-family: 'Rubik';
     font-weight: bold;
-    box-shadow: 0px 0px 30px 10px var(--shadow-color);
 }
 
 .title {
@@ -34,8 +38,6 @@
 .navbar a {
     text-align: center;
     padding: 1em;
-    /* width: 100px; */
-    /* transition: all 0s ease 0; */
 }
 
 .navbar a:hover {
@@ -44,7 +46,6 @@
 
 .navbar .active {
     background-color: var(--secondary-color);
-    /* transition: all 0s ease 0s; */
 }
 
 /* ----- Lang & Theme buttons ----- */
@@ -68,13 +69,13 @@
     filter: invert(0.6)
 }
 
-.headerbtn:hover img {
+.headerbtn:hover img, .dropdown:hover>*>img {
     margin: 0em;
     height: 2.6em;
     filter: invert(var(--button-hover-invert))
 }
 
-/* Align theme selection right */
+/* ----- Align theme & lang selection ----- */
 .theme-selection {
     margin-left: auto;
     margin-right: 2em;
