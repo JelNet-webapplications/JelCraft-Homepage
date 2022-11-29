@@ -84,41 +84,56 @@
                 <button onmousedown="processPref()" onmouseleave="swapButtons(false)" onmouseenter="swapButtons(true)" class='indiviCookiebutton' type="button" id="denybutton">Deny</button>
             </div>
         </div>
+        
         <div class="header">
-            <!-- <div class='language-selection'>
-                <button type="button" onclick=""></button>
-                <img src="./imgs/flags/lang-selector.svg">
-            </div> -->
-
 
             <div class="dropdown">
                 <button class="headerbtn"><img src="./imgs/flags/lang-selector.svg"></button>
-                <div class="dropdown-content">
-              
-                  <button onclick="doTranslation('en')" name="uk" type="button" class="flag">
-                      <img id='flagen' height='30px' src="./imgs/flags/flagen.png">
-                  </button>
-                  <button onclick="doTranslation('de')" name="germany" type="button" class="flag">
-                      <img id='flagde' height='30px' src="./imgs/flags/flagde.png">
-                  </button>
-                  <button onclick="doTranslation('nl')" name="netherlands" type="button" class="flag">
-                      <img id='flagnl' height='30px' src="./imgs/flags/flagnl.png">
-                  </button>
-                  <button onclick="doTranslation('fr')" name="fr" type="button" class="flag">
-                      <img id="flagfr" height="30px" src="./imgs/flags/flagfr.png">
-                  </button>
-                  <button onclick="doTranslation('vk')" name="viviolask" type="button" class="flag">
-                      <img id='flagvk' height='30px' src="./imgs/flags/flagvk.png">
-                  </button>
-                </div>
+                    <div class="dropdown-content-container">
+                        <div class="dropdown-content">
+                    
+                        <button onclick="doTranslation('en')" name="uk" type="button" class="flag">
+                            <img id='flagen' height='30px' src="./imgs/flags/flagen.png">
+                        </button>
+                        <button onclick="doTranslation('de')" name="germany" type="button" class="flag">
+                            <img id='flagde' height='30px' src="./imgs/flags/flagde.png">
+                        </button>
+                        <button onclick="doTranslation('nl')" name="netherlands" type="button" class="flag">
+                            <img id='flagnl' height='30px' src="./imgs/flags/flagnl.png">
+                        </button>
+                        <button onclick="doTranslation('fr')" name="fr" type="button" class="flag">
+                            <img id="flagfr" height="30px" src="./imgs/flags/flagfr.png">
+                        </button>
+                        <button onclick="doTranslation('vk')" name="viviolask" type="button" class="flag">
+                            <img id='flagvk' height='30px' src="./imgs/flags/flagvk.png">
+                        </button>
+                        </div>
+                    </div>
               </div>
-
-
 
             <div class="title">
                 <a id="Бnavbar-jelnet"></a>
             </div>
             <div class="navbar">
+                <!-- !!deze is veel compacter en heeft iig geen errors, maar werkt nog niet met translate. -->
+                <!-- <p class="navelem left active" id="Бnavbar-home">home</p> -->
+                
+
+                <!-- !!waar tf komt die langere transition vandaan op deze?? -->
+                <a class="navelem" id="active">
+                    <p id="Бnavbar-home"></p>
+                </a>
+
+
+                <p href="http://jelcraft.zapto.org/" class="navelem middle" id="Бnavbar-internal">internal</p>
+                
+    
+                
+                <p href="http://jelcraft.zapto.org/" class="navelem right" id="Бnavbar-external">external</a>
+            </div>
+
+
+            <!-- <div class="navbar">
                 <a href="http://jelcraft.zapto.org/" class="navelem" id="active">
                     <p href="http://jelcraft.zapto.org/" id="Бnavbar-home"></p>
                 </a>
@@ -128,12 +143,14 @@
                 <a href="http://jelcraft.zapto.org/" class="navelem" class="right">
                     <p href="http://jelcraft.zapto.org/" id="Бnavbar-external"></p>
                 </a>
-            </div>
+            </div> -->
+
             <div class='theme-selection'>
                 <button class="headerbtn" type="button" onclick="toggleTheme()">
                     <img height='30px' id="themesvg" src="./imgs/darkmode-lightmode/dark-mode.svg">
                 </button>
             </div>
+
         </div>
 
         <div class="grid-container" id="layout-container">
@@ -333,37 +350,6 @@
                 <p><a href="cookies.html">Privacy Policy</a></p>
             </div>
         </div>
-
-
-
-
-
-
-
-
-        <!-- ARCHIVE -->
-
-        <div class='language-selection'>
-            <button onclick="doTranslation('en')" name="uk" type="button" class="flag">
-                <img id='flagen' height='30px' src="./imgs/flags/flagen.png">
-            </button>
-            <button onclick="doTranslation('de')" name="germany" type="button" class="flag">
-                <img id='flagde' height='30px' src="./imgs/flags/flagde.png">
-            </button>
-            <button onclick="doTranslation('nl')" name="netherlands" type="button" class="flag">
-                <img id='flagnl' height='30px' src="./imgs/flags/flagnl.png">
-            </button>
-            <button onclick="doTranslation('fr')" name="fr" type="button" class="flag">
-                <img id="flagfr" height="30px" src="./imgs/flags/flagfr.png">
-            </button>
-            <button onclick="doTranslation('vk')" name="viviolask" type="button" class="flag">
-                <img id='flagvk' height='30px' src="./imgs/flags/flagvk.png">
-            </button>
-        </div>
-
-
-
-
 
     </body>
 </html>

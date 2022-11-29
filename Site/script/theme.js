@@ -8,7 +8,6 @@ window.addEventListener('DOMContentLoaded', (event) => {
     } else {
         setTheme(getCookie("COOKIEtheme"))
     }
-    themeOffHover();
 });
 
 function toggleTheme() {
