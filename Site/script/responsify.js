@@ -4,7 +4,7 @@ function responsify(){
 		//body
 		document.getElementById('layout-container').style.gridTemplateColumns = '80%'
 		document.getElementById('projects').style.gridRow = '1'
-		document.getElementById('discord-server').style.gridRow = '4'
+		document.getElementById('discord-server').style.gridRow = '4/22'
 	
 		//form
 		document.getElementsByName('email')[0].style.gridColumn = '1/3'
