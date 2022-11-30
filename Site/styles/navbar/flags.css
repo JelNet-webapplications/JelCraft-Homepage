@@ -8,14 +8,22 @@
     border-style: solid;
     border-color: var(--tertiary-color);
     border-radius: 3px;
-    
+}
+
+.flag p3 {
+  margin-left: 2em;
+}
+
+.flag:hover p3 {
+  margin-left: 1.7em;
 }
 
 .flag {
     display:flex;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
 
+    margin-left: 1em;
     margin: .2em;
     padding: 0;
     background-color: transparent;
@@ -36,12 +44,12 @@
     margin-bottom: -2em;
   }
 
-  .dropdown-content-container {
+  /* .dropdown-content-container {
     display:flex;
     justify-content: center;
     align-content: center;
   }
-  
+   */
   .dropdown-content {
     display: none;
     flex-direction: column;

@@ -93,15 +93,12 @@ iframe {
     margin: 1em 2em;
     padding-right: .5em;
     display: flex;
-    align-items: center;
     border-radius: 1em;
     position:relative;
     left:0px;
 }
 
 .paragraph:hover {
-    /*margin-left: 2.5em;
-    margin-right: 1.5em;*/
     left:10px;
     background-color: var(--background-color);
 }
