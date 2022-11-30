@@ -84,43 +84,49 @@
                 <button onmousedown="processPref()" onmouseleave="swapButtons(false)" onmouseenter="swapButtons(true)" class='indiviCookiebutton' type="button" id="denybutton">Deny</button>
             </div>
         </div>
+        
         <div class="header">
-            <div class='language-selection'>
-                <button onclick="doTranslation('en')" name="uk" type="button" class="flag">
-                    <img id='flagen' height='30px' src="./imgs/flags/flagen.png">
-                </button>
-                <button onclick="doTranslation('de')" name="germany" type="button" class="flag">
-                    <img id='flagde' height='30px' src="./imgs/flags/flagde.png">
-                </button>
-                <button onclick="doTranslation('nl')" name="netherlands" type="button" class="flag">
-                    <img id='flagnl' height='30px' src="./imgs/flags/flagnl.png">
-                </button>
-                <button onclick="doTranslation('fr')" name="fr" type="button" class="flag">
-                    <img id="flagfr" height="30px" src="./imgs/flags/flagfr.png">
-                </button>
-                <button onclick="doTranslation('vk')" name="viviolask" type="button" class="flag">
-                    <img id='flagvk' height='30px' src="./imgs/flags/flagvk.png">
-                </button>
-            </div>
+
+            <div class="dropdown">
+                <button class="headerbtn"><img src="./imgs/flags/lang-selector.svg"></button>
+                    <div class="dropdown-content-container">
+                        <div class="dropdown-content">
+                    
+                        <button onclick="doTranslation('en')" name="uk" type="button" class="flag">
+                            <img id='flagen' height='30px' src="./imgs/flags/flagen.png"><p3>English</p3>
+                        </button>
+                        <button onclick="doTranslation('de')" name="germany" type="button" class="flag">
+                            <img id='flagde' height='30px' src="./imgs/flags/flagde.png"><p3>Deutsch</p3>
+                        </button>
+                        <button onclick="doTranslation('nl')" name="netherlands" type="button" class="flag">
+                            <img id='flagnl' height='30px' src="./imgs/flags/flagnl.png"><p3>Nederlands</p3>
+                        </button>
+                        <button onclick="doTranslation('fr')" name="fr" type="button" class="flag">
+                            <img id="flagfr" height="30px" src="./imgs/flags/flagfr.png"><p3>Français</p3>
+                        </button>
+                        <button onclick="doTranslation('vk')" name="viviolask" type="button" class="flag">
+                            <img id='flagvk' height='30px' src="./imgs/flags/flagvk.png"><p3>Viviöläzk</p3>
+                        </button>
+                        </div>
+                    </div>
+              </div>
+
             <div class="title">
-                <a id="Бnavbar-jelnet"></a>
+                <a href="./index.html" id="Бnavbar-jelnet"></a>
             </div>
+
             <div class="navbar">
-                <div class="navcontainer" id="active">
-                    <a href="http://jelcraft.zapto.org/" id="Бnavbar-home"></a>
-                </div>
-                <div class="navcontainer" class="middle">
-                    <a href="http://jelcraft.zapto.org/" id="Бnavbar-internal"></a>
-                </div>
-                <div class="navcontainer" class="right">
-                    <a href="http://jelcraft.zapto.org/" id="Бnavbar-external"></a>
-                </div>
+                <a class="left active" id="Бnavbar-home"></a>
+                <a href="./index.html" class="middle" id="Бnavbar-internal"></a>                
+                <a href="./index.html" class="right" id="Бnavbar-external"></a>
             </div>
+
             <div class='theme-selection'>
-                <button type="button" onclick="toggleTheme()" onmouseover="themeOnHover()" onmouseleave="themeOffHover()">
+                <button class="headerbtn" type="button" onclick="toggleTheme()">
                     <img height='30px' id="themesvg" src="./imgs/darkmode-lightmode/dark-mode.svg">
                 </button>
             </div>
+
         </div>
 
         <div class="grid-container" id="layout-container">
@@ -320,7 +326,6 @@
                 <p id="Бfooter-legalinfo-link"><a href="cookies.html">Privacy Policy</a></p>
             </div>
         </div>
-
 
     </body>
 </html>

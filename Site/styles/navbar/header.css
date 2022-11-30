@@ -2,31 +2,29 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Rubik';
-    font-weight: bold;
     box-shadow: 0px 0px 30px 10px var(--shadow-color);
 }
 
+.header a {
+    color: var(--header-text-color);
+    font-family: 'Rubik';
+    font-weight: bold;
+}
+
 .title {
-    background-color: var(--primary-color);
-    margin: 1em;
-    padding: 1em;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 1em;
     border-radius: 100px;
+    background-color: var(--primary-color);
 }
 
-.navcontainer#active {
-    background-color: var(--secondary-color);
-    width: 100px;
-    text-align: center;
-    transition: all 0s ease 0s;
+.title a {
+    padding:1em;
 }
 
-.navcontainer:hover {
-    background-color: var(--secondary-color);
-}
+/* ----- Navbar Elements ----- */
 
 .navbar {
     background-color: var(--primary-color);
@@ -38,21 +36,54 @@
     overflow: hidden;
 }
 
-.navcontainer {
+
+.navbar a {
+    text-align: center;
     padding: 1em;
-    transition: all 0s ease 0;
 }
 
-.header button {
+.navbar a:hover {
+    background-color: var(--secondary-color);
+}
+
+.navbar .active {
+    background-color: var(--secondary-color);
+}
+
+/* ----- Lang & Theme buttons ----- */
+
+.headerbtn {
     border: none;
     margin-right: 0px;
-    height: 30px;
+    height: 2em;
     width: auto;
     background-color: rgba(0, 255, 255, 0);
 }
 
 .header button:hover {
     background-color: none;
-    border: none;
-    cursor: pointer;
+    filter: invert(hover);
+}
+
+.headerbtn img {
+    margin: 0.3em;
+    height: 2em;
+    filter: invert(0.6)
+}
+
+.headerbtn:hover img, .dropdown:hover>*>img {
+    margin: 0em;
+    height: 2.6em;
+    filter: invert(var(--button-hover-invert))
+}
+
+/* ----- Align theme & lang selection ----- */
+.theme-selection {
+    margin-left: auto;
+    margin-right: 2em;
+}
+
+.dropdown {
+    margin-right: auto;
+    margin-left: 2em;
 }

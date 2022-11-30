@@ -1,5 +1,6 @@
 function doTranslation(lan){
-    let navbarHomeSquare = document.getElementById('active').style;
+    let navbarHomeSquare = document.getElementsByClassName('active')[0].style;
+    
     if(lan == 'vk'){
         navbarHomeSquare.width = '150px';
     } else {
