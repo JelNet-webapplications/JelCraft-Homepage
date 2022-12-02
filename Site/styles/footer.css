@@ -1,5 +1,6 @@
 .footer {
-    display: flex;
+    display: grid;
+    grid-template-columns: 40% 40%;
     justify-content: center;
     align-items: center;
     box-shadow: 0px 0px 30px 10px var(--shadow-color);
@@ -9,10 +10,17 @@
     text-align: center;
     padding: 1em;
     margin:1em;
-    width: 30%;
     margin-top: 0;
 }
 
 .footer h2, .footer a, .footer {
     color: var(--text-color);
+}
+
+.footer a {
+    color: var(--secondary-color)
+}
+
+.footer a:hover {
+    color: var(--primary-color)
 }
