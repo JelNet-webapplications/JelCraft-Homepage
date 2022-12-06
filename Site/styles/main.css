@@ -115,3 +115,46 @@ iframe {
 .link-wip{
     cursor: pointer;
 }
+
+/* 
+ *  contextmenu
+ */
+
+#contextmenu{
+    height: auto;
+    width: 308px;
+    top: 0px;
+    position: absolute;
+    background-color: #585757;
+    z-index: 1000;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0s;
+    display: none;
+    box-shadow: 0px 0px 30px 10px var(--shadow-color);
+    color: white;
+    text-indent: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: center;
+    line-height: 40px;
+}
+#contextmenu>div{
+    background-color: #726e6e;
+    margin: 4px;
+    width: 300px;
+    height: 40px;
+    border-radius: inherit;
+    position: relative;
+    transition: all 0.25s ease 0s;
+    box-shadow: 0px 0px 30px 0.5px var(--shadow-color);
+    vertical-align: center;
+}
+#contextmenu>div:hover{
+    background-color: #a7a2a2;
+    color: black;
+    line-height: 45px;
+    height: 45px;
+    width: 320px;
+}
