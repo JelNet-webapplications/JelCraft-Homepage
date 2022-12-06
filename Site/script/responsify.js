@@ -1,6 +1,6 @@
 function responsify(){
 	let wwidth = window.innerWidth;
-	if(wwidth < 1200){
+	if(wwidth < 800){
 		//body
 		document.getElementById('layout-container').style.gridTemplateColumns = '80%'
 		document.getElementById('projects').style.gridRow = '1'

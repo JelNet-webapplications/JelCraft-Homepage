@@ -312,7 +312,7 @@ const translations = {
         "vk": "Raniirfürnvetsúei èklyeronritv"
     },
     "footer-legalinfo-link": {
-        "en": "<a href=\"cookies.html\">Privay Policy</a>",
+        "en": "<a href=\"cookies.html\">Privacy Policy</a>",
         //"de": "",
         "nl": "<a href=\"cookies.html\">Privacybeleid</a>",
         "vk": "<a href=\"cookies.html\">Nvenvuêron yostanta izokyost genonä</a>"
