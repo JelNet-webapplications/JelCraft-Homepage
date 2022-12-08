@@ -4,7 +4,7 @@ function dTsC(){
     setInterval(responsify, 250);
     loadPref();
     doTranslation('en');
-    // document.getElementsByClassName('navbar').style.transition = 'all 0s ease 0s';
+    document.getElementById('Бnavbar-home').style.transition = 'all 0s ease 0s';
     console.log('%cthe following launch functions have been called succesfully:%c\n\t"doTranslation(\'en\')"\n\t"setInterval(responsify, 1000)"',"color: darkcyan; font-family: \"Comic Sans MS\", \"Comic Sans\", cursive;","color: lightgrey; font-family:\"Comic Sans MS\", \"Comic Sans\", cursive;")
 }
 
