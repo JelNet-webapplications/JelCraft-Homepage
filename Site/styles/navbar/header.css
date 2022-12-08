@@ -3,8 +3,7 @@
     align-items: center;
     justify-content: center;
     box-shadow: 0px 0px 30px 10px var(--shadow-color);
-
-    position: fixed;
+    position: relative;
     width:100%;
     top: 0em;
     z-index: 2;

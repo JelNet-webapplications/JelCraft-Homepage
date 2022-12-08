@@ -41,6 +41,7 @@ function processPref(){
         document.getElementById(temp).style.display = 'none';
     }
 
+    document.getElementById("header").style.position = "fixed";
     //enable scrolling
     document.body.style.overflow = "visible";
 }
