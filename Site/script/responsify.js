@@ -8,7 +8,10 @@ function responsify(){
 	
 		//form
 		document.getElementsByName('email')[0].style.gridColumn = '1/3'
-		document.getElementsByName('name')[0].style.gridColumn = '1/3'
+		document.getElementsByName('name')[0].style.gridColumn = '1/3';
+
+		// footer
+		document.getElementById("footer").style.alignItems = "flex-start";
 	} else {
 		//body
 		document.getElementById('layout-container').style.gridTemplateColumns = '40% 40%'
@@ -18,5 +21,8 @@ function responsify(){
 		//form
 		document.getElementsByName('email')[0].style.gridColumn = ''
 		document.getElementsByName('name')[0].style.gridColumn = ''
+
+		// footer
+		document.getElementById("footer").style.alignItems = "center";
 	}
 }
