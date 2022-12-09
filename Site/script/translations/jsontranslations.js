@@ -114,10 +114,10 @@ const translations = {
         "vk": "Kënkonydünryuêrvgärro Spupiänievyo èttigän nvërktpleten èpvästentvä"
     },
     "curtains-projects-hangmanengine-title": {
-        "en": "Hangman Engine [WIP]",
+        "en": "Hangman Engine [NDY]",
         //"de": "",
-        "nl": "Calculator voor Galgje [WIP]",
-        "vk": "Ráikäntvaûnkáevyo Gëlgen [WIP]"
+        "nl": "Calculator voor Galgje [NDY]",
+        "vk": "Ráikäntvaûnkáevyo Gëlgen [NDY]"
     },
     "curtains-projects-hangmanengine-description": {
         "en": "Calculate the perfect guess for hangman",
@@ -126,10 +126,10 @@ const translations = {
         "vk": "Ypväráikänevvgärgükòio èparfactä tygo Gëlgen"
     },
     "curtains-projects-wordfeudcalculator-title": {
-        "en": "Wordfeud Calculator [WIP]",
+        "en": "Wordfeud Calculator [NDY]",
         //"de": "",
-        "nl": "Wordfeud-calculator [WIP]",
-        "vk": "Ráikäntvaûnkáevyo Vgüzrtvspalen [WIP]"
+        "nl": "Wordfeud-calculator [NDY]",
+        "vk": "Ráikäntvaûnkáevyo Vgüzrtvspalen [NDY]"
     },
     "curtains-projects-wordfeudcalculator-description": {
         "en": "Calculate the best words for Wordfeud and Scrabble",
@@ -138,10 +138,10 @@ const translations = {
         "vk": "Ypväráikänevvgärvgürztvänòio èpvastä tygo Vgüzrtvspalen ant Skrepûl"
     },
     "curtains-projects-dirkmap-title": {
-        "en": "Dirk Map [WIP]",
+        "en": "Dirk Map [NDY]",
         //"de": "",
-        "nl": "Dirk-plattegrond [WIP]",
-        "vk": "Grüntvevyo ènyspikäzg Tërk [WIP]"
+        "nl": "Dirk-plattegrond [NDY]",
+        "vk": "Grüntvevyo ènyspikäzg Tërk [NDY]"
     },
     "curtains-projects-dirkmap-description": {
         "en": "Shows the perfect route to find your groceries",
@@ -162,10 +162,10 @@ const translations = {
         "vk": "Yost kopvüsänen èttái tygo Náinkraft Ry43 tvûinär pvästalänä"
     },
     "curtains-projects-viviolasktranslator-title": {
-        "en": "Viviolask Translator [WIP]",
+        "en": "Viviolask Translator [NDY]",
         //"de": "",
-        "nl": "Viviolask-vertaler [WIP]",
-        "vk": "Telyostsvatäruyo Viviöläzk [WIP]"
+        "nl": "Viviolask-vertaler [NDY]",
+        "vk": "Telyostsvatäruyo Viviöläzk [NDY]"
     },
     "curtains-projects-viviolasktranslator-description": {
         "en": "Translate Dutch into the conlang we call Viviolask",
@@ -186,10 +186,10 @@ const translations = {
         "vk": "Gägvun pvürtväàia èskvürä, nesäp raväranta knüpän èvaûzl"
     },
     "curtains-projects-chessengine-title": {
-        "en": "Chess bot [WIP]",
+        "en": "Chess bot [NDY]",
         //"de": "",
-        "nl": "Schaakrobot [WIP]",
-        "vk": "Áuêtunvutär èsgvekspalù [WIP]"
+        "nl": "Schaakrobot [NDY]",
+        "vk": "Áuêtunvutär èsgvekspalù [NDY]"
     },
     "curtains-projects-chessengine-description": {
         "en": "Working chess simulator, including an AI",
