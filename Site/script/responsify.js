@@ -49,14 +49,17 @@ function responsify(){
 		cookieprefDOM.style.paddingBottom = null;
 		cookieprefDOM.style.height = null;
 		cookieprefDOM.style.fontSize = null;
+		
+		let cookiestyle = document.getElementById("cookiebutton").style;
+
 		document.getElementById("acceptbutton").style.height = null;
 		document.getElementById("denybutton").style.height = null;
 		document.getElementById("acceptbutton").style.marginBottom = null;
 		document.getElementById("cookietext1").style.width = null;
 		document.getElementById("cookietext2").style.width = null;
-		document.getElementById("cookiebutton").style.left = null;
-		document.getElementById("cookiebutton").style.position = null;
-		document.getElementById("cookiebutton").style.width = null;
-		document.getElementById("cookiebutton").style.top = null;
+		cookiestyle.left = null;
+		cookiestyle.position = null;
+		cookiestyle.width = null;
+		cookiestyle.top = null;
 	}
 }
