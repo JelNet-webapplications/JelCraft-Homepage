@@ -67,6 +67,7 @@
 .header button:hover {
     background-color: none;
     filter: invert(hover);
+    cursor: pointer;
 }
 
 .headerbtn img {
