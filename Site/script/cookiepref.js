@@ -1,12 +1,13 @@
 function loadPref(){
     if(getCookie('COOKIEpref')) {
         processPref();
-    } else {
+    } else {/* TERING POPUP IK BEN ER HELEMAAL KLAAR MEE
         console.warn("No cookies found for preference, defaulting to preference form & initiating cookies.")
         document.getElementById('fadescreen').style.display = 'block';
         document.getElementById('cookiepref').style.display = 'block';
         //disable scrolling
-        document.body.style.overflow = "hidden";
+        document.body.style.overflow = "hidden";*/
+        processPref();
     }
 }
 

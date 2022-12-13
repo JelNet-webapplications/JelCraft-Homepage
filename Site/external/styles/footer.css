@@ -1,0 +1,26 @@
+#footer {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 30px 10px var(--shadow-color);
+}
+
+.footer_container {
+    text-align: center;
+    padding: 1em;
+    margin:1em;
+    margin-top: 0;
+}
+
+.footer h2, .footer a, .footer {
+    color: var(--text-color);
+}
+
+.footer a {
+    color: var(--secondary-color)
+}
+
+.footer a:hover {
+    color: var(--primary-color)
+}

@@ -1,0 +1,303 @@
+<!--
+    <== Page information ==>
+    Page name:          JelNet Homepage
+    Creator:            JelCraft, Vivaloz
+    Publisher:          JelCraft
+    Date of creation:   In ieder geval ergens na 1594
+-->
+
+<!DOCTYPE html>
+<html lang="en-NL" id="html">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible"  content="IE=edge">
+        <meta name="viewport"               content="width=device-width, initial-scale=1.0">
+        
+        <!-- Page information -->
+        <meta name='keywords'               content='JelCraft,JelNet,Pinballs'>
+        <meta name="description"            content="Navigation page for JN Projects">
+
+        <!-- Embed -->
+        <meta property="og:image"           content="https://media.discordapp.net/attachments/664914818523988005/1022989050728173608/Business.png?width=673&height=671">
+        <meta property="og:title"           content="JelNet Homepage">  
+        <meta property="og:description"     content="Navigation page for JN Projects">
+        <meta property="og:url"             content="jelcraft.tk">
+        <meta property="og:type"            content="website">
+        
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="./styles/main.css">
+        <link rel="stylesheet" href="./styles/form.css">
+        <link rel="stylesheet" href="./styles/cookiepref.css">
+        <link rel="stylesheet" href="./styles/navbar/header.css">
+        <link rel="stylesheet" href="./styles/navbar/flags.css">
+        <link rel="stylesheet" href="./styles/navbar/theme.css">
+        <link rel="stylesheet" href="./styles/footer.css">
+
+        <!-- Code -->
+        <script src="./script/index.js"></script>
+        <script src="./script/rickroll.js"></script>
+        <script src="./script/theme.js"></script>
+        <script src="./script/loadprojects.js"></script>
+        <script src="./script/gevuldekoek.js"></script>
+        <script src="./script/cookiepref.js"></script>
+        <script src="./script/translations/translate.js"></script>
+        <script src="./script/translations/jsontranslations.js"></script>
+        
+        <!-- Misc -->
+        <title>JelNet - Internal</title>
+        <link rel="icon" type="image/x-icon" href="./imgs/webpage-icons/Business.png">
+    </head>
+    <!-- <body onload="doTranslation('en')"> -->
+    <body onload="dTsC()">
+        <div class="fadescreen" id="fadescreen"></div>
+        <div class="cookiepref" id="cookiepref">
+            <p>Our use of cookies and other technologies</p>
+            <div class="cookietext" id="cookietext1">
+                <h>
+                    We, our Affiliates and Vendors use cookies and other technologies
+                    to process personal data (including device identifiers and IP
+                    addresses) for the following purposes: Store and/or access 
+                    information on a device, Select personalised ads, Create a 
+                    personalised ads profile, Create a personalised content profile,
+                    Select personalised content, Measure content performance, 
+                    Apply market research to generate audience insights, Develop 
+                    and improve products, Select basic ads and Measure ad 
+                    performance.
+                </h>
+            </div>
+            <div class="cookietext" id="cookietext2">
+                <h>
+                    By clicking “Accept All” you agree to these purposes. For more 
+                    information, to provide or withdraw consents for processing 
+                    your personal data, click “Manage Cookies+.” Additionally, 
+                    you may exercise your preferences for consent at a vendor level 
+                    in the “Vendors” link. These settings are accessible on a site
+                     or app specific basis, at any time through the ‘Manage Cookies+’ 
+                     link located at the footer of webpages or in application settings. 
+                     We work in coordination with an industry framework which will 
+                     signal your preferences to our participating vendors.
+                </h>
+            </div>
+            <div class="cookiebutton" id="cookiebutton">
+                <button onmousedown="processPref()" class='indiviCookiebutton' type="button" id="acceptbutton">Accept</button>
+                <button onmousedown="processPref()" onmouseleave="swapButtons(false)" onmouseenter="swapButtons(true)" class='indiviCookiebutton' type="button" id="denybutton">Deny</button>
+            </div>
+        </div>
+        
+        <div class="header" id="header">
+            <div class="dropdown">
+                <button class="headerbtn"><img src="./imgs/flags/lang-selector.svg"></button>
+                    <div class="dropdown-content-container">
+                        <div class="dropdown-content">
+                    
+                        <button onclick="doTranslation('en')" name="uk" type="button" class="flag">
+                            <img id='flagen' height='30px' src="./imgs/flags/flagen.png">
+                            <p3>English</p3>
+                        </button>
+                        <button style="display: none;" onclick="doTranslation('de')" name="germany" type="button" class="flag">
+                            <img id='flagde' height='30px' src="./imgs/flags/flagde.png">
+                            <p3>Deutsch</p3>
+                        </button>
+                        <button onclick="doTranslation('nl')" name="netherlands" type="button" class="flag">
+                            <img id='flagnl' height='30px' src="./imgs/flags/flagnl.png">
+                            <p3>Nederlands</p3>
+                        </button>
+                        <button style="display: none;" onclick="doTranslation('fr')" name="fr" type="button" class="flag">
+                            <img id="flagfr" height="30px" src="./imgs/flags/flagfr.png">
+                            <p3>Français</p3>
+                        </button>
+                        <button onclick="doTranslation('vk')" name="viviolask" type="button" class="flag">
+                            <img id='flagvk' height='30px' src="./imgs/flags/flagvk.png">
+                            <p3>Viviöläzk</p3>
+                        </button>
+                        </div>
+                    </div>
+              </div>
+
+            <div class="title">
+                <a href="../index.html" id="Бnavbar-jelnet"></a>
+            </div>
+
+            <div class="navbar">
+                <a href="../index.html" class="left" id="Бnavbar-home"></a>
+                <a href="../internal/index.html" class="middle active" id="Бnavbar-internal"></a>                
+                <a href="../external/index.html" class="right" id="Бnavbar-external"></a>
+            </div>
+
+            <div class='theme-selection'>
+                <button class="headerbtn" type="button" onclick="toggleTheme()">
+                    <img height='30px' id="themesvg" src="../imgs/darkmode-lightmode/dark-mode.svg">
+                </button>
+            </div>
+        </div>
+
+        <div class="grid-container" id="layout-container">
+            <div class="grid-item" id="projects">
+                <h1 id="Бcurtains-projects-title"></h1>
+                <a href="http://jelcraft.tk/pinball-converter/">
+                    <div class="paragraph" id="pinball-converter">
+                        <img src="./imgs/project-icons/Pinball-Converter.svg">
+                        <div>
+                            <h2 id="Бcurtains-projects-pinballconverter-title"></h2>
+                            <p3 id="Бcurtains-projects-pinballconverter-description"></p3>
+                        </div>
+                    </div>
+                </a>
+                <a href="http://jelcraft.tk/pinball-physics/">
+                    <div class="paragraph" id="pinball-physics">
+                        <img height="57.4px" src="./imgs/project-icons/Pinball-physics.svg">
+                        <div>                        
+                            <h2 id="Бcurtains-projects-pinballphysics-title"></h2>
+                            <p3 id="Бcurtains-projects-pinballphysics-description"></p3>
+                        </div>
+                    </div>
+                </a>
+                <a href="http://jelcraft.tk/sudoku-solver/">
+                    <div class="paragraph" id="sudokusolver">
+                        <img src="./imgs/project-icons/SudokuSolver.svg">
+                        <div>
+                            <h2 id="Бcurtains-projects-sudokusolver-title"></h2>
+                            <p3 id="Бcurtains-projects-sudokusolver-description"></p3>
+                        </div>
+                    </div>
+                </a>
+                <a href="http://jelcraft.tk/world-stats/">
+                    <div class="paragraph" id="worldstats">
+                        <img src="./imgs/project-icons/WorldStats.svg">
+                        <div>                        
+                            <h2 id="Бcurtains-projects-worldstats-title"></h2>
+                            <p3 id="Бcurtains-projects-worldstats-description"></p3>
+                        </div>
+                    </div>
+                </a>
+                <a href="http://jelcraft.tk/flight-calculator/">
+                    <div class="paragraph" id="flightcalculator">
+                        <img height="57.4px" src="./imgs/project-icons/FlightCalculator.svg">
+                        <div>                        
+                            <h2 id="Бcurtains-projects-flightcalculator-title"></h2>
+                            <p3 id="Бcurtains-projects-flightcalculator-description"></p3>
+                        </div>
+                    </div>
+                </a>
+                <a href="http://jelcraft.tk/starlabs-delivery/home/home.html">
+                    <div class="paragraph" id="starlabsdelivery">
+                        <img height="57.4px" src="./imgs/project-icons/starlabs.svg">
+                        <div>                        
+                            <h2 id="Бcurtains-projects-starlabsdelivery-title"></h2>
+                            <p3 id="Бcurtains-projects-starlabsdelivery-description"></p3>
+                        </div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="paragraph" id="tobedetermined">
+                        <img height="57.4px" src="./imgs/project-icons/emptysquare.png">
+                        <div>                        
+                            <h2 id="Бcurtains-projects-void-title1"></h2>
+                            <p3 id="Бcurtains-projects-void-description1"></p3>
+                        </div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="paragraph" id="tobedetermined">
+                        <img height="57.4px" src="./imgs/project-icons/emptysquare.png">
+                        <div>                        
+                            <h2 id="Бcurtains-projects-void-title2"></h2>
+                            <p3 id="Бcurtains-projects-void-description2"></p3>
+                        </div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="paragraph" id="tobedetermined">
+                        <img height="57.4px" src="./imgs/project-icons/emptysquare.png">
+                        <div>                        
+                            <h2 id="Бcurtains-projects-void-title3"></h2>
+                            <p3 id="Бcurtains-projects-void-description3"></p3>
+                        </div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="paragraph" id="tobedetermined">
+                        <img height="57.4px" src="./imgs/project-icons/emptysquare.png">
+                        <div>                        
+                            <h2 id="Бcurtains-projects-void-title4"></h2>
+                            <p3 id="Бcurtains-projects-void-description4"></p3>
+                        </div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="paragraph" id="tobedetermined">
+                        <img height="57.4px" src="./imgs/project-icons/emptysquare.png">
+                        <div>                        
+                            <h2 id="Бcurtains-projects-void-title5"></h2>
+                            <p3 id="Бcurtains-projects-void-description5"></p3>
+                        </div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="paragraph" id="tobedetermined">
+                        <img height="57.4px" src="./imgs/project-icons/emptysquare.png">
+                        <div>                        
+                            <h2 id="Бcurtains-projects-void-title6"></h2>
+                            <p3 id="Бcurtains-projects-void-description6"></p3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="grid-item" id="about-us">
+                <h1 id="Бcurtains-aboutus-title">About Us</h1>
+                <a href="https://www.youtube.com/@JelCraft">
+                    <div class="paragraph" >
+                        <img height='75px' width='75px' src="./imgs/profile-pictures/pf-jelcraft.png">
+                        <div>
+                            <h2 id="Бcurtains-aboutus-jelcraft-title"></h2>
+                            <p3 id="Бcurtains-aboutus-jelcraft-description"></p3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="grid-item" id="contact" onmouseenter="canTypeD = true" onmouseleave="canTypeD = false">
+                <h1 id="Бcurtains-contact-title"></h1>
+                <div id="form-container">
+                    <form action="https://formsubmit.co/jelcraft@outlook.com" method="POST">
+                        <input id='Бcurtains-contact-emailaddress' type="email" name="email" placeholder="Email Address">
+                        <input id='Бcurtains-contact-nickname' type="text" name="name" placeholder="Nickname">
+                        <input id='Бcurtains-contact-subject' type="text" name="subject" placeholder="Subject">
+                        <textarea id='Бcurtains-contact-message' name="message" placeholder="Message"></textarea>
+                        
+                        <button id='Бcurtains-contact-send' class='contactbutton' type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+            <div class="grid-item" id="discord-server">
+                <h1 id="Бcurtains-discordserver-title">Discord Server</h1>
+                <iframe id='discordWidget' src="https://discord.com/widget?id=586500162415755275&theme=light" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+            </div>
+        </div>
+
+        <div class="footer" id="footer">
+            <div class="footer_container" id="footer_credit">
+                <h2 id="Бfooter-credit-title">Special thanks</h2>
+                <p id="Бfooter-credit-larsitas"><a href="https://m.youtube.com/channel/UCkT4DXGomZczwtrkK7hlj4w">Larsitas</a> | constant "reviewing"</p>
+                <p id="Бfooter-credit-volt"><a href="https://www.youtube.com/@Volt64bolt">Volt64Bolt</a> | Pinball Physics</p>
+            </div>
+            <div class="footer_container" id="footer_legal">
+                <h2 id="Бfooter-legalinfo-title">Legal Info</h2>
+                <p id="Бfooter-legalinfo-link"><a href="../cookies.html">Privacy Policy</a></p>
+            </div>
+        </div>   
+        <div id="contextmenu">
+            <div>Change theme</div>
+            <div>Change language</div>
+            <div>Enter cursed mode</div>
+            <div>Speed up cursed mode</div>
+            <div>End cursed mode</div>
+            <div>Force mobile version</div>
+            <div>Swap home - internal - external</div> 
+            <div>View privacy policy</div> 
+            <div>Get rickrolled</div>  
+            <div>Show cookie popup</div>
+        </div>
+        <script src="./script/contextmenu.js"></script>
+        <script src="./script/responsify.js"></script>
+    </body>
+</html>

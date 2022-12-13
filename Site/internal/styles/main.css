@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+* {
+    transition: all 0.3s ease 0s;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    /* margin: 0 5%; */
+    background-color: var(--background-color);
+    margin: 0 0em;
+}
+
+a,
+h2,
+p1,
+p2,
+p3 {
+    color: var(--text-color);
+}
+
+#notifyPhone {
+    display: none;
+}
+
+p1 {
+    font-size: 2em;
+}
+
+p2 {
+    font-size: 1.5em;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.header {
+    background-color: var(--foreground-color);
+}
+
+h1 {
+    text-align: center;
+    width:100%;
+    margin: 0;
+    margin-top: .75em;
+    color: #6cc4b8;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.grid-item {
+    display:flex;
+    flex-direction: column;
+    border-radius: 1em;
+    background-color: var(--foreground-color);
+    box-shadow: 0px 0px 30px 10px var(--shadow-color);
+    padding-bottom:1em;
+}
+
+#layout-container {
+
+    display: grid;
+    justify-content: center;
+    gap: 2em;
+    grid-template-columns: 40% 40%;
+    margin: 2em 0;
+    margin-top: 7em;
+}
+
+#projects {
+    height:auto;
+    grid-column: 1;
+    grid-row: 1/20;
+}
+
+#discord-server {
+    display: flex;
+    align-items: center;
+}
+
+iframe {
+    width:80%;
+    height: 90%;
+    margin: 1em;
+}
+
+.paragraph h2 {
+    margin: 0;
+}
+
+.paragraph {
+    margin: 1em 2em;
+    padding-right: .5em;
+    display: flex;
+    border-radius: 1em;
+    position:relative;
+    left:0px;
+}
+
+.paragraph:hover {
+    left:10px;
+    background-color: var(--background-color);
+}
+
+.paragraph img {
+    background-color: var(--secondary-color);
+    padding: 0.3em;
+    margin-right: 1em;
+    border-radius: 10px;
+    height: 3em;
+    width: 3em;
+}
+.link-wip{
+    cursor: pointer;
+}
+
+/* 
+ *  contextmenu
+ */
+
+#contextmenu{
+    height: auto;
+    width: 308px;
+    top: 0px;
+    position: absolute;
+    background-color: #585757;
+    z-index: 1000;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0s;
+    display: none;
+    box-shadow: 0px 0px 30px 10px var(--shadow-color);
+    color: white;
+    text-indent: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: center;
+    line-height: 40px;
+}
+#contextmenu>div{
+    background-color: #726e6e;
+    margin: 4px;
+    width: 300px;
+    height: 40px;
+    border-radius: inherit;
+    position: relative;
+    transition: all 0.25s ease 0s;
+    box-shadow: 0px 0px 30px 0.5px var(--shadow-color);
+    vertical-align: center;
+}
+#contextmenu>div:hover{
+    background-color: #a7a2a2;
+    color: black;
+    line-height: 45px;
+    height: 45px;
+    width: 320px;
+}
