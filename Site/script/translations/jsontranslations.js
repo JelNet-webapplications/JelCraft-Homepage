@@ -213,7 +213,7 @@ const translations = {
         "en": "About us",
         //"de": "",
         "nl": "Over ons",
-        "vk": "Klyeron vgiozok"
+        "vk": "Klyeron vgionzok"
     },
     "curtains-aboutus-jelcraft-title": {
         "en": "JelCraft",
@@ -249,7 +249,7 @@ const translations = {
         "en": "Contact",
         //"de": "",
         "nl": "Contact",
-        "vk": "Eûtrikänë allün vgiozok"
+        "vk": "Eûtrikänë allünv vgiozok"
     },
     "curtains-contact-emailaddress": {
         "en": "Email Address",

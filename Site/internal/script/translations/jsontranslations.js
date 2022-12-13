@@ -135,7 +135,7 @@ const translations = {
         "en": "Contact",
         //"de": "",
         "nl": "Contact",
-        "vk": "Eûtrikänë allün vgiozok"
+        "vk": "Eûtrikänë allünv vgiozok"
     },
     "curtains-contact-emailaddress": {
         "en": "Email Address",
