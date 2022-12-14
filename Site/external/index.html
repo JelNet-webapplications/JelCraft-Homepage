@@ -25,27 +25,26 @@
         <meta property="og:type"            content="website">
         
         <!-- Stylesheets -->
-        <link rel="stylesheet" href="./styles/main.css">
-        <link rel="stylesheet" href="./styles/form.css">
-        <link rel="stylesheet" href="./styles/cookiepref.css">
-        <link rel="stylesheet" href="./styles/navbar/header.css">
-        <link rel="stylesheet" href="./styles/navbar/flags.css">
-        <link rel="stylesheet" href="./styles/navbar/theme.css">
-        <link rel="stylesheet" href="./styles/footer.css">
+        <link rel="stylesheet" href="../styles/main.css">
+        <link rel="stylesheet" href="../styles/form.css">
+        <link rel="stylesheet" href="../styles/cookiepref.css">
+        <link rel="stylesheet" href="../styles/navbar/header.css">
+        <link rel="stylesheet" href="../styles/navbar/flags.css">
+        <link rel="stylesheet" href="../styles/footer.css">
 
         <!-- Code -->
-        <script src="./script/index.js"></script>
-        <script src="./script/rickroll.js"></script>
-        <script src="./script/theme.js"></script>
-        <script src="./script/loadprojects.js"></script>
-        <script src="./script/gevuldekoek.js"></script>
-        <script src="./script/cookiepref.js"></script>
+        <script src="../script/index.js"></script>
+        <script src="../script/rickroll.js"></script>
+        <script src="../script/theme.js"></script>
+        <script src="../script/loadprojects.js"></script>
+        <script src="../script/gevuldekoek.js"></script>
+        <script src="../script/cookiepref.js"></script>
         <script src="./script/translations/translate.js"></script>
         <script src="./script/translations/jsontranslations.js"></script>
         
         <!-- Misc -->
         <title>JelNet - External</title>
-        <link rel="icon" type="image/x-icon" href="./imgs/webpage-icons/Business.png">
+        <link rel="icon" type="image/x-icon" href="../imgs/webpage-icons/Business.png">
     </head>
     <!-- <body onload="doTranslation('en')"> -->
     <body onload="dTsC()">
@@ -86,28 +85,28 @@
         
         <div class="header" id="header">
             <div class="dropdown">
-                <button class="headerbtn"><img src="./imgs/flags/lang-selector.svg"></button>
+                <button class="headerbtn"><img src="../imgs/flags/lang-selector.svg"></button>
                     <div class="dropdown-content-container">
                         <div class="dropdown-content">
                     
                         <button onclick="doTranslation('en')" name="uk" type="button" class="flag">
-                            <img id='flagen' height='30px' src="./imgs/flags/flagen.png">
+                            <img id='flagen' height='30px' src="../imgs/flags/flagen.png">
                             <p3>English</p3>
                         </button>
                         <button style="display: none;" onclick="doTranslation('de')" name="germany" type="button" class="flag">
-                            <img id='flagde' height='30px' src="./imgs/flags/flagde.png">
+                            <img id='flagde' height='30px' src="../imgs/flags/flagde.png">
                             <p3>Deutsch</p3>
                         </button>
                         <button onclick="doTranslation('nl')" name="netherlands" type="button" class="flag">
-                            <img id='flagnl' height='30px' src="./imgs/flags/flagnl.png">
+                            <img id='flagnl' height='30px' src="../imgs/flags/flagnl.png">
                             <p3>Nederlands</p3>
                         </button>
                         <button style="display: none;" onclick="doTranslation('fr')" name="fr" type="button" class="flag">
-                            <img id="flagfr" height="30px" src="./imgs/flags/flagfr.png">
+                            <img id="flagfr" height="30px" src="../imgs/flags/flagfr.png">
                             <p3>Français</p3>
                         </button>
                         <button onclick="doTranslation('vk')" name="viviolask" type="button" class="flag">
-                            <img id='flagvk' height='30px' src="./imgs/flags/flagvk.png">
+                            <img id='flagvk' height='30px' src="../imgs/flags/flagvk.png">
                             <p3>Viviöläzk</p3>
                         </button>
                         </div>
@@ -126,7 +125,7 @@
 
             <div class='theme-selection'>
                 <button class="headerbtn" type="button" onclick="toggleTheme()">
-                    <img height='30px' id="themesvg" src="./imgs/darkmode-lightmode/dark-mode.svg">
+                    <img height='30px' id="themesvg" src="../imgs/darkmode-lightmode/dark-mode.svg">
                 </button>
             </div>
 
@@ -137,7 +136,7 @@
                 <h1 id="Бcurtains-projects-title"></h1>
                 <a href="http://jelcraft.tk/collatz-calculator">
                     <div class="paragraph" id="collatzcalculator">
-                        <img height="57.4px" src="./imgs/project-icons/Collatz-Calculator.svg">
+                        <img height="57.4px" src="../imgs/project-icons/Collatz-Calculator.svg">
                         <div>                        
                             <h2 id="Бcurtains-projects-collatzcalculator-title"></h2>
                             <p3 id="Бcurtains-projects-collatzcalculator-description"></p3>
@@ -146,7 +145,7 @@
                 </a>
                 <a href="http://jelcraft.tk/sbubby-generator/">
                     <div class="paragraph" id="logomaker">
-                        <img height="57.4px" src="./imgs/project-icons/sbubby.png">
+                        <img height="57.4px" src="../imgs/project-icons/sbubby.png">
                         <div>                        
                             <h2 id="Бcurtains-projects-sbubbygenerator-title"></h2>
                             <p3 id="Бcurtains-projects-sbubbygenerator-description"></p3>
@@ -155,7 +154,7 @@
                 </a>
                 <a href="http://jelcraft.tk/tafelvoetbal-scorebord/">
                     <div class="paragraph" id="foosballscoreboard">
-                        <img height="57.4px" src="imgs/project-icons/foosball.png">
+                        <img height="57.4px" src="../imgs/project-icons/foosball.png">
                         <div>                        
                             <h2 id="Бcurtains-projects-foosballscoreboard-title"></h2>
                             <p3 id="Бcurtains-projects-foosballscoreboard-description"></p3>
@@ -164,7 +163,7 @@
                 </a>
                 <a class="link-wip">
                     <div class="paragraph" id="hangmanengine">
-                        <img height="57.4px" src="./imgs/project-icons/hangman.svg">
+                        <img height="57.4px" src="../imgs/project-icons/hangman.svg">
                         <div>                        
                             <h2 id="Бcurtains-projects-hangmanengine-title"></h2>
                             <p3 id="Бcurtains-projects-hangmanengine-description"></p3>
@@ -173,7 +172,7 @@
                 </a>
                 <a class="link-wip">
                     <div class="paragraph" id="wordfeudcalculator">
-                        <img height="57.4px" src="./imgs/project-icons/wordfeud.png">
+                        <img height="57.4px" src="../imgs/project-icons/wordfeud.png">
                         <div>                        
                             <h2 id="Бcurtains-projects-wordfeudcalculator-title"></h2>
                             <p3 id="Бcurtains-projects-wordfeudcalculator-description"></p3>
@@ -182,7 +181,7 @@
                 </a>
                 <a class="link-wip">
                     <div class="paragraph" id="viviolasktranslator">
-                        <img height="57.4px" src="./imgs/project-icons/viviolasktranslator.svg">
+                        <img height="57.4px" src="../imgs/project-icons/viviolasktranslator.svg">
                         <div>                        
                             <h2 id="Бcurtains-projects-viviolasktranslator-title"></h2>
                             <p3 id="Бcurtains-projects-viviolasktranslator-description"></p3>
@@ -191,7 +190,7 @@
                 </a>
                 <a class="link-wip">
                     <div class="paragraph" id="dirkmap">
-                        <img height="57.4px" src="./imgs/project-icons/dirk.png">
+                        <img height="57.4px" src="../imgs/project-icons/dirk.png">
                         <div>                        
                             <h2 id="Бcurtains-projects-dirkmap-title"></h2>
                             <p3 id="Бcurtains-projects-dirkmap-description"></p3>
@@ -200,7 +199,7 @@
                 </a>
                 <a class="link-wip">
                     <div class="paragraph" id="chessbot">
-                        <img height="57.4px" src="imgs/project-icons/chess.png">
+                        <img height="57.4px" src="../imgs/project-icons/chess.png">
                         <div>                        
                             <h2 id="Бcurtains-projects-chessengine-title"></h2>
                             <p3 id="Бcurtains-projects-chessengine-description"></p3>
@@ -209,7 +208,7 @@
                 </a>
                 <a href="">
                     <div class="paragraph" id="tobedetermined">
-                        <img height="57.4px" src="./imgs/project-icons/emptysquare.png">
+                        <img height="57.4px" src="../imgs/project-icons/emptysquare.png">
                         <div>                        
                             <h2 id="Бcurtains-projects-void-title1"></h2>
                             <p3 id="Бcurtains-projects-void-description1"></p3>
@@ -218,7 +217,7 @@
                 </a>
                 <a href="">
                     <div class="paragraph" id="tobedetermined">
-                        <img height="57.4px" src="./imgs/project-icons/emptysquare.png">
+                        <img height="57.4px" src="../imgs/project-icons/emptysquare.png">
                         <div>                        
                             <h2 id="Бcurtains-projects-void-title2"></h2>
                             <p3 id="Бcurtains-projects-void-description2"></p3>
@@ -227,7 +226,7 @@
                 </a>
                 <a href="">
                     <div class="paragraph" id="tobedetermined">
-                        <img height="57.4px" src="./imgs/project-icons/emptysquare.png">
+                        <img height="57.4px" src="../imgs/project-icons/emptysquare.png">
                         <div>                        
                             <h2 id="Бcurtains-projects-void-title3"></h2>
                             <p3 id="Бcurtains-projects-void-description3"></p3>
@@ -236,7 +235,7 @@
                 </a>
                 <a href="">
                     <div class="paragraph" id="tobedetermined">
-                        <img height="57.4px" src="./imgs/project-icons/emptysquare.png">
+                        <img height="57.4px" src="../imgs/project-icons/emptysquare.png">
                         <div>                        
                             <h2 id="Бcurtains-projects-void-title4"></h2>
                             <p3 id="Бcurtains-projects-void-description4"></p3>
@@ -248,7 +247,7 @@
                 <h1 id="Бcurtains-aboutus-title">About Us</h1>
                 <a href="https://www.youtube.com/@vivaloz9085">
                     <div class="paragraph">
-                        <img height='75px' width='75px' src="./imgs/profile-pictures/pf-vivaloz.png">
+                        <img height='75px' width='75px' src="../imgs/profile-pictures/pf-vivaloz.png">
                         <div>
                             <h2 id="Бcurtains-aboutus-vivaloz-title"></h2>
                             <p3 id="Бcurtains-aboutus-vivaloz-description"></p3>
@@ -298,7 +297,7 @@
             <div>Get rickrolled</div> 
             <div>Show cookie popup</div> 
         </div>
-        <script src="./script/contextmenu.js"></script>
-        <script src="./script/responsify.js"></script>
+        <script src="../script/contextmenu.js"></script>
+        <script src="../script/responsify.js"></script>
     </body>
 </html>
