@@ -66,3 +66,25 @@
     background-color: black;
     opacity: var(--fadescreen-opacity);
 }
+
+/*
+   <=== WIP popup ===>
+*/
+
+#wippopup{
+    top: calc(100vh - 75px);
+    left: -410px;
+    height: 50px;
+    width: 400px;
+    transform: skewX(-10deg);
+    position: fixed;
+    z-index: 100000000000;
+    background-image: linear-gradient(to right, rgb(201, 114, 7) , yellow);
+    border: 2px solid black;
+    color: black;
+}
+#wippopup>p{
+    transform: skewX(10deg);
+    margin-left: 20px;
+    margin-top: 5px;
+}
