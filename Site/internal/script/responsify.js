@@ -32,11 +32,8 @@ function responsify(){
 		document.getElementById("cookiebutton").style.top = "0px";
 
 		// header
-		document.getElementById("langSelector").style.marginTop = "68px";
-		document.getElementById("langSelector").style.marginBottom = "20px";
-		document.getElementById("navTitleDOM").style.marginTop = "70px";
-		document.getElementById("navExternalInternal").style.marginTop = "-50px";
-		document.getElementById("navExternalInternal").style.marginLeft = "-180px";
+		document.getElementById("header").style.position = "fixed";
+		document.getElementById("langSelector")
 	} else {
 		//body
 		document.getElementById('layout-container').style.gridTemplateColumns = '40% 40%'
