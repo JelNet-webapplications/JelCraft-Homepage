@@ -124,7 +124,7 @@ iframe {
     height: auto;
     width: 308px;
     top: 0px;
-    position: absolute;
+    position: fixed;
     background-color: #585757;
     z-index: 1000;
     border-radius: 6px;
@@ -133,7 +133,7 @@ iframe {
     cursor: pointer;
     transition: all 0s;
     display: none;
-    box-shadow: 0px 0px 30px 10px var(--shadow-color);
+    box-shadow: 0px 0px 30px 10px #000000;
     color: white;
     text-indent: 10px;
     font-family: Arial, Helvetica, sans-serif;
@@ -148,7 +148,7 @@ iframe {
     border-radius: inherit;
     position: relative;
     transition: all 0.25s ease 0s;
-    box-shadow: 0px 0px 30px 0.5px var(--shadow-color);
+    box-shadow: 0px 0px 30px 0.5px #000000;
     vertical-align: center;
 }
 #contextmenu>div:hover{
@@ -157,4 +157,8 @@ iframe {
     line-height: 45px;
     height: 45px;
     width: 320px;
+}
+#contextmenu>div>img{
+    margin-top: 4px;
+    position: relative;
 }
