@@ -53,7 +53,9 @@
 .navbar .active {
     background-color: var(--secondary-color);
 }
-
+#navExternalInternal>a{
+    transition: all 0s ease 0s;
+}
 /* ----- Lang & Theme buttons ----- */
 
 .headerbtn {
