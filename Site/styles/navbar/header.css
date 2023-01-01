@@ -55,6 +55,7 @@
 }
 #navExternalInternal>a{
     transition: all 0s ease 0s;
+    width: 100px;
 }
 /* ----- Lang & Theme buttons ----- */
 
