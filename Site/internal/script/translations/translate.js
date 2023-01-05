@@ -8,26 +8,31 @@ function doTranslation(lan){
     }
     setFlagBrightness(lan);
     for(temp in translations){
-        let id = "Б"+temp, // Б is the identifier used for html elements which need to be translated
-        element = document.getElementById(id);
-        switch(temp){
-            case "curtains-projects-void-title":
-            case "curtains-projects-void-description":
-                for(let i = 1; i < 7; i++){
-                    let TBTid = `${id}${i}`;
-                    document.getElementById(TBTid).innerHTML = translations[temp][lan];
-                }
-                break;
-            case "curtains-contact-emailaddress":
-            case "curtains-contact-nickname":
-            case "curtains-contact-subject":
-            case "curtains-contact-message":
-                element.placeholder = translations[temp][lan];
-                break;
-            default:
-                element.innerHTML = translations[temp][lan];
+        try{
+            let id = "Б"+temp, // Б is the identifier used for html elements which need to be translated
+            element = document.getElementById(id);
+            switch(temp){
+                case "curtains-projects-void-title":
+                case "curtains-projects-void-description":
+                    for(let i = 1; i < 7; i++){
+                        let TBTid = `${id}${i}`;
+                        document.getElementById(TBTid).innerHTML = translations[temp][lan];
+                    }
+                    break;
+                case "curtains-contact-emailaddress":
+                case "curtains-contact-nickname":
+                case "curtains-contact-subject":
+                case "curtains-contact-message":
+                    element.placeholder = translations[temp][lan];
+                    break;
+                default:
+                    element.innerHTML = translations[temp][lan];
+            }
+            console.log("%ctranslated element in language %c\""+lan+"\"%c: %c"+temp,"color:orange;","color: orangered","color:orange;","color: lightgray;")
+        } catch {
+            console.log("could not find element.");
+            continue;
         }
-        console.log("%ctranslated element in language %c\""+lan+"\"%c: %c"+temp,"color:orange;","color: orangered","color:orange;","color: lightgray;")
     }
 }
 
