@@ -215,6 +215,12 @@ const translations = {
         "nl": "Over ons",
         "vk": "Klyeron vgionzok"
     },
+    "curtains-aboutme-title": {
+        "en": "About me",
+        //"de": "",
+        "nl": "Over mij",
+        "vk": "Klyeron iizok"
+    },
     "curtains-aboutus-jelcraft-title": {
         "en": "JelCraft",
         //"de": "",

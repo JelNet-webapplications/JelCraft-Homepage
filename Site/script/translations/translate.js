@@ -14,9 +14,14 @@ function doTranslation(lan){
             switch(temp){
                 case "curtains-projects-void-title":
                 case "curtains-projects-void-description":
-                    for(let i = 1; i < 2; i++){
+                    for(let i = 1; i < 15; i++){
                         let TBTid = `${id}${i}`;
-                        document.getElementById(TBTid).innerHTML = translations[temp][lan];
+                        try{
+                            document.getElementById(TBTid).innerHTML = translations[temp][lan];
+                        } catch {
+                            console.log("TBT element could not be translated.");
+                            continue;
+                        }
                     }
                     break;
                 case "curtains-contact-emailaddress":
