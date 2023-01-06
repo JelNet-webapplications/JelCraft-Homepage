@@ -162,3 +162,13 @@ iframe {
     margin-top: 4px;
     position: relative;
 }
+#contextflag{
+    z-index: 1001;
+}
+#contextmenu>div>label{
+    transition: all 0.0s ease 0s;
+    cursor: pointer;
+}
+#contextmenu>div>input{
+    height: 9px;
+}

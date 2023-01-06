@@ -325,23 +325,39 @@
             </div>
         </div>   
         <div id="contextmenu">
-            <div>Change theme</div>
-            <div>
+            <!-- <div>Change theme</div> -->
+            <!-- <div>
                 Change language
-                <img height='30px' src="./imgs/flags/flagen.png">
-                <img height='30px' src="./imgs/flags/flagnl.png">
-                <img height='30px' src="./imgs/flags/flagvk.png">
-            </div>
+                <button onclick="doTranslation('en')" name="uk" type="button" class="contextflag">
+                    <img id='flagen' height='30px' src="./imgs/flags/flagen.png">
+                </button>
+                <button style="display: none;" onclick="doTranslation('de')" name="germany" type="button" class="contextflag">
+                    <img id='flagde' height='30px' src="./imgs/flags/flagde.png">
+                </button>
+                <button onclick="doTranslation('nl')" name="netherlands" type="button" class="contextflag">
+                    <img id='flagnl' height='30px' src="./imgs/flags/flagnl.png">
+                </button>
+                <button style="display: none;" onclick="doTranslation('fr')" name="fr" type="button" class="contextflag">
+                    <img id="flagfr" height="30px" src="./imgs/flags/flagfr.png">
+                </button>
+                <button onclick="doTranslation('vk')" name="viviolask" type="button" class="contextflag">
+                    <img id='flagvk' height='30px' src="./imgs/flags/flagvk.png">
+                </button>
+            </div> -->
             <div>
                 Enter cursed mode
             </div>
             <div>Speed up cursed mode</div>
             <div>End cursed mode</div>
             <div>Force mobile version</div>
-            <div>Swap home - internal - external</div> 
-            <div>View privacy policy</div> 
-            <div>Get rickrolled</div> 
+            <!-- <div>Swap home - internal - external</div>  -->
+            <!-- <div>View privacy policy</div>  -->
+            <div>Open secret page</div> 
             <div>Show cookie popup</div> 
+            <div>
+                <label for="renametab">Rename tab</label>
+                <input id="renametab" type="text">
+            </div>
         </div>
         <script src="./script/contextmenu.js"></script>
         <script src="./script/responsify.js"></script>
