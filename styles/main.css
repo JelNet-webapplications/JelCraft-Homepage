@@ -2,6 +2,12 @@
 
 * {
     transition: all 0.3s ease 0s;
+    /* geen ghost drag */ 
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+    user-select: none;
 }
 
 body {
@@ -42,7 +48,8 @@ a {
 
 h1 {
     text-align: center;
-    width:100%;
+    width:80%;
+    text-indent: 25%;
     margin: 0;
     margin-top: .75em;
     color: #6cc4b8;
@@ -60,7 +67,6 @@ h1 {
 }
 
 #layout-container {
-
     display: grid;
     justify-content: center;
     gap: 2em;
@@ -75,6 +81,42 @@ h1 {
     grid-row: 1/20;
 }
 
+.projectstatus{
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    position: absolute;
+    top: calc(50% - 20px * 0.5);
+    left: calc(100% - 20px * 0.5 - 20px);
+    font-size: 0;
+    color: black;
+    text-indent: 10px;
+    line-height: 30px;
+}
+.status-green{
+    background-color: rgb(8, 212, 8);
+}
+.status-yellow{
+    background-color: rgb(255, 255, 0);
+}
+.status-red{
+    background-color: rgb(245, 53, 53);
+}
+#Бcurtains-projects-title-wip{
+    margin: 0;
+    width: 100px;
+    position: absolute;
+    color: rgb(108, 196, 184);
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    margin-top: 1.75em;
+    margin-left: calc(40% - 120px);
+    cursor: pointer;
+}
+#Бcurtains-projects-title-wip:hover{
+    color: white;
+}
 #discord-server {
     display: flex;
     align-items: center;
@@ -103,7 +145,10 @@ iframe {
     left:10px;
     background-color: var(--background-color);
 }
-
+/* .paragraph:hover .projectstatus{
+    left: -10px;
+    transition: all 0.3s ease 0s;
+} */
 .paragraph img {
     background-color: var(--secondary-color);
     padding: 0.3em;
@@ -114,6 +159,10 @@ iframe {
 }
 .link-wip{
     cursor: pointer;
+}
+#Бcurtains-discordserver-title{
+    width: 100%;
+    text-indent: 0;
 }
 
 /* 

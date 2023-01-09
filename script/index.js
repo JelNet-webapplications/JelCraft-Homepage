@@ -17,3 +17,29 @@ function WIPAlert(typeOfAlert) {
         });
     }
 }
+
+/*  
+    ----------------
+    wip popup dinges
+    ----------------
+*/
+
+let showorhide = "show";
+function showWIPdetails(){
+    let wips = document.getElementsByClassName("projectstatus");
+    if(showorhide == "show"){
+        for(let i = 0; i < wips.length; i++){
+            wips[i].style.fontSize = "16px";
+            wips[i].style.width = "150px";
+            wips[i].style.left = "calc(100% - 20px * 0.5 - 120px)";
+            wips[i].style.top = "15px";
+            wips[i].style.height = "30px";
+        };
+        showorhide = "hide";
+    } else {
+        for(let i = 0; i < wips.length; i++){
+            wips[i].style = null;
+        }
+        showorhide = "show";
+    }
+}

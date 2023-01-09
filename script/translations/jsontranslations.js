@@ -29,6 +29,12 @@ const translations = {
         "nl": "Projecten",
         "vk": "Nvunvanvgarkän"
     },
+    "curtains-projects-title-wip": {
+        "en": "Progress",
+        //"de": "",
+        "nl": "Voortgang",
+        "vk": "Ryúivarôsvinon"
+    },
     "curtains-projects-pinballconverter-title": {
         "en": "Pinball Converter",
         //"de": "",
@@ -42,10 +48,10 @@ const translations = {
         "vk": "Kûirsevyo èvgaûsäl özruârogüt snûipänen Èpënpvëlän"
     },
     "curtains-projects-pinballphysics-title": {
-        "en": "Pinball Physics [WIP]",
+        "en": "Pinball Physics",
         //"de": "",
-        "nl": "Pinball-fysica [WIP]",
-        "vk": "Pvävgáignvutürevyo snûipänen Èpënpvëlän [WIP]"
+        "nl": "Pinball-fysica",
+        "vk": "Pvävgáignvutürevyo snûipänen Èpënpvëlän"
     },
     "curtains-projects-pinballphysics-description": {
         "en": "Play with pinballs",
@@ -90,10 +96,10 @@ const translations = {
         "vk": "Ypväráikänuvgärgáigävänsevyo èsnalä Náinkreft"
     },
     "curtains-projects-collatzcalculator-title": {
-        "en": "Collatz Calculator [WIP]",
+        "en": "Collatz Calculator",
         //"de": "",
-        "nl": "Collatz-calculator [WIP]",
-        "vk": "Ráikäntvaûnká tygo värnvûitvänòioevyo Kolats [WIP]"
+        "nl": "Collatz-calculator",
+        "vk": "Ráikäntvaûnká tygo värnvûitvänòioevyo Kolats"
     },
     "curtains-projects-collatzcalculator-description": {
         "en": "Calculates everything collatz conjecture",
@@ -102,10 +108,10 @@ const translations = {
         "vk": "Ypväráikänuvgärsëknä klyeron värnûitvänevyo Kolats"
     },
     "curtains-projects-sbubbygenerator-title": {
-        "en": "Sbubby Generator [WIP]",
+        "en": "Sbubby Generator",
         //"de": "",
-        "nl": "Sbubby-generator [WIP]",
-        "vk": "Pletenännvekärâtygo Spupiän [WIP]"
+        "nl": "Sbubby-generator",
+        "vk": "Pletenännvekärâtygo Spupiän"
     },
     "curtains-projects-sbubbygenerator-description": {
         "en": "Create your own sbubby of existing logos",
@@ -114,10 +120,10 @@ const translations = {
         "vk": "Kënkonydünryuêrvgärro Spupiänievyo èttigän nvërktpleten èpvästentvä"
     },
     "curtains-projects-hangmanengine-title": {
-        "en": "Hangman Engine [NDY]",
+        "en": "Hangman Engine",
         //"de": "",
-        "nl": "Calculator voor Galgje [NDY]",
-        "vk": "Ráikäntvaûnkáevyo Gëlgen [NDY]"
+        "nl": "Calculator voor Galgje",
+        "vk": "Ráikäntvaûnkáevyo Gëlgen"
     },
     "curtains-projects-hangmanengine-description": {
         "en": "Calculate the perfect guess for hangman",
@@ -126,10 +132,10 @@ const translations = {
         "vk": "Ypväráikänevvgärgükòio èparfactä tygo Gëlgen"
     },
     "curtains-projects-wordfeudcalculator-title": {
-        "en": "Wordfeud Calculator [NDY]",
+        "en": "Wordfeud Calculator",
         //"de": "",
-        "nl": "Wordfeud-calculator [NDY]",
-        "vk": "Ráikäntvaûnkáevyo Vgüzrtvspalen [NDY]"
+        "nl": "Wordfeud-calculator",
+        "vk": "Ráikäntvaûnkáevyo Vgüzrtvspalen"
     },
     "curtains-projects-wordfeudcalculator-description": {
         "en": "Calculate the best words for Wordfeud and Scrabble",
@@ -138,10 +144,10 @@ const translations = {
         "vk": "Ypväráikänevvgärvgürztvänòio èpvastä tygo Vgüzrtvspalen ant Skrepûl"
     },
     "curtains-projects-dirkmap-title": {
-        "en": "Dirk Map [NDY]",
+        "en": "Dirk Map",
         //"de": "",
-        "nl": "Dirk-plattegrond [NDY]",
-        "vk": "Grüntvevyo ènyspikäzg Tërk [NDY]"
+        "nl": "Dirk-plattegrond",
+        "vk": "Grüntvevyo ènyspikäzg Tërk"
     },
     "curtains-projects-dirkmap-description": {
         "en": "Shows the perfect route to find your groceries",
@@ -150,10 +156,10 @@ const translations = {
         "vk": "Ygáifevvgärrûitäòio èpvastä yost pvutsgvëpäni vaûntvänä"
     },
     "curtains-projects-starlabsdelivery-title": {
-        "en": "Starlabs Delivery [WIP]",
+        "en": "Starlabs Delivery",
         //"de": "",
-        "nl": "Starlabs-bezorging [WIP]",
-        "vk": "Pvösgáinvaûnkáevyo Starleps [WIP]"
+        "nl": "Starlabs-bezorging",
+        "vk": "Pvösgáinvaûnkáevyo Starleps"
     },
     "curtains-projects-starlabsdelivery-description": {
         "en": "Order blocks online for the Minecraft H43 Server",
@@ -162,10 +168,10 @@ const translations = {
         "vk": "Yost kopvüsänen èttái tygo Náinkraft Ry43 tvûinär pvästalänä"
     },
     "curtains-projects-viviolasktranslator-title": {
-        "en": "Viviolask Translator [NDY]",
+        "en": "Viviolask Translator",
         //"de": "",
-        "nl": "Viviolask-vertaler [NDY]",
-        "vk": "Telyostsvatäruyo Viviöläzk [NDY]"
+        "nl": "Viviolask-vertaler",
+        "vk": "Telyostsvatäruyo Viviöläzk"
     },
     "curtains-projects-viviolasktranslator-description": {
         "en": "Translate Dutch into the conlang we call Viviolask",
@@ -186,16 +192,28 @@ const translations = {
         "vk": "Gägvun pvürtväàia èskvürä, nesäp raväranta knüpän èvaûzl"
     },
     "curtains-projects-chessengine-title": {
-        "en": "Chess bot [NDY]",
+        "en": "Chess Bot",
         //"de": "",
-        "nl": "Schaakrobot [NDY]",
-        "vk": "Áuêtunvutär èsgvekspalù [NDY]"
+        "nl": "Schaakrobot",
+        "vk": "Áuêtunvutär èsgvekspalù"
     },
     "curtains-projects-chessengine-description": {
         "en": "Working chess simulator, including an AI",
         //"de": "",
         "nl": "Werkend digitaal schaakbord, inclusief een AI",
         "vk": "Pvürtv èsgvekspal èvgärkäntv èttái antuk rupvutàia"
+    },
+    "curtains-projects-tabcustomiser-title":{
+        "en": "TabCustomiser",
+        //"de": "",
+        "nl": "Tabblad-aanpasser",
+        "vk": "Allünvnvekärevyo plëtvsvitvän èttái"
+    },
+    "curtains-projects-tabcustomiser-description":{
+        "en": "Customise individual tabs to stay organised",
+        //"de": "",
+        "nl": "Pas individuele tabbladen aan en blijf georganiseerd",
+        "vk": "Yvgisvgägivgärplëtvsvitvän èttái allünv antâypvlifi iyjürgänuêsaûzritara"
     },
     "curtains-projects-void-title": {
         "en": "To be determined",

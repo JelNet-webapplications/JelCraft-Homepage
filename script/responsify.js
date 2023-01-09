@@ -39,34 +39,23 @@ function responsify(){
 		document.getElementById("navExternalInternal").style.marginLeft = "-180px";
 	} else {
 		//body
-		document.getElementById('layout-container').style.gridTemplateColumns = '40% 40%'
-		document.getElementById('projects').style.gridRow = '1 / 20'
+		document.getElementById('layout-container').style = null;
+		document.getElementById('projects').style = null;
 		document.getElementById('discord-server').style.gridRow = '3 / 20'
 	
 		//form
-		document.getElementsByName('email')[0].style.gridColumn = ''
-		document.getElementsByName('name')[0].style.gridColumn = ''
+		document.getElementsByName('email')[0].style = null;
+		document.getElementsByName('name')[0].style = null;
 
 		// footer
-		document.getElementById("footer").style.alignItems = "center";
+		document.getElementById("footer").style = null;
 
 		// cookie popup
-		cookieprefDOM.style.width = null;
-		cookieprefDOM.style.left = null;
-		cookieprefDOM.style.paddingBottom = null;
-		cookieprefDOM.style.height = null;
-		cookieprefDOM.style.fontSize = null;
-		
-		let cookiestyle = document.getElementById("cookiebutton").style;
-
-		document.getElementById("acceptbutton").style.height = null;
-		document.getElementById("denybutton").style.height = null;
-		document.getElementById("acceptbutton").style.marginBottom = null;
-		document.getElementById("cookietext1").style.width = null;
-		document.getElementById("cookietext2").style.width = null;
-		cookiestyle.left = null;
-		cookiestyle.position = null;
-		cookiestyle.width = null;
-		cookiestyle.top = null;
+		cookieprefDOM.style = null;
+		document.getElementById("cookiebutton").style = null;
+		document.getElementById("acceptbutton").style = null;
+		document.getElementById("denybutton").style = null;
+		document.getElementById("cookietext1").style = null;
+		document.getElementById("cookietext2").style = null;
 	}
 }

@@ -137,6 +137,7 @@
         <div class="grid-container" id="layout-container">
             <div class="grid-item" id="projects">
                 <h1 id="Бcurtains-projects-title"></h1>
+                <h1 onclick="showWIPdetails()" id="Бcurtains-projects-title-wip"></h1>
                 <a href="http://jelcraft.tk/pinball-converter/">
                     <div class="paragraph" id="pinball-converter">
                         <img src="./imgs/project-icons/Pinball-Converter.svg">
@@ -144,15 +145,7 @@
                             <h2 id="Бcurtains-projects-pinballconverter-title"></h2>
                             <p3 id="Бcurtains-projects-pinballconverter-description"></p3>
                         </div>
-                    </div>
-                </a>
-                <a href="http://jelcraft.tk/pinball-physics/">
-                    <div class="paragraph" id="pinball-physics">
-                        <img height="57.4px" src="./imgs/project-icons/Pinball-physics.svg">
-                        <div>                        
-                            <h2 id="Бcurtains-projects-pinballphysics-title"></h2>
-                            <p3 id="Бcurtains-projects-pinballphysics-description"></p3>
-                        </div>
+                        <div class="projectstatus status-green">Fully released</div>
                     </div>
                 </a>
                 <a href="http://jelcraft.tk/sudoku-solver/">
@@ -162,6 +155,7 @@
                             <h2 id="Бcurtains-projects-sudokusolver-title"></h2>
                             <p3 id="Бcurtains-projects-sudokusolver-description"></p3>
                         </div>
+                        <div class="projectstatus status-green">Fully released</div>
                     </div>
                 </a>
                 <a href="http://jelcraft.tk/world-stats/">
@@ -171,6 +165,7 @@
                             <h2 id="Бcurtains-projects-worldstats-title"></h2>
                             <p3 id="Бcurtains-projects-worldstats-description"></p3>
                         </div>
+                        <div class="projectstatus status-green">Fully released</div>
                     </div>
                 </a>
                 <a href="http://jelcraft.tk/flight-calculator/">
@@ -180,6 +175,7 @@
                             <h2 id="Бcurtains-projects-flightcalculator-title"></h2>
                             <p3 id="Бcurtains-projects-flightcalculator-description"></p3>
                         </div>
+                        <div class="projectstatus status-green">Fully released</div>
                     </div>
                 </a>
                 <a href="http://jelcraft.tk/collatz-calculator/collatz-conjecture-calculator.html">
@@ -189,6 +185,7 @@
                             <h2 id="Бcurtains-projects-collatzcalculator-title"></h2>
                             <p3 id="Бcurtains-projects-collatzcalculator-description"></p3>
                         </div>
+                        <div class="projectstatus status-yellow">Early access</div>
                     </div>
                 </a>
                 <a href="http://jelcraft.tk/sbubby-generator/">
@@ -198,6 +195,7 @@
                             <h2 id="Бcurtains-projects-sbubbygenerator-title"></h2>
                             <p3 id="Бcurtains-projects-sbubbygenerator-description"></p3>
                         </div>
+                        <div class="projectstatus status-yellow">Early access</div>
                     </div>
                 </a>
                 <a href="http://jelcraft.tk/starlabs-delivery/home/home.html">
@@ -207,6 +205,17 @@
                             <h2 id="Бcurtains-projects-starlabsdelivery-title"></h2>
                             <p3 id="Бcurtains-projects-starlabsdelivery-description"></p3>
                         </div>
+                        <div class="projectstatus status-yellow">Early access</div>
+                    </div>
+                </a>
+                <a href="http://jelcraft.tk/pinball-physics/">
+                    <div class="paragraph" id="pinball-physics">
+                        <img height="57.4px" src="./imgs/project-icons/Pinball-physics.svg">
+                        <div>                        
+                            <h2 id="Бcurtains-projects-pinballphysics-title"></h2>
+                            <p3 id="Бcurtains-projects-pinballphysics-description"></p3>
+                        </div>
+                        <div class="projectstatus status-yellow">Early access</div>
                     </div>
                 </a>
                 <a href="http://jelcraft.tk/tafelvoetbal-scorebord/">
@@ -216,6 +225,7 @@
                             <h2 id="Бcurtains-projects-foosballscoreboard-title"></h2>
                             <p3 id="Бcurtains-projects-foosballscoreboard-description"></p3>
                         </div>
+                        <div class="projectstatus status-yellow">Early access</div>
                     </div>
                 </a>
                 <a class="link-wip">
@@ -225,6 +235,7 @@
                             <h2 id="Бcurtains-projects-hangmanengine-title"></h2>
                             <p3 id="Бcurtains-projects-hangmanengine-description"></p3>
                         </div>
+                        <div class="projectstatus status-red">Planned for 2023</div>
                     </div>
                 </a>
                 <a class="link-wip">
@@ -234,6 +245,7 @@
                             <h2 id="Бcurtains-projects-wordfeudcalculator-title"></h2>
                             <p3 id="Бcurtains-projects-wordfeudcalculator-description"></p3>
                         </div>
+                        <div class="projectstatus status-red">Planned for 2023</div>
                     </div>
                 </a>
                 <a class="link-wip">
@@ -243,6 +255,7 @@
                             <h2 id="Бcurtains-projects-viviolasktranslator-title"></h2>
                             <p3 id="Бcurtains-projects-viviolasktranslator-description"></p3>
                         </div>
+                        <div class="projectstatus status-red">Planned for 2023</div>
                     </div>
                 </a>
                 <a class="link-wip">
@@ -252,6 +265,7 @@
                             <h2 id="Бcurtains-projects-dirkmap-title"></h2>
                             <p3 id="Бcurtains-projects-dirkmap-description"></p3>
                         </div>
+                        <div class="projectstatus status-red">Planned for 2023</div>
                     </div>
                 </a>
                 <a class="link-wip">
@@ -261,15 +275,17 @@
                             <h2 id="Бcurtains-projects-chessengine-title"></h2>
                             <p3 id="Бcurtains-projects-chessengine-description"></p3>
                         </div>
+                        <div class="projectstatus status-red">Planned for 2023</div>
                     </div>
                 </a>
-                <a href="">
-                    <div class="paragraph" id="tobedetermined">
-                        <img height="57.4px" src="./imgs/project-icons/emptysquare.png">
+                <a class="link-wip">
+                    <div class="paragraph" id="tabcustomiser">
+                        <img height="57.4px" src="imgs/project-icons/void.png">
                         <div>                        
-                            <h2 id="Бcurtains-projects-void-title1"></h2>
-                            <p3 id="Бcurtains-projects-void-description1"></p3>
+                            <h2 id="Бcurtains-projects-tabcustomiser-title"></h2>
+                            <p3 id="Бcurtains-projects-tabcustomiser-description"></p3>
                         </div>
+                        <div class="projectstatus status-red">Planned for 2023</div>
                     </div>
                 </a>
             </div>
