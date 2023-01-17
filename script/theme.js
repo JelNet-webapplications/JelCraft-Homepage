@@ -76,6 +76,7 @@ function setCursify(par){
             element.style.backgroundColor = "";
             element.style.color = "";
         });
+        document.getElementById('Бnavbar-home').style.transition = 'all 0s ease 0s';
     }
     if(par == 'start' && sClp){ 
         array.forEach(element => {
