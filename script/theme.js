@@ -90,14 +90,13 @@ function setCursify(par){
 
 function setTheme(themeMode) {
     console.debug(`setTheme has been called.\n\tthemeMode: ${themeMode}`)
-
-    if(themeMode != 'dark' && themeMode != 'light') return console.log("setTheme only supports 'light' || 'dark' as input") //? If statement moet toch beter kunnen??
+    if(!["light","dark","white","black"].includes(themeMode)) return console.error("setTheme() only supports\t'light' ||\n\t\t\t\t\t\t\t'dark'  ||\n\t\t\t\t\t\t\t'white' ||\n\t\t\t\t\t\t\t'black' as input") //? If statement moet toch beter kunnen?? jazeker dat moet beter kunnen dus dat heb ik gedaan
     
     let img = document.getElementById('themesvg');
     let r = document.querySelector(':root');
 
     theme = themeMode
-    if(themeMode == 'dark') {
+    if(themeMode == 'dark' || themeMode == "black") {
         img.src = './imgs/darkmode-lightmode/light-mode.svg';
 
         r.style.setProperty('--primary-color', '#53e6d2');
@@ -110,7 +109,7 @@ function setTheme(themeMode) {
         r.style.setProperty('--header-text-color', 'black');
         r.style.setProperty('--fadescreen-opacity', '0.8');
         r.style.setProperty('--button-hover-invert', '1');
-
+        r.style.setProperty('--statustitle-hover','white');
         document.getElementById('discordWidget').src = 'https://discord.com/widget?id=586500162415755275&theme=dark'
         
     } else {
@@ -126,6 +125,7 @@ function setTheme(themeMode) {
         r.style.setProperty('--header-text-color', 'white');
         r.style.setProperty('--fadescreen-opacity', '0.5');
         r.style.setProperty('--button-hover-invert', '0');
+        r.style.setProperty('--statustitle-hover','black');
 
         document.getElementById('discordWidget').src = 'https://discord.com/widget?id=586500162415755275&theme=light'
         

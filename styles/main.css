@@ -115,7 +115,7 @@ h1 {
     cursor: pointer;
 }
 #Бcurtains-projects-title-wip:hover{
-    color: white;
+    color: var(--statustitle-hover);
 }
 #discord-server {
     display: flex;
