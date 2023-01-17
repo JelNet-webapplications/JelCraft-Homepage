@@ -227,6 +227,24 @@ const translations = {
         "nl": "Niet van toepassing",
         "vk": "Nynyevyo gäpvrûik"
     },
+    "curtains-projects-status-green": {
+        "en": "Fully released",
+        //"de": "",
+        "nl": "Volledig uitgebracht",
+        "vk": "Aninevyo sëknäël kler"
+    },
+    "curtains-projects-status-yellow": {
+        "en": "Early access",
+        //"de": "",
+        "nl": "Vroegtijdige toegang",
+        "vk": "Nügnynykler säpvgalëlerû"
+    },
+    "curtains-projects-status-red": {
+        "en": "Planned for 2023",
+        //"de": "",
+        "nl": "Gepland voor 2023",
+        "vk": "Svëlevkler tygo 2023"
+    },
     "curtains-aboutus-title": {
         "en": "About us",
         //"de": "",
@@ -341,6 +359,54 @@ const translations = {
         "nl": "<a href=\"cookies.html\">Privacybeleid</a>",
         "vk": "<a href=\"cookies.html\">Nvenvuêron yostanta izokyost genonä</a>"
     },
+    "popup-wip": {
+        "en": "This project is still under development! We're working on it, try again in the near future.",
+        //"de": "",
+        "nl": "Dit project is nog in ontwikkelingsfase! We doen ons best, probeer het later nogmaals.",
+        "vk": "Nvunvanvgarkòiosvevt pvanev nügnyny klerôvgalno! Tvûinonvgarpvaston, letärôpvanunyra vgal klerygo gäpvrûiki."
+    },
+    "popup-contextmenu-entercursedmode": {
+        "en": "Enter cursed mode",
+        //"de": "",
+        "nl": "Start 'vervloekte modus'",
+        "vk": "Nvutvösevyo nynürnvel pvägaûnänë"
+    },
+    "popup-contextmenu-speedupcursedmode": {
+        "en": "Speed up cursed mode",
+        //"de": "",
+        "nl": "Versnel 'vervloekte modus'",
+        "vk": "Nvutvösevyo nynürnvel snalär letän genänë"
+    },
+    "popup-contextmenu-endcursedmode": {
+        "en": "End cursed mode",
+        //"de": "",
+        "nl": "Beëindig 'vervloekte modus'",
+        "vk": "Nvutvösevyo nynürnvel ryëltänë"
+    },
+    "popup-contextmenu-mobileversion": {
+        "en": "Force swap mobile/pc version",
+        //"de": "",
+        "nl": "Wissel tussen de telefoon- en PC-versie",
+        "vk": "Ytvúitvianta krëgvt vgaûsälänë tösänä kiksvúei èryëntvúei anta ürtvuê"
+    },
+    "popup-contextmenu-secretpage": {
+        "en": "Open secret page",
+        //"de": "",
+        "nl": "Open geheime pagina",
+        "vk": "Klyeronpvgorpeguêneàia ègäryinvä"
+    },
+    "popup-contextmenu-cookiepopup": {
+        "en": "Show cookie popup",
+        //"de": "",
+        "nl": "Toon cookie-popup",
+        "vk": "Yletiyen svuênänë sgvarnvòio èkûiken"
+    },
+    "popup-contextmenu-renametab": {
+        "en": "Rename tab",
+        //"de": "",
+        "nl": "Tabblad hernoemen",
+        "vk": "Ryarnvûinänëevyo pvlëtvòio ètëpvsä"
+    }
     // "": {
     //     "en": "",
     //     //"de": "",

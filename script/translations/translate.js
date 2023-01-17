@@ -1,6 +1,5 @@
 function doTranslation(lan){
     let navbarHomeSquare = document.getElementsByClassName('active')[0].style;
-    
     if(lan == 'vk'){
         navbarHomeSquare.width = '150px';
     } else {
@@ -20,6 +19,19 @@ function doTranslation(lan){
                             document.getElementById(TBTid).innerHTML = translations[temp][lan];
                         } catch {
                             console.log("TBT element could not be translated.");
+                            continue;
+                        }
+                    }
+                    break;
+                case "curtains-projects-status-green":
+                case "curtains-projects-status-yellow":
+                case "curtains-projects-status-red":
+                    for(let i = 1; i < 15; i++){
+                        let statusid = `${id}${i}`;
+                        try{
+                            document.getElementById(statusid).innerHTML = translations[temp][lan];
+                        } catch {
+                            console.log("Status element could not be translated.");
                             continue;
                         }
                     }
