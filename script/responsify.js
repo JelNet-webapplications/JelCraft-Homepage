@@ -37,6 +37,7 @@ function responsify(){
 		document.getElementById("navTitleDOM").style.marginTop = "70px";
 		document.getElementById("navExternalInternal").style.marginTop = "-50px";
 		document.getElementById("navExternalInternal").style.marginLeft = "-180px";
+		document.getElementById("header").style.position = "fixed";
 	} else {
 		//body
 		document.getElementById('layout-container').style = null;
@@ -57,5 +58,10 @@ function responsify(){
 		document.getElementById("denybutton").style = null;
 		document.getElementById("cookietext1").style = null;
 		document.getElementById("cookietext2").style = null;
+
+		// header
+		document.getElementById("langSelector").style = null;
+		document.getElementById("navTitleDOM").style = null;
+		document.getElementById("navExternalInternal").style = null;
 	}
 }
