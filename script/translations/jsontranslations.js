@@ -354,10 +354,10 @@ const translations = {
         "vk": "Raniirfürnvetsúei èklyeronritv"
     },
     "footer-legalinfo-link": {
-        "en": "<a href=\"cookies.html\">Privacy Policy</a>",
+        "en": "<a href=\"/misc/cookies\">Privacy Policy</a>",
         //"de": "",
-        "nl": "<a href=\"cookies.html\">Privacybeleid</a>",
-        "vk": "<a href=\"cookies.html\">Nvenvuêron yostanta izokyost genonä</a>"
+        "nl": "<a href=\"/misc/cookies\">Privacybeleid</a>",
+        "vk": "<a href=\"/misc/cookies\">Nvenvuêron yostanta izokyost genonä</a>"
     },
     "popup-wip": {
         "en": "This project is still under development! We're working on it, try again in the near future.",

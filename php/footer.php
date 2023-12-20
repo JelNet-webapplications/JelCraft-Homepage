@@ -6,6 +6,6 @@
     </div>
     <div class="footer_container" id="footer_legal">
         <h2 id="Бfooter-legalinfo-title">Legal Info</h2>
-        <p id="Бfooter-legalinfo-link"><a href="cookies.html">Privacy Policy</a></p>
+        <p id="Бfooter-legalinfo-link"><a href="/misc/cookies">Privacy Policy</a></p>
     </div>
 </div>
