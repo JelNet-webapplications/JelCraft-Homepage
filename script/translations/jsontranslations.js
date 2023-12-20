@@ -344,7 +344,7 @@ const translations = {
     "footer-credit-volt": {
         "en": "<a href=\"https://www.youtube.com/@Volt64bolt\">Volt64Bolt</a> | Pinball Physics",
         //"de": "",
-        "nl": "<a href=\"https://www.youtube.com/@Volt64bolt\">Volt64Bolt</a> | Pinball Physics",
+        "nl": "<a href=\"https://www.youtube.com/@Volt64bolt\">Volt64Bolt</a> | Pinballfysica",
         "vk": "<a href=\"https://www.youtube.com/@Volt64bolt\">Volt64polt</a> | Pvävgáignvutürevyo snûipänen Èpënpvëlän"
     },
     "footer-legalinfo-title": {
