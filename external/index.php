@@ -9,6 +9,7 @@
 <!DOCTYPE html>
 <html lang="en-NL" id="html">
     <head>
+        <input style="display: none" name="page" value="external">
         <!-- Head -->
         <?php include("../php/head.php") ?>
         <title>JelNet - External</title>

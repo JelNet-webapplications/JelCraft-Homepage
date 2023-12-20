@@ -110,7 +110,7 @@ function setTheme(themeMode) {
         r.style.setProperty('--fadescreen-opacity', '0.8');
         r.style.setProperty('--button-hover-invert', '1');
         r.style.setProperty('--statustitle-hover','white');
-        document.getElementById('discordWidget').src = 'https://discord.com/widget?id=586500162415755275&theme=dark'
+        document.getElementById('discordWidget').src = 'https://discord.com/widget?id=586500162415755275&theme=dark';
         
     } else {
         img.src = './imgs/darkmode-lightmode/dark-mode.svg';
@@ -127,7 +127,12 @@ function setTheme(themeMode) {
         r.style.setProperty('--button-hover-invert', '0');
         r.style.setProperty('--statustitle-hover','black');
 
-        document.getElementById('discordWidget').src = 'https://discord.com/widget?id=586500162415755275&theme=light'
+        document.getElementById('discordWidget').src = 'https://discord.com/widget?id=586500162415755275&theme=light';
         
     }
+}
+
+function setNavbarButtonColours(){
+    let page = document.getElementsByName("page")[0].value;
+    document.getElementById("Бnavbar-"+page).classList.add("active");
 }

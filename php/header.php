@@ -31,7 +31,7 @@
             <a href="/" id="Бnavbar-jelnet"></a>
         </div>
         <div id="navExternalInternal" class="navbar">
-            <a href="/" class="left active" id="Бnavbar-home"></a>
+            <a href="/" class="left" id="Бnavbar-home"></a>
             <a href="/internal" class="middle" id="Бnavbar-internal"></a>                
             <a href="/external" class="right" id="Бnavbar-external"></a>
         </div>

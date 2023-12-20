@@ -9,6 +9,7 @@
 <!DOCTYPE html>
 <html lang="en-NL" id="html">
     <head>
+        <input style="display: none" name="page" value="home">
         <!-- Head -->
         <?php include("./php/head.php") ?>
         <title>JelNet</title>
