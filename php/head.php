@@ -26,7 +26,7 @@
 <script src="/script/index.js"></script>
 <script src="/script/rickroll.js"></script>
 <script src="/script/theme.js"></script>
-<script src="/script/loadprojects.js"></script>
+<!-- <script src="/script/loadprojects.js"></script> -->
 <script src="/script/gevuldekoek.js"></script>
 <script src="/script/cookiepref.js"></script>
 <script src="/script/translations/translate.js"></script>

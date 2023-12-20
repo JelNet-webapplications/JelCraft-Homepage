@@ -1,67 +1,69 @@
-var cookieprefDOM = document.getElementById("cookiepref");
-
 function responsify(){
-	let wwidth = window.innerWidth;
-	if(wwidth < 800){
+	if(window.innerWidth < 800){
 		//body
-		document.getElementById('layout-container').style.gridTemplateColumns = '80%'
-		document.getElementById('projects').style.gridRow = '1'
-		document.getElementById('discord-server').style.gridRow = '4/22'
+		qid('layout-container').style.gridTemplateColumns = '80%'
+		qid('projects').style.gridRow = '1'
+		qid('discord-server').style.gridRow = '4/22'
 	
 		//form
 		document.getElementsByName('email')[0].style.gridColumn = '1/3'
 		document.getElementsByName('name')[0].style.gridColumn = '1/3';
 
 		// footer
-		document.getElementById("footer").style.alignItems = "flex-start";
+		qid("footer").style.alignItems = "flex-start";
 
 		// cookie popup
-		cookieprefDOM.style.width = "80%";
-		cookieprefDOM.style.left = "10%";
-		cookieprefDOM.style.height = "auto";
-		cookieprefDOM.style.paddingBottom = "10px";
-		cookieprefDOM.style.fontSize = "12px";
-		document.getElementById("cookietext1").style.width = "calc(100% - 20px)";
-		document.getElementById("cookietext2").style.width = "calc(100% - 20px)";
-		document.getElementById("acceptbutton").style.height = "30px";
-		document.getElementById("denybutton").style.height = "30px";
-		document.getElementById("acceptbutton").style.marginBottom = "4px";
-		document.getElementById("cookiebutton").style.left = "calc(50% - 125px)";
-		document.getElementById("cookiebutton").style.position = "relative";
-		document.getElementById("cookiebutton").style.width = "250px";
-		document.getElementById("cookiebutton").style.top = "0px";
+		qid("cookiepref").style.width = "80%";
+		qid("cookiepref").style.left = "10%";
+		qid("cookiepref").style.height = "auto";
+		qid("cookiepref").style.paddingBottom = "10px";
+		qid("cookiepref").style.fontSize = "12px";
+		qid("cookietext1").style.width = "calc(100% - 20px)";
+		qid("cookietext2").style.width = "calc(100% - 20px)";
+		qid("acceptbutton").style.height = "30px";
+		qid("denybutton").style.height = "30px";
+		qid("acceptbutton").style.marginBottom = "4px";
+		qid("cookiebutton").style.left = "calc(50% - 125px)";
+		qid("cookiebutton").style.position = "relative";
+		qid("cookiebutton").style.width = "250px";
+		qid("cookiebutton").style.top = "0px";
 
 		// header
-		document.getElementById("langSelector").style.marginTop = "68px";
-		document.getElementById("langSelector").style.marginBottom = "20px";
-		document.getElementById("navTitleDOM").style.marginTop = "70px";
-		document.getElementById("navExternalInternal").style.marginTop = "-50px";
-		document.getElementById("navExternalInternal").style.marginLeft = "-180px";
-		document.getElementById("header").style.position = "fixed";
+		qid("langSelector").style.marginTop = "68px";
+		qid("langSelector").style.marginBottom = "20px";
+		qid("navTitleDOM").style.marginTop = "70px";
+		qid("navExternalInternal").style.marginTop = "-50px";
+		qid("navExternalInternal").style.marginLeft = "-180px";
+		qid("header").style.position = "fixed";
 	} else {
 		//body
-		document.getElementById('layout-container').style = null;
-		document.getElementById('projects').style = null;
-		document.getElementById('discord-server').style.gridRow = '3 / 20'
+		qid('layout-container').style = null;
+		qid('projects').style = null;
+		qid('discord-server').style.gridRow = '3 / 20'
 	
 		//form
 		document.getElementsByName('email')[0].style = null;
 		document.getElementsByName('name')[0].style = null;
 
 		// footer
-		document.getElementById("footer").style = null;
+		qid("footer").style = null;
 
 		// cookie popup
-		cookieprefDOM.style = null;
-		document.getElementById("cookiebutton").style = null;
-		document.getElementById("acceptbutton").style = null;
-		document.getElementById("denybutton").style = null;
-		document.getElementById("cookietext1").style = null;
-		document.getElementById("cookietext2").style = null;
+		qid("cookiepref").style = null;
+		qid("cookiebutton").style = null;
+		qid("acceptbutton").style = null;
+		qid("denybutton").style = null;
+		qid("cookietext1").style = null;
+		qid("cookietext2").style = null;
 
 		// header
-		document.getElementById("langSelector").style = null;
-		document.getElementById("navTitleDOM").style = null;
-		document.getElementById("navExternalInternal").style = null;
+		qid("langSelector").style = null;
+		qid("navTitleDOM").style = null;
+		qid("navExternalInternal").style = null;
 	}
+}
+
+function qid(qid){
+	return document.getElementById(qid); // qid = query id
+	// kon niet element.style doen want dan kreeg ik allemaal errors
 }
