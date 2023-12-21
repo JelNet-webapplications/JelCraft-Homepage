@@ -9,12 +9,12 @@
 <!DOCTYPE html>
 <html lang="en-NL" id="html">
     <head>
-        <input style="display: none" name="page" value="external">
         <!-- Head -->
         <?php include("../php/head.php") ?>
         <title>JelNet - External</title>
     </head>
     <body onload="dTsC()">
+        <input style="display: none" name="page" value="external">
         <!-- Overlays -->
         <?php include("../php/overlays.php") ?>
         <!-- Header/Navbar -->
@@ -22,7 +22,7 @@
         <div class="grid-container" id="layout-container">
             <div class="grid-item" id="projects">
                 <h1 id="Бcurtains-projects-title"></h1>
-                <a href="http://jelcraft.tk/collatz-calculator/collatz-conjecture-calculator.html">
+                <a href="http://jelnet.hopto.org/collatz-calculator/collatz-conjecture-calculator.html">
                     <div class="paragraph" id="collatzcalculator">
                         <img height="57.4px" src="../imgs/project-icons/Collatz-Calculator.svg">
                         <div>                        
@@ -31,7 +31,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="http://jelcraft.tk/sbubby-generator/">
+                <a href="http://jelnet.hopto.org/sbubby-generator/">
                     <div class="paragraph" id="logomaker">
                         <img height="57.4px" src="../imgs/project-icons/sbubby.png">
                         <div>                        
@@ -40,7 +40,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="http://jelcraft.tk/tafelvoetbal-scorebord/">
+                <a href="http://jelnet.hopto.org/tafelvoetbal-scorebord/">
                     <div class="paragraph" id="foosballscoreboard">
                         <img height="57.4px" src="../imgs/project-icons/foosball.png">
                         <div>                        

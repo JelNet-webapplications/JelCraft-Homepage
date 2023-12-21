@@ -23,7 +23,7 @@
             <div class="grid-item" id="projects">
                 <h1 id="Бcurtains-projects-title"></h1>
                 <h1 onclick="showWIPdetails()" id="Бcurtains-projects-title-wip"></h1>
-                <a href="http://jelcraft.tk/pinball-converter/">
+                <a href="http://jelnet.hopto.org/pinball-converter/">
                     <div class="paragraph" id="pinball-converter">
                         <img src="./imgs/project-icons/Pinball-Converter.svg">
                         <div>
@@ -33,7 +33,7 @@
                         <div id="Бcurtains-projects-status-green1" class="projectstatus status-green"></div>
                     </div>
                 </a>
-                <a href="http://jelcraft.tk/sudoku-solver/">
+                <a href="http://jelnet.hopto.org/sudoku-solver/">
                     <div class="paragraph" id="sudokusolver">
                         <img src="./imgs/project-icons/SudokuSolver.svg">
                         <div>
@@ -43,7 +43,7 @@
                         <div id="Бcurtains-projects-status-green2" class="projectstatus status-green"></div>
                     </div>
                 </a>
-                <a href="http://jelcraft.tk/world-stats/">
+                <a href="http://jelnet.hopto.org/world-stats/">
                     <div class="paragraph" id="worldstats">
                         <img src="./imgs/project-icons/WorldStats.svg">
                         <div>                        
@@ -53,7 +53,7 @@
                         <div id="Бcurtains-projects-status-green3" class="projectstatus status-green"></div>
                     </div>
                 </a>
-                <a href="http://jelcraft.tk/flight-calculator/">
+                <a href="http://jelnet.hopto.org/flight-calculator/">
                     <div class="paragraph" id="flightcalculator">
                         <img height="57.4px" src="./imgs/project-icons/FlightCalculator.svg">
                         <div>                        
@@ -63,7 +63,7 @@
                         <div id="Бcurtains-projects-status-green4" class="projectstatus status-green"></div>
                     </div>
                 </a>
-                <a href="http://jelcraft.tk/collatz-calculator/collatz-conjecture-calculator.html">
+                <a href="http://jelnet.hopto.org/collatz-calculator/collatz-conjecture-calculator.html">
                     <div class="paragraph" id="collatzcalculator">
                         <img height="57.4px" src="./imgs/project-icons/Collatz-Calculator.svg">
                         <div>                        
@@ -73,7 +73,7 @@
                         <div id="Бcurtains-projects-status-yellow1" class="projectstatus status-yellow"></div>
                     </div>
                 </a>
-                <a href="http://jelcraft.tk/sbubby-generator/">
+                <a href="http://jelnet.hopto.org/sbubby-generator/">
                     <div class="paragraph" id="logomaker">
                         <img height="57.4px" src="./imgs/project-icons/sbubby.png">
                         <div>                        
@@ -83,7 +83,7 @@
                         <div id="Бcurtains-projects-status-yellow2" class="projectstatus status-yellow"></div>
                     </div>
                 </a>
-                <a href="http://jelcraft.tk/starlabs-delivery/home/home.html">
+                <a href="http://jelnet.hopto.org/starlabs-delivery/home/home.html">
                     <div class="paragraph" id="starlabsdelivery">
                         <img height="57.4px" src="./imgs/project-icons/starlabs.svg">
                         <div>                        
@@ -93,7 +93,7 @@
                         <div id="Бcurtains-projects-status-yellow3" class="projectstatus status-yellow"></div>
                     </div>
                 </a>
-                <a href="http://jelcraft.tk/pinball-physics/">
+                <a href="http://jelnet.hopto.org/pinball-physics/">
                     <div class="paragraph" id="pinball-physics">
                         <img height="57.4px" src="./imgs/project-icons/Pinball-physics.svg">
                         <div>                        
@@ -103,7 +103,7 @@
                         <div id="Бcurtains-projects-status-yellow4" class="projectstatus status-yellow"></div>
                     </div>
                 </a>
-                <a href="http://jelcraft.tk/tafelvoetbal-scorebord/">
+                <a href="http://jelnet.hopto.org/tafelvoetbal-scorebord/">
                     <div class="paragraph" id="foosballscoreboard">
                         <img height="57.4px" src="imgs/project-icons/foosball.png">
                         <div>                        

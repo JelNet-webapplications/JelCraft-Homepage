@@ -9,12 +9,12 @@
 <!DOCTYPE html>
 <html lang="en-NL" id="html">
     <head>
-        <input style="display: none" name="page" value="internal">
         <!-- Head -->
         <?php include("../php/head.php") ?>
         <title>JelNet - Internal</title>
     </head>
     <body onload="dTsC()">
+        <input style="display: none" name="page" value="internal">
         <!-- Overlays -->
         <?php include("../php/overlays.php") ?>
         <!-- Header/Navbar -->
@@ -22,7 +22,7 @@
         <div class="grid-container" id="layout-container">
             <div class="grid-item" id="projects">
                 <h1 id="Бcurtains-projects-title"></h1>
-                <a href="http://jelcraft.tk/pinball-converter/">
+                <a href="http://jelnet.hopto.org/pinball-converter/">
                     <div class="paragraph" id="pinball-converter">
                         <img src="../imgs/project-icons/Pinball-Converter.svg">
                         <div>
@@ -31,7 +31,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="http://jelcraft.tk/pinball-physics/">
+                <a href="http://jelnet.hopto.org/pinball-physics/">
                     <div class="paragraph" id="pinball-physics">
                         <img height="57.4px" src="../imgs/project-icons/Pinball-physics.svg">
                         <div>                        
@@ -40,7 +40,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="http://jelcraft.tk/sudoku-solver/">
+                <a href="http://jelnet.hopto.org/sudoku-solver/">
                     <div class="paragraph" id="sudokusolver">
                         <img src="../imgs/project-icons/SudokuSolver.svg">
                         <div>
@@ -49,7 +49,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="http://jelcraft.tk/world-stats/">
+                <a href="http://jelnet.hopto.org/world-stats/">
                     <div class="paragraph" id="worldstats">
                         <img src="../imgs/project-icons/WorldStats.svg">
                         <div>                        
@@ -58,7 +58,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="http://jelcraft.tk/flight-calculator/">
+                <a href="http://jelnet.hopto.org/flight-calculator/">
                     <div class="paragraph" id="flightcalculator">
                         <img height="57.4px" src="../imgs/project-icons/FlightCalculator.svg">
                         <div>                        
@@ -67,7 +67,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="http://jelcraft.tk/starlabs-delivery/home/home.html">
+                <a href="http://jelnet.hopto.org/starlabs-delivery/home/home.html">
                     <div class="paragraph" id="starlabsdelivery">
                         <img height="57.4px" src="../imgs/project-icons/starlabs.svg">
                         <div>                        
