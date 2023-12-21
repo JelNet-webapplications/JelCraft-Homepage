@@ -120,6 +120,7 @@ h1 {
 #discord-server {
     display: flex;
     align-items: center;
+    grid-row: 3 / 20;
 }
 
 iframe {
