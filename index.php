@@ -9,12 +9,12 @@
 <!DOCTYPE html>
 <html lang="en-NL" id="html">
     <head>
-        <input style="display: none" name="page" value="home">
         <!-- Head -->
         <?php include("./php/head.php") ?>
         <title>JelNet</title>
     </head>
     <body onload="dTsC()">
+        <input style="display: none" name="page" value="home">
         <!-- Overlays -->
         <?php include("./php/overlays.php") ?>
         <!-- Header/Navbar-->
