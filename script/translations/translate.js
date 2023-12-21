@@ -1,4 +1,5 @@
 function doTranslation(lan){
+    setCookie("COOKIElan", lan, 14);
     let navbarHomeSquare = document.getElementsByClassName('active')[0].style;
     if(lan == 'vk'){
         navbarHomeSquare.width = '150px';

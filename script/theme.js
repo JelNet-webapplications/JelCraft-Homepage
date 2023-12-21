@@ -4,9 +4,10 @@ window.addEventListener('DOMContentLoaded', (event) => {
     theme = 'dark';
     if(!getCookie("COOKIEtheme")) {
         console.warn("No cookies found for theme, defaulting to dark mode & initiating cookies.")
-        createCookie("theme", "dark");
+        createCookie("COOKIEtheme", "dark");
+        setTheme("dark");
     } else {
-        setTheme(getCookie("COOKIEtheme"))
+        setTheme(getCookie("COOKIEtheme"));
     }
 });
 
@@ -16,8 +17,16 @@ function toggleTheme() {
         element.style.backgroundColor = "";
         element.style.color = "";
     });
-    createCookie('theme', theme);
-    console.log('createCookie '+theme)
+    console.log('setCookie '+theme)
+    if(theme == "dark"){
+        setTheme("light");
+        theme = "light";
+        setCookie('COOKIEtheme', "light", 14);
+    } else {
+        setTheme("dark");
+        theme = "dark";
+        setCookie('COOKIEtheme', "dark", 14);
+    }
 }
 
 let testCurse = 'void';
