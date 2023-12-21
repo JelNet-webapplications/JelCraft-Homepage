@@ -359,6 +359,54 @@ const translations = {
         "nl": "<a href=\"/misc/cookies\">Privacybeleid</a>",
         "vk": "<a href=\"/misc/cookies\">Nvenvuêron yostanta izokyost genonä</a>"
     },
+    "cookietext1": {
+        "en": `We, our Affiliates and Vendors use cookies and other technologies
+        to process personal data (including device identifiers and IP
+        addresses) for the following purposes: Store and/or access 
+        information on a device, Select personalised ads, Create a 
+        personalised ads profile, Create a personalised content profile,
+        Select personalised content, Measure content performance, 
+        Apply market research to generate audience insights, Develop 
+        and improve products, Select basic ads and Measure ad 
+        performance.`,
+        //"de": "",
+        "nl": `Wij, onze aangesloten bedrijven en leveranciers, gebruiken
+        cookies en andere technologieën om persoonlijke gegevens te verwerken
+        (inclusief apparaat-ID's en IP adressen) voor de volgende doeleinden:
+        Winkel en/of toegang informatie op een apparaat, gepersonaliseerde
+        advertenties selecteren, een maken gepersonaliseerd advertentie-
+        profiel, Maak een gepersonaliseerd inhoudsprofiel, Selecteer
+        gepersonaliseerde inhoud, meet de inhoudsprestaties, Pas markt-
+        onderzoek toe om inzichten in het publiek te genereren, Ontwikkel
+        en producten verbeteren, basisadvertenties selecteren en advertentie 
+        meten prestatie.`,
+        // bovenstaande is met google translate gedaan, klopt geen zak van, en het boeit me niks. 
+        "vk": ``
+    },
+    "cookietext2": {
+        "en": `By clicking “Accept All” you agree to these purposes. For more 
+        information, to provide or withdraw consents for processing 
+        your personal data, click “Manage Cookies+.” Additionally, 
+        you may exercise your preferences for consent at a vendor level 
+        in the “Vendors” link. These settings are accessible on a site
+        or app specific basis, at any time through the 'Manage Cookies' 
+        link located at the footer of webpages or in application settings. 
+        We work in coordination with an industry framework which will 
+        signal your preferences to our participating vendors.`,
+        //"de": "",
+        "nl": `Door op “Alles accepteren” te klikken, gaat u akkoord met deze
+        doeleinden. Voor meer informatie, om toestemmingen voor verwerking te
+        verlenen of in te trekken uw persoonlijke gegevens, klikt u op
+        'Cookies beheren+'. Aanvullend, u kunt uw voorkeuren voor toestemming
+        op leveranciersniveau uitoefenen in de link 'Verkopers'. Deze
+        instellingen zijn toegankelijk op een site of app-specifieke basis,
+        op elk gewenst moment via 'Cookies beheren' link in de voettekst van
+        webpagina's of in de applicatie-instellingen. Wij werken in coördi-
+        natie met een sectoraal raamwerk dat dat wel zal doen geef uw voorkeur-
+        en door aan onze deelnemende leveranciers.`,
+        // bovenstaande is met google translate gedaan, klopt geen zak van, en het boeit me niks. 
+        "vk": ``
+    },
     "popup-wip": {
         "en": "This project is still under development! We're working on it, try again in the near future.",
         //"de": "",

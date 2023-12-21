@@ -1,7 +1,7 @@
 <div class="fadescreen" id="fadescreen"></div>
     <div class="cookiepref" id="cookiepref">
         <p>Our use of cookies and other technologies</p>
-        <div class="cookietext" id="cookietext1">
+        <div class="cookietext" id="Бcookietext1">
             <h>
                 We, our Affiliates and Vendors use cookies and other technologies
                 to process personal data (including device identifiers and IP
@@ -14,17 +14,17 @@
                 performance.
             </h>
         </div>
-        <div class="cookietext" id="cookietext2">
+        <div class="cookietext" id="Бcookietext2">
             <h>
                 By clicking “Accept All” you agree to these purposes. For more 
                 information, to provide or withdraw consents for processing 
                 your personal data, click “Manage Cookies+.” Additionally, 
                 you may exercise your preferences for consent at a vendor level 
                 in the “Vendors” link. These settings are accessible on a site
-                    or app specific basis, at any time through the ‘Manage Cookies+’ 
-                    link located at the footer of webpages or in application settings. 
-                    We work in coordination with an industry framework which will 
-                    signal your preferences to our participating vendors.
+                or app specific basis, at any time through the 'Manage Cookies' 
+                link located at the footer of webpages or in application settings. 
+                We work in coordination with an industry framework which will 
+                signal your preferences to our participating vendors.
             </h>
         </div>
         <div class="cookiebutton" id="cookiebutton">
